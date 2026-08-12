@@ -1,0 +1,85 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI音楽ニュース</title>
+<meta name="description" content="AI音楽まわりの最新ニュースを自動で集めて、スマホで読みやすくまとめたページです。">
+
+<!--
+  セキュリティ設定（CSP: Content Security Policy）
+  このページが読み込んでよいものを厳しく制限しています。
+  - script-src 'self' … 外部スクリプトもインラインスクリプトも実行しない
+  - connect-src 'self' … 自分のサイト以外へは通信しない（記事データはローカルのJSONのみ）
+  - img-src 'self' data: … 外部画像を読み込まない（トラッキング画像を防ぐ）
+  - frame-ancestors 'none' … 他サイトに iframe で埋め込まれない（クリックジャッキング対策）
+  - form-action 'none' … どこにもフォーム送信しない
+-->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+
+<meta name="theme-color" content="#0b0f1a">
+<meta name="color-scheme" content="dark light">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AI音楽ニュース">
+<link rel="stylesheet" href="style.css?v=3">
+
+<a class="skip-link" href="#list">本文へスキップ</a>
+
+<header class="appbar" id="appbar">
+  <div class="appbar__main">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">
+        <span class="brand__title">AI音楽ニュース</span>
+        <span class="brand__sub" id="updatedAt">読み込み中…</span>
+      </span>
+    </div>
+    <div class="appbar__actions">
+      <button class="iconbtn" id="searchToggle" type="button" aria-label="検索を開く" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+      </button>
+      <button class="iconbtn" id="themeToggle" type="button" aria-label="表示テーマを切り替える">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-moon"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="searchbar" id="searchBar" hidden>
+    <label class="sr-only" for="search">記事をキーワードで絞り込む</label>
+    <input type="search" id="search" placeholder="キーワードで絞り込む（例: Suno、著作権）" autocomplete="off" enterkeyhint="search">
+    <button class="searchbar__clear" id="searchClear" type="button" aria-label="検索キーワードを消す" hidden>×</button>
+  </div>
+
+  <nav class="chips" id="chips" aria-label="カテゴリで絞り込む"></nav>
+</header>
+
+<main>
+  <p class="status" id="status" role="status">ニュースを読み込んでいます…</p>
+  <div id="list" class="list"></div>
+
+  <!-- 画面が広いときは右カラムにまとまる -->
+  <div class="rail">
+  <section class="panel" id="xPanel" hidden>
+    <h2 class="panel__title">公式Xアカウント</h2>
+    <p class="panel__note">Xは自動取得ができないため、リンクだけ置いています。</p>
+    <div class="xlinks" id="xLinks"></div>
+  </section>
+
+  <section class="panel" id="sourcePanel" hidden>
+    <details>
+      <summary class="panel__summary">取得元の状態を見る<span id="sourceCount" class="panel__count"></span></summary>
+      <div class="sources" id="sources"></div>
+    </details>
+  </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <p>このページは公開されているRSSの見出しとリンクだけを集めています。記事の本文は各配信元でお読みください。</p>
+  <p>海外の記事の日本語は機械翻訳です。正確な内容は原文をご確認ください。</p>
+  <p class="footer__sig">AI音楽ニュース</p>
+</footer>
+
+<script src="app.js?v=3"></script>

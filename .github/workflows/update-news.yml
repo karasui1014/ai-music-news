@@ -1,0 +1,55 @@
+# このファイルを置くと、GitHub のサーバーが決まった時間に自動でニュースを集めてくれます。
+# パソコンの電源が入っていなくても動きます。
+
+name: ニュース自動更新
+
+on:
+  schedule:
+    # GitHub の時刻は UTC（日本時間 −9時間）で指定します。
+    - cron: '0 21 * * *'   # 日本時間 朝6:00
+    - cron: '0 3 * * *'    # 日本時間 昼12:00
+    - cron: '0 9 * * *'    # 日本時間 夕18:00
+    - cron: '0 13 * * *'   # 日本時間 夜22:00
+  workflow_dispatch:        # GitHubの画面から手動でも実行できます
+
+# このワークフローに与える権限は「自分のリポジトリに書き込む」だけに絞ります
+permissions:
+  contents: write
+
+# 同時に2つ走らないようにする（コミットがぶつかるのを防ぐ）
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: リポジトリを取り出す
+        uses: actions/checkout@v4
+
+      - name: Node.js を用意する
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: ニュースを集めて日本語にする
+        run: node collect.mjs
+        env:
+          # 任意。Secretsに登録すると MyMemory の1日の翻訳上限が増えます。
+          # 登録していなくてもそのまま動きます。
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+
+      - name: 変更があればコミットして反映する
+        run: |
+          if [ -z "$(git status --porcelain data/news.json)" ]; then
+            echo "新しいニュースはありませんでした。コミットしません。"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "ニュース自動更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          git push
