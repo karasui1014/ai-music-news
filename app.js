@@ -366,7 +366,17 @@
     var frag = document.createDocumentFragment();
 
     var ranking = renderRanking();
-    if (ranking) frag.appendChild(ranking);
+    if (ranking) {
+      // 「すべて」を絞り込みなしで見ているときは、注目の10本だけを見せる。
+      // その下に全件（100件超）を積み上げると「どれを読めばいいか分からない」に
+      // 逆戻りしてしまうため。カテゴリを選ぶか検索すれば個別の記事には辿り着ける。
+      frag.appendChild(ranking);
+      var more = elem('p', 'rank__more',
+        'ほかの記事は、上のカテゴリを選ぶか検索すると見られます。');
+      frag.appendChild(more);
+      el.list.appendChild(frag);
+      return;
+    }
 
     items.forEach(function (item) {
       var card = buildCard(item);

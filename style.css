@@ -367,6 +367,13 @@ main { padding: 0 12px; }
   color: var(--text-dim);
 }
 
+.rank__more {
+  margin: 14px 4px 0;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  text-align: center;
+}
+
 .rank__list {
   list-style: none;
   margin: 0;
