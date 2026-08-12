@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-08-12T12:00:39.189Z",
-  "count": 185,
-  "newCount": 18,
-  "translatedCount": 2,
+  "generatedAt": "2026-08-12T14:17:35.765Z",
+  "count": 186,
+  "newCount": 2,
+  "translatedCount": 0,
   "ranking": [
     "5241609e63a63859",
     "1dc47474855221c2",
     "cecd1109fda75db6",
     "8b6767eb9a88ce3c",
     "5272966b32b6197f",
-    "a34b8157e219ddfb",
     "d5332678f6a0596f",
     "ae88d9bbf8a979ca",
     "1028482ba54d7c96",
-    "06de06526b97eeea"
+    "06de06526b97eeea",
+    "296531f8488914f1"
   ],
   "sources": [
     {
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 38,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -112,7 +112,7 @@
       "category": "global",
       "ok": true,
       "fetched": 15,
-      "matched": 4,
+      "matched": 3,
       "error": null
     },
     {
@@ -265,7 +265,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 20,
-      "matched": 0,
+      "matched": 1,
       "error": null
     }
   ],
@@ -296,6 +296,20 @@
     }
   ],
   "items": [
+    {
+      "id": "cbbc70e99d6452d0",
+      "title": "Google「Pixel 11」登場。120倍超解像ズームPro、決定的瞬間をAIが自動で写真に",
+      "url": "https://av.watch.impress.co.jp/docs/news/2132178.html",
+      "summary": "Googleは、新スマートフォン「Pixel 11」シリーズを8月20日に発売する。ベーシックな「Pixel 11」、カメラなどのスペックがより高い「Pixel 11 Pro」、性能はProと同じだが画面サイズが大きい「Pixel 11 Pro XL」、さらに折りたたみ型の「Pixel 11 Pro Fold」をラインナップする。各モデルの価格は以下の通り。",
+      "published": "2026-08-12T14:00:00.000Z",
+      "source": "AV Watch",
+      "sourceId": "av-watch",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
     {
       "id": "d5332678f6a0596f",
       "title": "“Artists who use AI should step to the side and let real artists do their thing. There is too much amateur music being released that clogs the arteries of the music business”: Tony Visconti on why human musicians will never be replaced",
@@ -524,7 +538,7 @@
       "coverage": 1,
       "titleJa": "「本当の議論は、AI対アーティストではなく、イノベーションと権利保有者の参加が共存できるかどうかです。」",
       "summaryJa": "Hookの創設者兼CEOであるGaurav Sharma氏は、ソーシャルメディアでファンが作った作品やリミックスが音楽業界の次の主要な消費カテゴリーになっている理由を説明しています。",
-      "score": 25
+      "score": 20
     },
     {
       "id": "2b038cf400e6b752",
@@ -540,7 +554,7 @@
       "coverage": 1,
       "titleJa": "SpotifyはまもなくAI生成アーティストに「AIペルソナ」バッジを付ける予定です",
       "summaryJa": "AIが生み出す音楽の雪崩の課題に取り組むSpotifyの取り組みは、AIアーティスト向けの新しいラベリングシステムで続いています。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "e9a3bc171985fe30",
@@ -555,7 +569,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "Spotifyが「AIペルソナ」にラベルを付け、AI音楽を個人的なおすすめから除外",
-      "score": 12
+      "score": 7
     },
     {
       "id": "35941720bb8662f6",
@@ -571,7 +585,7 @@
       "coverage": 1,
       "titleJa": "Spotifyは、新しい「AIペルソナ」バッジでAIアーティストにラベルを付け、デフォルトで音楽をおすすめから外します",
       "summaryJa": "このバッジは、アーティストのアイデンティティが「AIによって生成され、実際の人物を表していない可能性がある」ことをリスナーに伝えるように設計されています",
-      "score": 12
+      "score": 7
     },
     {
       "id": "5c38fff0fd36a73b",
@@ -1102,7 +1116,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "レコードレーベルがAI音楽ガードレールを推進",
-      "score": 3
+      "score": -6
     },
     {
       "id": "abd1393729261a53",
