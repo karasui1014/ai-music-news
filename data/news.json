@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-12T21:34:04.180Z",
-  "count": 191,
-  "newCount": 20,
-  "translatedCount": 4,
+  "generatedAt": "2026-08-13T04:50:09.097Z",
+  "count": 198,
+  "newCount": 22,
+  "translatedCount": 3,
   "ranking": [
     "5241609e63a63859",
     "1dc47474855221c2",
+    "b9d240cce3c50bb7",
     "cecd1109fda75db6",
-    "9f9b0b1202c2605f",
-    "7e1591ce378c1f65",
+    "8b6767eb9a88ce3c",
+    "8bb7f73d5e3678b0",
     "5272966b32b6197f",
     "d5332678f6a0596f",
-    "e66a323740d3fdb1",
     "ae88d9bbf8a979ca",
-    "06de06526b97eeea"
+    "8307790661f18ede"
   ],
   "sources": [
     {
@@ -182,10 +182,10 @@
       "id": "dtmstation",
       "name": "DTMステーション",
       "category": "jp",
-      "ok": false,
-      "fetched": 0,
-      "matched": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "fetched": 10,
+      "matched": 1,
+      "error": null
     },
     {
       "id": "icon-jp",
@@ -247,7 +247,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 30,
-      "matched": 2,
+      "matched": 1,
       "error": null
     },
     {
@@ -265,7 +265,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 20,
-      "matched": 1,
+      "matched": 3,
       "error": null
     }
   ],
@@ -297,6 +297,64 @@
   ],
   "items": [
     {
+      "id": "8bb7f73d5e3678b0",
+      "title": "八王子・肌着専門店店主がミュージックビデオ公開 AIで楽曲と映像制作（みんなの経済新聞ネットワーク）",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82cEZVaGh1VGlqTDJ0Y0gzb1pkV2hYR0NScVlXRGtFZXJodkdzN2FvM0E0dDBLZXh1WFc5XzdkS2tNS2Fmbl8yem1lUmIzbmlzdGZYNjExZ0R2bUVnSFVFdENYVXdBRW1SYzZIMjRMd2dmbDlEcVpLQWpUcW5QbEE?oc=5",
+      "summary": "",
+      "published": "2026-08-13T03:31:51.000Z",
+      "source": "Yahoo!ニュース",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
+    {
+      "id": "e14b0f524bd501e3",
+      "title": "Insta360、ソニー製カスタムセンサの360度カメラ「Insta360 X6」。AIが自動で動画編集",
+      "url": "https://av.watch.impress.co.jp/docs/news/2132497.html",
+      "summary": "Insta360 Japanは、8K撮影できる360度カメラ「Insta360 X6」を、8月12日に発売した。価格は通常版で118,000円。内蔵三脚付き自撮り棒リモコンキットなどがセットになったトラベルキット(126,000円)、見えない自撮り棒などがセットになったスターターキット(123,900円)なども用意する。本体カラーはミッドナイト・ブラックとアークティック・ホワイト。",
+      "published": "2026-08-13T02:48:55.000Z",
+      "source": "AV Watch",
+      "sourceId": "av-watch",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 15
+    },
+    {
+      "id": "c9db31ead9558022",
+      "title": "米国以外で初の直営旗艦店「Google Store 表参道」に潜入、Pixel 11やAI体験",
+      "url": "https://av.watch.impress.co.jp/docs/news/2132007.html",
+      "summary": "Googleは13日、米国以外で初となる直営旗艦店「Google Store 表参道」を表参道にオープン。新スマートフォン「Pixel 11」シリーズなどを体験でき、さらにAI体験も可能な店内に潜入した。",
+      "published": "2026-08-13T02:30:00.000Z",
+      "source": "AV Watch",
+      "sourceId": "av-watch",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 15
+    },
+    {
+      "id": "daa4831eef087a8c",
+      "title": "Ticketmaster Users Can Now Prompt Google’s Gemini AI Chatbot to Find Live Events",
+      "url": "https://www.billboard.com/pro/ticketmaster-google-gemini-ai-chatbot-event-discovery/",
+      "summary": "Gemini users can ask the AI platform to help find event tickets through Ticketmaster's connected app.",
+      "published": "2026-08-12T23:47:30.000Z",
+      "source": "Billboard",
+      "sourceId": "billboard",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "TicketmasterユーザーがGoogleのGemini AIチャットボットにライブイベントの検索を促すようになりました",
+      "summaryJa": "Geminiユーザーは、Ticketmasterの接続されたアプリからAIプラットフォームにイベントチケットの検索を依頼することができます。",
+      "score": 12
+    },
+    {
       "id": "c1e6285f173200b5",
       "title": "TWS’ ‘SODA SODA’ Tops Japan Hot 100 as Aimyon’s ‘Ai Wo Tsutaetaidatoka’ Returns After Nearly Four Years",
       "url": "https://www.billboard.com/music/chart-beat/tws-soda-soda-japan-hot-100-aimyon-ai-wo-tsutaetaidatoka-1236315223/",
@@ -313,18 +371,18 @@
       "score": 12
     },
     {
-      "id": "396059375c05f1d5",
-      "title": "AI Music Startup Suno Bets Anyone Can Be a Rock Star",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2pEdGtBTWVpUVdfcWpkMGJoOGYtMHhCQ3dHMUhmVjNCT1FRV241anV3UndSREJuM09ZNFpjaGFIaFJsZkthdHlPRTNfdTV1bm5HVm12SVFkd0tScnljclh3LUFlYm53a1V2QmdNMkItWHQzNExTRm9SdkNucHhXUFdHLXE5VWRYLWRZNjRKQVBJSDFsOW1MZUhIUTJ0b3MwU0dWSmhYRWJXWXFZLS1EQW1qWk5yYmFh?oc=5",
+      "id": "8307790661f18ede",
+      "title": "Amidst AI-Music War, Suno Finds Another Industry Partner in BMG",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWUtnM0lHR1IxY0FoZTM3aE9KQ1QzblpXSFV5YjMySnNIenB0RFJYdG5TQWRjTllNck41MmlhMmhDbHQ0TXJORHBROWZsaWNwWUhSV3BnVjJaY2tnX2dsZU9LZTJtLU0zVWsyWjE4Zmlva01oR0tfbkk3SXk3Z2NhSVZTcGo5dS1WZGtrYWFCdEgtWHFoa1FIdFVZRHk2RnJMZmc?oc=5",
       "summary": "",
-      "published": "2026-08-12T16:34:27.000Z",
-      "source": "Bloomberg.com",
+      "published": "2026-08-12T16:19:34.000Z",
+      "source": "Rolling Stone",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
       "coverage": 1,
-      "titleJa": "AIミュージックスタートアップSuno、誰でもロックスターになれると賭ける",
+      "titleJa": "AIと音楽の戦争の中で、SunoはBMGの別の業界パートナーを見つけました",
       "score": 21
     },
     {
@@ -356,6 +414,21 @@
       "lang": "ja",
       "coverage": 1,
       "score": 26
+    },
+    {
+      "id": "4f9c6ce35b10620b",
+      "title": "AI Music Generator Suno Inks Major Music Label Licensing Deal",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3dxR1NmMG5fUkVuekxmSWd2UU04R25GN0prVHJoRUZMMjR5dEc5NHdXWFJkR1dlNVhzZ2JKdFd1em5KWEZzX0pXRVlPN05iU1dKUjBwZlpxbkpLSmlJdkt1QlktYlBlOXgxSkVfd2JHRHJjSEdOQWRvYTFaaW8tdDdUUHhXNHRjdXFIZzZORUtXY2xTZlFDejBiSVZqbW5CMkxQdFB5RWRCb1c3UVRCemRjZVQ?oc=5",
+      "summary": "",
+      "published": "2026-08-12T12:12:54.000Z",
+      "source": "Forbes",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "AIミュージックジェネレーターSuno Inksメジャーミュージックレーベルライセンス契約",
+      "score": 21
     },
     {
       "id": "d5332678f6a0596f",
@@ -415,10 +488,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
-      "score": 29
+      "score": 37
     },
     {
       "id": "21fc3bf087efed8c",
@@ -446,10 +519,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
-      "score": 29
+      "score": 37
     },
     {
       "id": "ab4205aa743241e5",
@@ -528,12 +601,26 @@
       "score": 12
     },
     {
+      "id": "9a6abf8eea70f80a",
+      "title": "Spotify、AIアーティストを「AI」と明示へ 新ポリシーの詳細を発表",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tYnNiLUkzamthd0luUnpWcWp5UUtOR3U5bEdBbWlPLUZIN2xBVmhfdXFleWMxTVY4VVEwTWRjLVZXLVRaV2l6MnZhdTV2NDZZd0d2bWZKZThQbUp2WWtfNmQ0cl9OUQ?oc=5",
+      "summary": "",
+      "published": "2026-08-12T06:20:00.000Z",
+      "source": "Rolling Stone Japan(ローリングストーン ジャパン）",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
+    {
       "id": "cf3a7c7af3304b9b",
       "title": "Suno、AI生成楽曲に「音声ウォーターマーク」導入へ 模倣防止を強化、9月3日からダウンロード制限 無料は生涯7回",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jby1XVV9haXFpZFJ1M3RzbnRoeFJGTGViMmJHc3QxbndVZ2p0czhFSjBOcjN1NXFaYnBSNGFRTzdyXzN5c0NUYnhJRTRzSE9PWWRNSk1xTTR2aU0wU01NZThROGJ2NzlfSVMwNmNYWQ?oc=5",
       "summary": "",
       "published": "2026-08-12T06:07:49.000Z",
-      "source": "ledge.ai",
+      "source": "Ledge.ai",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -553,7 +640,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 26
+      "score": 21
     },
     {
       "id": "06de06526b97eeea",
@@ -569,7 +656,22 @@
       "coverage": 1,
       "titleJa": "Sunoは、「音楽業界と提携して開発された」新しいモデルを約束しながら、PROのサブスクライバーを1か月あたり20曲のダウンロードに制限しています",
       "summaryJa": "Suno氏は、月曜日（ 8月10日）のブログ投稿で、ダウンロード制限は「悪い俳優が音楽を大量輸出することをより困難にする」と述べた",
-      "score": 21
+      "score": 16
+    },
+    {
+      "id": "396059375c05f1d5",
+      "title": "AI Music Startup Suno Bets Anyone Can Be a Rock Star",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2pEdGtBTWVpUVdfcWpkMGJoOGYtMHhCQ3dHMUhmVjNCT1FRV241anV3UndSREJuM09ZNFpjaGFIaFJsZkthdHlPRTNfdTV1bm5HVm12SVFkd0tScnljclh3LUFlYm53a1V2QmdNMkItWHQzNExTRm9SdkNucHhXUFdHLXE5VWRYLWRZNjRKQVBJSDFsOW1MZUhIUTJ0b3MwU0dWSmhYRWJXWXFZLS1EQW1qWk5yYmFh?oc=5",
+      "summary": "",
+      "published": "2026-08-11T21:00:17.000Z",
+      "source": "Bloomberg.com",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "AIミュージックスタートアップSuno、誰でもロックスターになれると賭ける",
+      "score": 16
     },
     {
       "id": "296531f8488914f1",
@@ -927,7 +1029,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 10,
+      "coverage": 13,
       "score": 46
     },
     {
@@ -1146,7 +1248,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 6
     },
     {
       "id": "ca2e983dffc857ef",
@@ -1289,7 +1391,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 4,
+      "coverage": 5,
       "score": 21
     },
     {
@@ -1480,7 +1582,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 9,
+      "coverage": 10,
       "score": 34
     },
     {
@@ -1776,7 +1878,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 18,
       "score": 41
     },
     {
@@ -1790,7 +1892,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 19,
       "score": 41
     },
     {
@@ -1818,7 +1920,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 9,
+      "coverage": 10,
       "score": 41
     },
     {
@@ -1969,7 +2071,7 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DSWhSc1VtRjBrbDJmdW1hSXZsRlowWHl2ZUpIcS1Xa29tNjJjSEZsYkpMU01nQmZWS2FlV3JrZW9BbEN5UUlORGw4NldSMm9IaUozMTFCdUpnVnM4dU5xdF9xLTVsV0xzVUxNRg?oc=5",
       "summary": "",
       "published": "2026-07-26T07:00:00.000Z",
-      "source": "nikkei.com",
+      "source": "日本経済新聞",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
       "category": "jp",
@@ -2118,7 +2220,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 9,
+      "coverage": 10,
       "score": 21
     },
     {
@@ -2651,7 +2753,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 18,
+      "coverage": 20,
       "score": 30
     },
     {
