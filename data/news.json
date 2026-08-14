@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-13T21:34:02.131Z",
-  "count": 211,
-  "newCount": 24,
-  "translatedCount": 7,
+  "generatedAt": "2026-08-14T04:47:46.412Z",
+  "count": 215,
+  "newCount": 21,
+  "translatedCount": 0,
   "ranking": [
+    "de6c39e1bb146d3a",
     "5241609e63a63859",
     "4039c95e313e6306",
-    "150557c56944071c",
-    "7e1591ce378c1f65",
-    "8bb7f73d5e3678b0",
+    "1527c8b5953ddae8",
     "06de06526b97eeea",
+    "7e1591ce378c1f65",
     "6d91374cce08d3d4",
+    "8bb7f73d5e3678b0",
     "5272966b32b6197f",
-    "a34b8157e219ddfb",
-    "bd9ffb15b6db063a"
+    "a34b8157e219ddfb"
   ],
   "sources": [
     {
@@ -22,7 +22,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 40,
-      "matched": 36,
+      "matched": 37,
       "error": null
     },
     {
@@ -84,8 +84,8 @@
       "name": "CDM",
       "category": "global",
       "ok": true,
-      "fetched": 10,
-      "matched": 1,
+      "fetched": 0,
+      "matched": 0,
       "error": null
     },
     {
@@ -130,7 +130,7 @@
       "category": "global",
       "ok": true,
       "fetched": 26,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -184,7 +184,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 2,
       "error": null
     },
     {
@@ -229,7 +229,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 30,
-      "matched": 0,
+      "matched": 1,
       "error": null
     },
     {
@@ -297,6 +297,48 @@
   ],
   "items": [
     {
+      "id": "e586bfe6ac49c1a0",
+      "title": "中国MiniMax、音楽生成AI「Music3」を無償公開 日本語ボーカルで最大5分の楽曲をローカル生成可能に",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFaXpScHJDM0tUWkZJekFoc3BZOW1NYnVWNks1Zi1rNlVXRVB0dE10bVBRMlRZdHRwM2dyNE5MRXZNaHNoWGt0LVN5dXVjT3NUTzIydE5TWDVUY0Z0RlBUOVF1Qng3aVVzMGdHTGx0S3R5OHAz?oc=5",
+      "summary": "",
+      "published": "2026-08-14T03:35:00.000Z",
+      "source": "BigGo ファイナンス",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 48
+    },
+    {
+      "id": "de6c39e1bb146d3a",
+      "title": "MiniMaxが動画生成AIに続いて音楽生成AI「MiniMax-Music3」を無償公開、ローカルで最大5分の日本語ボーカル付き楽曲を生成可能",
+      "url": "https://gigazine.net/news/20260814-minimax-music3/",
+      "summary": "中国のAI開発企業であるMiniMaxが音楽生成AI「MiniMax-Music3」を日本時間の2026年8月14日に公開しました。MiniMax-Music3はテキストでの指示に沿ってボーカル付きの楽曲を生成可能で、日本語ボーカルの生成にも対応しています。モデルが無償で公開されており、ローカルで実行可能。さらに、ユーザーの短い入力をもとに長い歌詞やAIモデルに認識させやすい構造化されたプロンプトを生成するためのAI用スキルも公開されています。 続きを読む...",
+      "published": "2026-08-14T02:16:00.000Z",
+      "source": "GIGAZINE",
+      "sourceId": "gigazine",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 2,
+      "score": 56
+    },
+    {
+      "id": "9c04894c87ca3d3f",
+      "title": "ACE Studioはここまで進化していた！AI楽器からBGM・MV生成まで実際に試してみた",
+      "url": "https://www.dtmstation.com/archives/78999.html",
+      "summary": "最近、XやInstagram、Facebook、YouTubeなどを開くと、かなりの頻度でACE Studioの広告が流れてくる、という方は多いのではないでしょうか。私のタイムラインにもほぼ毎日のように登場していて、正直",
+      "published": "2026-08-14T00:19:58.000Z",
+      "source": "DTMステーション",
+      "sourceId": "dtmstation",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
+    {
       "id": "150557c56944071c",
       "title": "Suno launches Studio 2.0 with MIDI support, an AI chat bar… and no download limit",
       "url": "https://www.musicbusinessworldwide.com/suno-launches-studio-2-0-with-midi-support/",
@@ -339,10 +381,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
-      "score": 29
+      "score": 37
     },
     {
       "id": "6d91374cce08d3d4",
@@ -484,7 +526,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 26
+      "score": 21
     },
     {
       "id": "e14b0f524bd501e3",
@@ -498,7 +540,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "c9db31ead9558022",
@@ -512,7 +554,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "daa4831eef087a8c",
@@ -528,7 +570,7 @@
       "coverage": 1,
       "titleJa": "TicketmasterユーザーがGoogleのGemini AIチャットボットにライブイベントの検索を促すようになりました",
       "summaryJa": "Geminiユーザーは、Ticketmasterの接続されたアプリからAIプラットフォームにイベントチケットの検索を依頼することができます。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "c1e6285f173200b5",
@@ -664,7 +706,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 6,
+      "coverage": 7,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
       "score": 40
@@ -695,7 +737,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 6,
+      "coverage": 7,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
       "score": 40
@@ -738,7 +780,7 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JYzhRcXBMV0VhTGRMYjJmYXJ0bUw2ZV9tY2dQX3pVRGhMNl9MSHlXeU9DRkJiQ2xKY0toN0hjdHAwb0Y0cXA4cV9yR1JMdlN4TkREUjBuaFZxTS13REV1ellZU3dDYjEwUVE4QVplbGJLSklObmxVZlpSNUdKQ0k?oc=5",
       "summary": "",
       "published": "2026-08-12T08:15:00.000Z",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
       "category": "jp",
@@ -829,10 +871,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "Sunoは、「音楽業界と提携して開発された」新しいモデルを約束しながら、PROのサブスクライバーを1か月あたり20曲のダウンロードに制限しています",
       "summaryJa": "Suno氏は、月曜日（ 8月10日）のブログ投稿で、ダウンロード制限は「悪い俳優が音楽を大量輸出することをより困難にする」と述べた",
-      "score": 24
+      "score": 32
     },
     {
       "id": "396059375c05f1d5",
@@ -970,7 +1012,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "先週、Sunoはダウンロードを制限することでスロップを抑えることを約束しました。今、詳細があります",
-      "score": 16
+      "score": 12
     },
     {
       "id": "8b6767eb9a88ce3c",
@@ -1185,7 +1227,7 @@
       "title": "著作権圧力が高まる中、SunoがAI生成楽曲に不可視の透かし埋め込みへ",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LS1lnMHpBV2pvT2pJZFF6ck92LTU3MjJZcFlnTHZUUjhMY0dkaWh6S2l0RUZWUHZlVFJsUERsUkQ2YzZWb09XWGlkMDlmLW5oTkdnMFVocWFBejBKUUp6SWN2M3NaSTJ2NERFUWpuY0JSenhv?oc=5",
       "summary": "",
-      "published": "2026-08-07T09:00:06.000Z",
+      "published": "2026-08-07T08:56:00.000Z",
       "source": "BigGo ファイナンス",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
@@ -1205,7 +1247,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 22,
+      "coverage": 26,
       "score": 46
     },
     {
@@ -1220,7 +1262,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 20
+      "score": 11
     },
     {
       "id": "c275082c88d7954b",
@@ -1234,7 +1276,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 17
+      "score": 8
     },
     {
       "id": "d39089d1959fe7a4",
@@ -1248,7 +1290,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 22
+      "score": 13
     },
     {
       "id": "e66a323740d3fdb1",
@@ -1361,7 +1403,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM2E1a0VPRW5tR2dfZGJIaWVNeFl4bjZnRmM5OGxHaEJHeGVYU0xkanRtUk04ak5iLVdjcDRscGlIWHIxdlYzMXZHZkdIRmV6SUdUdjBkUWg2Q0EzWUFLdklXdVBSdmhNdjBBR1NGSkNUQzdjc0plWEFHXzV2RnpiWjFpYTN6VU1VLUE?oc=5",
       "summary": "",
       "published": "2026-08-06T11:08:52.000Z",
-      "source": "billboard.com",
+      "source": "Billboard",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -1478,7 +1520,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUd0ekc4MGRYOFVOTmxJdGJ3RS1wVmdVSWRYWjRlTjBOUFJuZGpvWXI5eVNEeVNONjVpbW16QUVaV0RQZXJKSEJnUTg5akE4aWU0VHVaelFHUHVtUVdFTkYxdzBFNlRpMEdXSGI3aWlJRi1WNkRPMlh5NVBKV2VTWlROTWZIWEtTRTRsUmd3?oc=5",
       "summary": "",
       "published": "2026-08-05T05:10:00.000Z",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1506,7 +1548,7 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RN1VMUGt2OWdnZVN2WkxkQXVidzVYYkZNeXBxV2ZaYWpWZzE1YW5HdHJNVWNCZU1DWUh6eURoVUNHR0VLTmhwbHl0VDJjN3Z6MWY4bS1DN1U0TjRn0gFiQVVfeXFMTUlYT1NXRkJKV241NEpaZ0JabnVBYzBVczVBLUpsV1htY0V3eDZtbElBV1N4WGJ2N1p6ZEtCVGx3N09QVzN2dDJISnFEdG9CeVdBV044QTBiQ2hsa2xPNFhqMVE?oc=5",
       "summary": "",
       "published": "2026-08-04T07:00:00.000Z",
-      "source": "リアルサウンド",
+      "source": "realsound.jp",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
       "category": "jp",
@@ -1581,7 +1623,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 8,
+      "coverage": 9,
       "score": 21
     },
     {
@@ -1660,7 +1702,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaUp3MjRhTWRtM19OTmhKLW9oSjU0M1pFdUZreG8wRzIzY1JEUlFFejl3cXVEamJUek9SMV9acUJTb19DVlg2QjlsbXp3eXJ4ajFhZXBTLVVLc1NnTnNSYUJGR1NwbGVoNTluY3BEekNUc1FnVkVJOFM1ZGliZmdkeGg1TXAzYXE4?oc=5",
       "summary": "",
       "published": "2026-08-02T07:00:00.000Z",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1907,6 +1949,20 @@
       "score": 13
     },
     {
+      "id": "d2d03b2fffe214f3",
+      "title": "「見えてきたAIと音楽のパンドラの箱」 渋谷慶一郎が考えるAIとアンドロイド、そして“音楽の未来”",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wMlNzTUlwdVRSdVRCSzRrMDNlWTNKWE5GZnRIVm1heEloQTNFNzRFVU5PTG9kcTZQY1ZhMW84UEphWTZxSTNWSWthNkJfRkgtMV9jNDE5dzFwM0h3WmxsLdIBZkFVX3lxTE5sc2lHRUNkbExvT1A1c194bDh0dzluZVNYMldfcnlfOW44YU93ODVjZWVnaTRXM2FURmdqWGxacEdqcURLQlZqbVdvNjIyNVgwZ3YybW5xeVZoYnYxb0RRenp4R2NGZw?oc=5",
+      "summary": "",
+      "published": "2026-07-31T07:00:00.000Z",
+      "source": "realsound.jp",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
+    },
+    {
       "id": "7a63d529d386a950",
       "title": "IFPI rolls out labels’ AI chart-eligibility rules across its global network of official music charts",
       "url": "https://www.musicbusinessworldwide.com/ifpi-rolls-out-labels-ai-chart-eligibility-principles-across-its-global-network-of-official-music-charts/",
@@ -2077,12 +2133,12 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56UklxM2pzOUtmQlBLWVZXek9PazhrSUtPb1NRNmJWRzNtV0lRbmMtdWRBd3NjNmE5ZU9MZ1AzNGNTRWVnT0xnQUxaSGlqSnpmdld5MTI1T3p1bHN2eG9hR0E4T3NHcDl5NDJ3dg?oc=5",
       "summary": "",
       "published": "2026-07-30T07:00:00.000Z",
-      "source": "itmedia.co.jp",
+      "source": "ITmedia",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 21,
+      "coverage": 22,
       "score": 41
     },
     {
@@ -2096,7 +2152,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 25,
+      "coverage": 27,
       "score": 41
     },
     {
@@ -2124,7 +2180,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 13,
+      "coverage": 14,
       "score": 41
     },
     {
@@ -2424,7 +2480,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 13,
+      "coverage": 14,
       "score": 21
     },
     {
@@ -2809,7 +2865,7 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVnlWTTNHWDB5Z0gzUXo5VTBuVmNWYjlxNUNDaEIxeGJzZUtKWlZDNGRXbU1UajNvcE9YeVRhNmNsb3ZHajhSejJFdWNNcHJfWDVYMVVOWVJMa0N6NjBsU2ZnSjQyR2Fhd19LdE1yS0l1Mk1uaEF6SmVkX2FlSXA2LQ?oc=5",
       "summary": "",
       "published": "2026-07-20T07:00:00.000Z",
-      "source": "billboard.com",
+      "source": "Billboard",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -2957,7 +3013,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 26,
+      "coverage": 27,
       "score": 30
     },
     {
@@ -3038,7 +3094,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbFdyOUxJRnF5MUtvd1VrX29iWkh5ck5vNkhzc0RpdGlzTXAyWkU0N3I2bVJkb193Nnp4MFJzUUZPbnNWdTNKd0ZRRmFraW1lWXI1TG8xN3ZobThmNnAxa2xUUmxvQW9aaEhQWTRXMWszSjN4TGVqekc0enlOVEdmN1RCMkhNU2tneGhJbThGMTJVaUg3SUUtWmhiNA?oc=5",
       "summary": "",
       "published": "2026-07-15T07:00:00.000Z",
-      "source": "404 Media",
+      "source": "404media.co",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -3053,7 +3109,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tVUhKdW83XzhkVkVtUjJodnVPWDNkN19nUGRWWFllU2tRenNZb3h5blBCeHFHOVpFMnhQS0I0YjdtRTVRWTUySldzWGhUQ1Y1ZWVnOWU3dW5hckpJRU9JODVCbHNhTnk0UDNQazQyRmF4SFIxLUlhVGR4UQ?oc=5",
       "summary": "",
       "published": "2026-07-15T07:00:00.000Z",
-      "source": "Pitchfork",
+      "source": "pitchfork.com",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
