@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-15T09:28:42.311Z",
-  "count": 227,
-  "newCount": 19,
+  "generatedAt": "2026-08-15T13:24:57.491Z",
+  "count": 230,
+  "newCount": 20,
   "translatedCount": 0,
   "ranking": [
     "de6c39e1bb146d3a",
@@ -13,7 +13,7 @@
     "373c68ab6fe2ec71",
     "8bb7f73d5e3678b0",
     "cbbc70e99d6452d0",
-    "d5332678f6a0596f"
+    "b6e4ed455ee6eb7b"
   ],
   "sources": [
     {
@@ -83,10 +83,10 @@
       "id": "cdm",
       "name": "CDM",
       "category": "global",
-      "ok": false,
-      "fetched": 0,
-      "matched": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "fetched": 10,
+      "matched": 1,
+      "error": null
     },
     {
       "id": "musictech",
@@ -182,10 +182,10 @@
       "id": "dtmstation",
       "name": "DTMステーション",
       "category": "jp",
-      "ok": false,
-      "fetched": 0,
-      "matched": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "fetched": 10,
+      "matched": 2,
+      "error": null
     },
     {
       "id": "icon-jp",
@@ -427,10 +427,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 3,
+      "coverage": 4,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
-      "score": 43
+      "score": 51
     },
     {
       "id": "192b20b8c5b83041",
@@ -459,7 +459,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 8,
+      "coverage": 9,
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
       "score": 40
@@ -680,6 +680,20 @@
       "score": 7
     },
     {
+      "id": "b6e4ed455ee6eb7b",
+      "title": "Suno、BMGと世界規模で提携｜訴えないまま過去の利用も清算",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBacWtYRkRiWGw3V1VFNG5FQzZ5VFpRcHhpSlhtZXhTbEtaOWhnNjFYVTh1VHVQRjJULWN2T1l4Mmk1T1ZncXVsMmdFbzRlYmFuekdV?oc=5",
+      "summary": "",
+      "published": "2026-08-12T22:46:06.000Z",
+      "source": "innovaTopia",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 19
+    },
+    {
       "id": "c1e6285f173200b5",
       "title": "TWS’ ‘SODA SODA’ Tops Japan Hot 100 as Aimyon’s ‘Ai Wo Tsutaetaidatoka’ Returns After Nearly Four Years",
       "url": "https://www.billboard.com/music/chart-beat/tws-soda-soda-japan-hot-100-aimyon-ai-wo-tsutaetaidatoka-1236315223/",
@@ -753,7 +767,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIミュージックジェネレーターSuno Inksメジャーミュージックレーベルライセンス契約",
-      "score": 16
+      "score": 12
     },
     {
       "id": "d5332678f6a0596f",
@@ -769,7 +783,7 @@
       "coverage": 1,
       "titleJa": "「AIを使用するアーティストは、側に立ち、本物のアーティストに自分の仕事をさせるべきです。音楽ビジネスの動脈を詰まらせるアマチュア音楽があまりにも多くリリースされている」：人間のミュージシャンが決して置き換えられない理由についてのトニー・ヴィスコンティ",
       "summaryJa": "ボウイのチーフコラボレーターは、AIの議論における彼の立場をはっきりとMusicRadarに語った",
-      "score": 18
+      "score": 14
     },
     {
       "id": "7e1591ce378c1f65",
@@ -784,7 +798,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "BMGとSuno、AI音楽の機会と収益の流れを促進するグローバル戦略的提携を発表",
-      "score": 27
+      "score": 23
     },
     {
       "id": "1028482ba54d7c96",
@@ -800,7 +814,7 @@
       "coverage": 1,
       "titleJa": "Suno、BMGと別の音楽ライセンス契約を締結",
       "summaryJa": "音楽ライセンス契約に関しては、ドミノはSunoに愛され始めていますか？今日、同社はBMGを買収しました。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "4039c95e313e6306",
@@ -813,10 +827,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 12,
+      "coverage": 13,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
-      "score": 40
+      "score": 36
     },
     {
       "id": "21fc3bf087efed8c",
@@ -831,7 +845,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIミュージックジェネレーターSunoがBMGとのライセンス契約を締結、新しいレーベルに裏打ちされたモデルを準備",
-      "score": 16
+      "score": 12
     },
     {
       "id": "b9d240cce3c50bb7",
@@ -844,10 +858,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 12,
+      "coverage": 13,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
-      "score": 40
+      "score": 36
     },
     {
       "id": "ab4205aa743241e5",
@@ -863,7 +877,7 @@
       "coverage": 1,
       "titleJa": "Sunoは「悪い俳優にとって難しくする」ためにダウンロードキャップを準備しています",
       "summaryJa": "先週、AI音楽会社のSunoは、「新しいダウンロードポリシー」を導入しようとしていると約束した。これで詳細がわかりました。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "0a9ff089982cc773",
@@ -978,8 +992,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 6
+      "coverage": 2,
+      "score": 14
     },
     {
       "id": "06de06526b97eeea",
@@ -992,7 +1006,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 8,
+      "coverage": 9,
       "titleJa": "Sunoは、「音楽業界と提携して開発された」新しいモデルを約束しながら、PROのサブスクライバーを1か月あたり20曲のダウンロードに制限しています",
       "summaryJa": "Suno氏は、月曜日（ 8月10日）のブログ投稿で、ダウンロード制限は「悪い俳優が音楽を大量輸出することをより困難にする」と述べた",
       "score": 36
@@ -1026,6 +1040,20 @@
       "coverage": 1,
       "titleJa": "Sunoは、AIが音楽の未来であると言います。レコードレーベルが盗難だと言っている",
       "score": 12
+    },
+    {
+      "id": "672e361b8a1e4a25",
+      "title": "【Spotify】AI生成アーティストに「AIペルソナ」タグ、レコメンド対象外へ",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xdXdvU1FaUHRsclNiSDBGY1VxVl9uNXZvM3Z0X0ZrRnFKTEVWaEtQWEl0b3M5OVZaa1gxMExjcjlKS1ZWWHNwRElxalpsVmMwaEl6ZWRzUG5ZVDl6UW5NcEtZYkkwZ3k4Qk1UTHFiV1UtNXk3?oc=5",
+      "summary": "",
+      "published": "2026-08-11T18:20:00.000Z",
+      "source": "BigGo ファイナンス",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 6
     },
     {
       "id": "a34b8157e219ddfb",
@@ -1126,7 +1154,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yN2E3QVY3eThSdjhEUGpfTXpHUlNRQ19YMW51TW94cVlwQVA4UlJQRk0wOWt0S0R2emgyLU9EYmxxbDc3eWp2bXZRaEJldTRncmVWUk9renFpSlE0ZXlGYXRqWk02Tmc?oc=5",
       "summary": "",
       "published": "2026-08-11T05:26:13.000Z",
-      "source": "テクノエッジ TechnoEdge",
+      "source": "techno-edge.net",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1303,7 +1331,7 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SVnNTNklqeExBaFE1eW95bm5qcHQxTGMzeEduVmlPc3hSRHZfSDFZQVNlVHhrWlUtb2VGZm5QOThqakc1OUJndkljbGlHT2Y3R216TVZpOTBfV0RfRm5KZkNsQ1VVaWZxX3F6eHZsSmQwNHc?oc=5",
       "summary": "",
       "published": "2026-08-08T00:00:00.000Z",
-      "source": "GIGAZINE",
+      "source": "gigazine.net",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1325,21 +1353,6 @@
       "coverage": 1,
       "titleJa": "Tyga、AIで新しいアルバム「$ TARFACE」を制作することを認める：「I Don 't Care」",
       "summaryJa": "「オートチューンが発売されたときと変わりません」と彼は最近のインタビューで言いました",
-      "score": -6
-    },
-    {
-      "id": "987403fd1abbb3bd",
-      "title": "Xania Monet’s AI music highlights our tolerance of fake art",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdGF0ak1GUk03em5qMEJrdjY5SzcwMkpWN0F6WlpwaEJWMmxBVGJ3WDRwYWJNZmRYZnpUUUIzZjNITEgtLTE5QWRneHVISUpFMWcwNGxKWW5JcmRpOG1aNXlRWEd2YkljUTlKWk9leHk3WmVSRlN5Tmo2M3ZER2ZjUTBJWThHSmlMUUt1NDh0YWJqa1VXM2VRSWpJRGJuZTA?oc=5",
-      "summary": "",
-      "published": "2026-08-07T13:58:14.000Z",
-      "source": "uscatholic.org",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "Xania MonetのAI音楽は、偽の芸術に対する私たちの寛容さを強調しています",
       "score": -6
     },
     {
@@ -1396,8 +1409,37 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 44,
+      "coverage": 47,
       "score": 37
+    },
+    {
+      "id": "987403fd1abbb3bd",
+      "title": "Xania Monet’s AI music highlights our tolerance of fake art",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdGF0ak1GUk03em5qMEJrdjY5SzcwMkpWN0F6WlpwaEJWMmxBVGJ3WDRwYWJNZmRYZnpUUUIzZjNITEgtLTE5QWRneHVISUpFMWcwNGxKWW5JcmRpOG1aNXlRWEd2YkljUTlKWk9leHk3WmVSRlN5Tmo2M3ZER2ZjUTBJWThHSmlMUUt1NDh0YWJqa1VXM2VRSWpJRGJuZTA?oc=5",
+      "summary": "",
+      "published": "2026-08-07T07:00:00.000Z",
+      "source": "U.S. Catholic",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Xania MonetのAI音楽は、偽の芸術に対する私たちの寛容さを強調しています",
+      "score": -6
+    },
+    {
+      "id": "c275082c88d7954b",
+      "title": "自分だけの音楽AIを構築！ ローカルPCで自由自在に作曲！ 『実践Easy Music ローカルPCで動かす音楽生成AI完全ガイド』発行 技術の泉シリーズ、8月の新刊 | 株式会社インプレスホールディングスのプレスリリース",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rMHBsMnFKblAyWVZmMndLSUNuendiTEl5TGpNRkN6Wms5MXZLZGk0Z0pLRGdWOWJ0eTRaREluelJuWU1ETmFEQWMwTGphczJFSVU3Vjh1UFJHSjFaRWFvdUFEeHprZGJDOUE?oc=5",
+      "summary": "",
+      "published": "2026-08-07T07:00:00.000Z",
+      "source": "PR TIMES",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 8
     },
     {
       "id": "bd9ffb15b6db063a",
@@ -1414,18 +1456,18 @@
       "score": 11
     },
     {
-      "id": "c275082c88d7954b",
-      "title": "自分だけの音楽AIを構築！ ローカルPCで自由自在に作曲！ 『実践Easy Music ローカルPCで動かす音楽生成AI完全ガイド』発行 技術の泉シリーズ、8月の新刊 | 株式会社インプレスホールディングスのプレスリリース",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rMHBsMnFKblAyWVZmMndLSUNuendiTEl5TGpNRkN6Wms5MXZLZGk0Z0pLRGdWOWJ0eTRaREluelJuWU1ETmFEQWMwTGphczJFSVU3Vjh1UFJHSjFaRWFvdUFEeHprZGJDOUE?oc=5",
+      "id": "b1ead40bbd82259e",
+      "title": "ダフト・パンクのトーマ・バンガルテル、AIを使って音楽を作ることについて自身の見解を語る",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBLdm1XN1MwWEx3bDl6LXQtWndOWGtEbEh0WlJZVnBpQkpIS0V2OUp0ZFd5WVBXVzgzSTlsSGxMYjhIdDI3U0E?oc=5",
       "summary": "",
-      "published": "2026-08-07T02:00:02.000Z",
-      "source": "PR TIMES",
-      "sourceId": "gnews-ja-suno",
+      "published": "2026-08-07T03:00:18.000Z",
+      "source": "NME Japan",
+      "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 8
+      "score": -3
     },
     {
       "id": "6f9d5cd50888350c",
@@ -1772,7 +1814,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 14,
+      "coverage": 15,
       "score": 21
     },
     {
@@ -1991,7 +2033,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 16,
+      "coverage": 17,
       "score": 34
     },
     {
@@ -2016,7 +2058,7 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYjBLM01uX0dLclpkY041M29fZHdIbm52RmhrcUxBdEhxZ1dzeVlHY25tRVJYcGRIejJ5ZjZZOU9RYnhsaFdGX0dWdG9aRGxpRDE5QzItNFNqWm9RVDRheEYxaFVuRm54aXh3cmRNLTlLSEV1ZVZ5azgzMDNtUGR4dVNjQUp2b0R1eldwSTVqeFJXMmJZQWl2MkxMNzFGYkxKM3ZR?oc=5",
       "summary": "",
       "published": "2026-07-31T07:00:00.000Z",
-      "source": "Reuters",
+      "source": "reuters.com",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -2046,7 +2088,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEhfdFRTbGhvUGxYNDVGakNLZFdJR0VFSXZLekFEa1NIZWhXOGhXZEhSOEFXTlRCVFpFNE9HWTc1UGxuUENsbDY1N3hhUGo2YVdMZE5vVFB1Y1laRHRGSTZtaUlfVVp4S09ZSktyYTFXa0U4QnVfakswZUw3UTg1dFYtVDVwXzNXNnA3Uk0zaUJ0YjlhS0w2OGFR?oc=5",
       "summary": "",
       "published": "2026-07-31T07:00:00.000Z",
-      "source": "JUVE Patent",
+      "source": "juve-patent.com",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -2268,8 +2310,8 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HdzllYmxZY0JHdXRrV0VMSUx1S1FqM2hENUlldzJEc20tb0dvYkY1T21MeElTYnE2RkloVFhvdnpxVXNBNF91NEU1ZTJDSHM2LUhNVldBd2NYWjR6U3lXZTVGVHI4TzMwNkJUVGxqNDJCSW8?oc=5",
       "summary": "",
       "published": "2026-07-30T07:00:00.000Z",
-      "source": "GIGAZINE",
-      "sourceId": "gnews-ja-aimusic",
+      "source": "gigazine.net",
+      "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
@@ -2301,7 +2343,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 29,
+      "coverage": 31,
       "score": 41
     },
     {
@@ -2315,7 +2357,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 37,
+      "coverage": 38,
       "score": 41
     },
     {
@@ -2343,7 +2385,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 19,
+      "coverage": 20,
       "score": 41
     },
     {
@@ -2452,7 +2494,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rdDdCemV3V0plempxRmx2Zi1zeG1jMVdOOF81SGZxcHJYM2xCNGk2SS1nUUR6RjQyTmpLSnBjay0xT2pubWZ2WHVycEhJbmVkdi1SbDRmY2djM2pYak5oLS1lUFJfM293RUpab2pJUW15eXBPMEHSAXtBVV95cUxNdUQ0dEtDeDg3d3c0UUNUekw5bk8tZm5YT0lXeWQ1S0EwODZOdEMxaVF2Y2Vac2JqZWY3VVZ3NlJQdjEyblVGYzRmUG9ncG9fNkZmd1BrQ2MtYnVKM2lhU1RPckM4bjhOeHR0Znh6cU5BbVZnX1FydG1KS3c?oc=5",
       "summary": "",
       "published": "2026-07-27T07:00:00.000Z",
-      "source": "iflyer.tv",
+      "source": "iFLYER",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -2643,7 +2685,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 19,
+      "coverage": 20,
       "score": 21
     },
     {
