@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-08-17T13:33:55.202Z",
-  "count": 243,
-  "newCount": 16,
-  "translatedCount": 0,
+  "generatedAt": "2026-08-17T21:15:45.102Z",
+  "count": 247,
+  "newCount": 5,
+  "translatedCount": 4,
   "ranking": [
     "de6c39e1bb146d3a",
     "150557c56944071c",
     "f907c0882b82c23c",
     "4039c95e313e6306",
     "06de06526b97eeea",
+    "57dae9f7301e0484",
     "dc0c3de08c0b1a0e",
     "d1e2e45dd2b26918",
     "7e1591ce378c1f65",
-    "5618b4cc02b8d309",
-    "69d34fa6c4bc80f0"
+    "5618b4cc02b8d309"
   ],
   "sources": [
     {
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 36,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -85,7 +85,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -121,7 +121,7 @@
       "category": "global",
       "ok": true,
       "fetched": 40,
-      "matched": 5,
+      "matched": 4,
       "error": null
     },
     {
@@ -139,7 +139,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 0,
+      "matched": 1,
       "error": null
     },
     {
@@ -297,6 +297,70 @@
   ],
   "items": [
     {
+      "id": "762d39cba8f04749",
+      "title": "Suno, Anthropic Face $1B Copyright Lawsuits From Round Hill Music Over AI Training",
+      "url": "https://www.billboard.com/pro/suno-anthropic-copyright-lawsuits-round-hill-ai/",
+      "summary": "As Suno reaches settlements with the music industry, Round Hill says it plans to fight: “We intend to take these cases to trial.\"",
+      "published": "2026-08-17T20:52:00.000Z",
+      "source": "Billboard",
+      "sourceId": "billboard",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Suno、Anthropic Face $ 1 B AIトレーニングをめぐるラウンドヒルミュージックの著作権訴訟",
+      "summaryJa": "Sunoが音楽業界との和解に達すると、Round Hillは戦いを計画していると言います。「これらの事件を裁判にかけるつもりです。」",
+      "score": 28
+    },
+    {
+      "id": "b06ec6090dfafac2",
+      "title": "Robert Kyncl justifies Suno deal, as UMG and Sony press on with lawsuit: ‘In my opinion, you embrace it.’",
+      "url": "https://www.musicbusinessworldwide.com/robert-kyncl-justifies-suno-deal-as-umg-and-sony-press-on-with-lawsuit-in-my-opinion-you-embrace-it/",
+      "summary": "Kyncl appeared on Semafor's Mixed Signals podcast on Friday (August 14), where he discussed Suno – and why he'd start a music service at Netflix.",
+      "published": "2026-08-17T19:52:38.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "UMGとソニーが訴訟を起こす中、ロバート・キンクルはスノーとの取引を正当化します。「私の意見では、あなたはそれを受け入れます」。",
+      "summaryJa": "Kynclは金曜日（ 8月14日）にSemaforのMixed Signalsポッドキャストに出演し、SunoとNetflixで音楽サービスを開始した理由について話し合った。",
+      "score": 21
+    },
+    {
+      "id": "ee8d9ab5cee083fc",
+      "title": "5 things to know about Suno’s BMG licensing deal, download caps, watermarks, and more",
+      "url": "https://www.musicbusinessworldwide.com/5-things-to-know-about-sunos-bmg-licensing-deal-download-caps-watermarks-and-more/",
+      "summary": "The BMG deal supplies the rights; the caps and the watermarks supply the controls. The other two are new exits: one professional, one physical.",
+      "published": "2026-08-17T18:03:37.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
+      "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
+      "score": 28
+    },
+    {
+      "id": "57dae9f7301e0484",
+      "title": "Jamendo drops its copyright infringement lawsuit against Suno, six weeks after filing it",
+      "url": "https://www.musicbusinessworldwide.com/jamendo-drops-its-copyright-infringement-lawsuit-against-suno-six-weeks-after-filing-it/",
+      "summary": "The withdrawal arrives as Suno rewrites the rules of its platform, saying it will adopt audio watermarking and fingerprinting technology in the coming weeks.",
+      "published": "2026-08-17T16:24:18.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Jamendoは、Sunoに対する著作権侵害訴訟を提起してから6週間後に取り下げます",
+      "summaryJa": "Sunoがプラットフォームのルールを書き換え、今後数週間以内にオーディオウォーターマークと指紋技術を採用すると述べているため、撤回が到着しました。",
+      "score": 28
+    },
+    {
       "id": "dc0c3de08c0b1a0e",
       "title": "AlibabaがAI音楽生成モデル「HappyShrimp」を発表 執筆",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5aTXFjLWNjeUVXSEFTUlg2SlJLSzJkVC1MdW1Qb3oxWVJqUU1iZ1NnN2ZkV2xDemRNMnA5VHNzazhEakU0V3ctTWlKcjZ6Ung5VHdPR2p4b3BnYnhnamlhOTNqVktxSjVVbkVQeWVyS0JDYXpRcDFN?oc=5",
@@ -380,7 +444,7 @@
       "coverage": 1,
       "titleJa": "SunoのStudio 2.0には、プロジェクトを制御し、サウンドを変換し、カスタムプラグインを生成できるAIチャットボットが追加されています",
       "summaryJa": "このアップデートでは、MIDIサポート、自動化、レイテンシ補償などの従来の機能も数多く追加されています",
-      "score": 27
+      "score": 23
     },
     {
       "id": "373c68ab6fe2ec71",
@@ -1331,7 +1395,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIミュージックカンパニーSuno、虐待と戦うためのクエストで無料、有料ティアのキャップをダウンロードすることを発表（限定）",
-      "score": 35
+      "score": 26
     },
     {
       "id": "ab49ce8a3af1b1fd",
@@ -1347,7 +1411,7 @@
       "coverage": 1,
       "titleJa": "ダフト・パンクのトーマス・バンガルターが「AIの創造的な使用に興味がない」理由を説明",
       "summaryJa": "「私たちは自分自身を驚かせ、ますます予測不可能になる必要があり、テクノロジーにそれをさせることはできません。」",
-      "score": 3
+      "score": -6
     },
     {
       "id": "f93d97d4e966f716",
@@ -1363,7 +1427,7 @@
       "coverage": 1,
       "titleJa": "Snapchatは、スポットライトフィードからAIコンテンツを降格しています",
       "summaryJa": "Snapchatは、AIが生成したコンテンツに正式に足を踏み入れています。プラットフォームは、Spotlightアルゴリズム（短い形式のビデオフィード）を更新して、AIが生成した動画を完全に降格させ、低品質のAIスロップからユーザーエクスペリエンスを保護するための推奨資格を剥奪しました。これは音楽マーケティング担当者にとって朗報であり、アーティストとユーザーのコンテンツが成功する可能性が高いことを意味します。H…",
-      "score": 3
+      "score": -6
     },
     {
       "id": "704c97fdf0a97612",
