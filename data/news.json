@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T13:39:34.136Z",
-  "count": 289,
+  "generatedAt": "2026-08-21T21:13:09.312Z",
+  "count": 292,
   "newCount": 25,
   "translatedCount": 2,
   "ranking": [
@@ -8,12 +8,12 @@
     "3cf7d30598e0c29b",
     "ee8d9ab5cee083fc",
     "bc9a5a861ae0c7ff",
+    "24829f1bc7d147c0",
     "9d47e678b5d5c341",
-    "6cf7aac731d312ba",
-    "7783dca27d8fddb1",
     "42039208a333b6ab",
     "ca0896e7d24abe7d",
-    "f907c0882b82c23c"
+    "f907c0882b82c23c",
+    "99cdc1acf4236841"
   ],
   "sources": [
     {
@@ -83,10 +83,10 @@
       "id": "cdm",
       "name": "CDM",
       "category": "global",
-      "ok": false,
-      "fetched": 0,
+      "ok": true,
+      "fetched": 10,
       "matched": 0,
-      "error": "HTTP 403"
+      "error": null
     },
     {
       "id": "musictech",
@@ -103,7 +103,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 2,
+      "matched": 3,
       "error": null
     },
     {
@@ -297,11 +297,27 @@
   ],
   "items": [
     {
+      "id": "05349ac28a8ecd27",
+      "title": "From Apple Music’s AI labeling plan to Spotify’s $1.5B buyback… it’s MBW’s Weekly Round-Up",
+      "url": "https://www.musicbusinessworldwide.com/from-apple-musics-ai-labeling-plan-to-spotifys-1-5bn-buyback-boost-its-mbws-weekly-round-up/",
+      "summary": "The biggest headlines from the past few days...",
+      "published": "2026-08-21T17:35:26.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Apple MusicのAIラベリングプランからSpotifyの15億$の買い戻しまで… MBWの週次ラウンドアップ",
+      "summaryJa": "ここ数日の最大の見出し...",
+      "score": 12
+    },
+    {
       "id": "5bd379acce3f9686",
       "title": "音楽生成AIを巡る攻防、アーティストの反発とレコード会社のジレンマ",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zSmY3WEtadTRkakZDUGRlbWZjVElBYjdFTURXUS1Ha2FFSVl3ejBYaWU3OTV6WVdnMGJkdXlCLUVodWZhLTdqVU9GWUdXMjR3eUJV?oc=5",
       "summary": "",
-      "published": "2026-08-21T13:16:41.000Z",
+      "published": "2026-08-21T14:11:24.000Z",
       "source": "東京報道新聞",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
@@ -309,6 +325,20 @@
       "lang": "ja",
       "coverage": 1,
       "score": 15
+    },
+    {
+      "id": "24829f1bc7d147c0",
+      "title": "Music IP Holdings、生成AI音楽制作向け特許ライセンスを発表。UdioとGRAIが初採用|プレイリスト＆カルチャーメディア",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rXzNPa0NsOG5HT3VWcGgxaTY2YUY1Nm45eXc1WFJtMnBoRC1uWHRMXzBIUVRzaW5BMjJhNkgxcF96R3JfZERubHFFSQ?oc=5",
+      "summary": "",
+      "published": "2026-08-21T11:01:33.000Z",
+      "source": "DIGLE MAGAZINE",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 35
     },
     {
       "id": "d72e25b06d2c2fab",
@@ -349,8 +379,8 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 15
+      "coverage": 2,
+      "score": 23
     },
     {
       "id": "24ccb5beb8f164de",
@@ -382,7 +412,7 @@
       "coverage": 1,
       "titleJa": "Apple MusicがSunoの音楽にAIレーベルをつけるが、レコード会社に責任を押し付ける",
       "summaryJa": "この動きは、MBWが入手した木曜日（ 8月20日）にAppleから業界パートナーへのメッセージで発表されました。",
-      "score": 21
+      "score": 16
     },
     {
       "id": "704cc70f009a09ea",
@@ -398,7 +428,7 @@
       "coverage": 1,
       "titleJa": "Apple MusicがSunoのトラックでAIレーベルを叩くが、レコード会社に責任を押し付ける",
       "summaryJa": "この動きは、MBWが入手した木曜日（ 8月20日）にAppleから業界パートナーへのメッセージで発表されました。",
-      "score": 21
+      "score": 16
     },
     {
       "id": "6cf7aac731d312ba",
@@ -414,7 +444,7 @@
       "coverage": 1,
       "titleJa": "UMGが支援する音楽IPホールディングス、AI音楽特許ポートフォリオを発表、「AIと音楽がどのように共に成長するかの基準を設定する」ことを目指す",
       "summaryJa": "UdioとGRAIによって保護されたライセンスは、カバー、リミックス、「幅広いインタラクティブな音楽体験」を含むライセンスされたAIサービスの開発をサポートします",
-      "score": 32
+      "score": 27
     },
     {
       "id": "7783dca27d8fddb1",
@@ -429,7 +459,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "MUSIC IP Holdingsは、UDIOとGRAIを最初の採用者として、AI音楽制作のための画期的な特許ポートフォリオとライセンスを発表",
-      "score": 32
+      "score": 27
     },
     {
       "id": "e70a1fd685aa0fb0",
@@ -484,7 +514,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 29,
+      "coverage": 31,
       "score": 45
     },
     {
@@ -526,7 +556,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 52
     },
     {
@@ -556,7 +586,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "ラウンドヒル・ミュージック、Anthropicの著作権侵害でSunoを訴え、最大10億$の損害賠償を求めている",
-      "score": 23
+      "score": 19
     },
     {
       "id": "fdff677b6e149cb7",
@@ -572,7 +602,7 @@
       "coverage": 1,
       "titleJa": "先月リリースされた音楽の約40 ％がAIを使用しています",
       "summaryJa": "ほぼ4分の1が完全にAIによって生成されました",
-      "score": 18
+      "score": 14
     },
     {
       "id": "34f27ab0cdba6b0b",
@@ -588,7 +618,7 @@
       "coverage": 1,
       "titleJa": "罪悪感のないAI ：これら6つのAI音楽ツールは、実際に背後にいるアーティストに支払いをします",
       "summaryJa": "強力なAI音楽ソフトウェアを作るためにミュージシャンの素材を盗む必要はないことがわかりました。これらのプラグインはそれを証明しています。",
-      "score": 19
+      "score": 15
     },
     {
       "id": "447752cd024d9837",
@@ -604,7 +634,7 @@
       "coverage": 1,
       "titleJa": "アリババ、AIソングジェネレータHappyShrimp 1.0のベータ版をリリース、中国のTaihe Musicがアーティストの共同制作にサインアップ",
       "summaryJa": "プロンプトは、インストゥルメンテーション、ボーカルスタイル、トラックのエネルギーが実行時間全体でどのようにシフトするかを指定することができます、とAlibabaは言いました。",
-      "score": 18
+      "score": 14
     },
     {
       "id": "bc9a5a861ae0c7ff",
@@ -617,7 +647,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 6,
+      "coverage": 7,
       "titleJa": "ラウンドヒルは、SunoとAnthropicをそれぞれ最大10億$で訴えています。決着をつけようとしているわけではありません。",
       "summaryJa": "各苦情は、故意に侵害された作品ごとに最大150,000 $の法定損害賠償を求めています。",
       "score": 36
@@ -764,7 +794,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 30
     },
     {
@@ -854,7 +884,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 14,
+      "coverage": 15,
       "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
       "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
       "score": 43
@@ -971,7 +1001,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 18,
+      "coverage": 19,
       "score": 30
     },
     {
@@ -1002,7 +1032,7 @@
       "coverage": 1,
       "titleJa": "SunoのStudio 2.0には、プロジェクトを制御し、サウンドを変換し、カスタムプラグインを生成できるAIチャットボットが追加されています",
       "summaryJa": "このアップデートでは、MIDIサポート、自動化、レイテンシ補償などの従来の機能も数多く追加されています",
-      "score": 23
+      "score": 14
     },
     {
       "id": "373c68ab6fe2ec71",
@@ -1119,7 +1149,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 27,
+      "coverage": 28,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
       "score": 38
@@ -1165,7 +1195,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 32,
+      "coverage": 33,
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
       "score": 27
@@ -1518,7 +1548,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 36,
+      "coverage": 37,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
       "score": 27
@@ -2159,7 +2189,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 120,
+      "coverage": 124,
       "score": 37
     },
     {
@@ -2598,6 +2628,20 @@
       "score": 8
     },
     {
+      "id": "98f113b215e683ff",
+      "title": "AI作曲「SOUNDRAW」、新ビートメイクアプリ「SOUNDRAW Grid」を正式リリース",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIWlR5Qm4zZkUwc1NucTB2NHRrcTFSX2FiVlpKYnRzc1V0OWJYZlNUTzRuUDc1dDN5cUJraG1mdHZXNUtVd0ExNDdQRmUycEExYzlzall0Wkd2Ym9pdkREWXVuQnFXNWJfMUE?oc=5",
+      "summary": "",
+      "published": "2026-08-04T07:00:00.000Z",
+      "source": "PR TIMES",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 8
+    },
+    {
       "id": "1b3216d3b1e52ab6",
       "title": "ことばから音楽を生み出す。日本語特化のAI音楽生成サービス「otojam」ベータ版を公開",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HVE1aai11bkF1RnprV0tGbFZWaFlTYzZTWmY3VnpxQmNPeGhrQnVqSWN1bEdXRFdtaUdINEpUN0pzM0hnSGo3ZllUbTZDajVESEtiTlNJMl9lbEp1SEpMbTYxWHVtdVVXMXc?oc=5",
@@ -2610,20 +2654,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": 18
-    },
-    {
-      "id": "98f113b215e683ff",
-      "title": "AI作曲「SOUNDRAW」、新ビートメイクアプリ「SOUNDRAW Grid」を正式リリース",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIWlR5Qm4zZkUwc1NucTB2NHRrcTFSX2FiVlpKYnRzc1V0OWJYZlNUTzRuUDc1dDN5cUJraG1mdHZXNUtVd0ExNDdQRmUycEExYzlzall0Wkd2Ym9pdkREWXVuQnFXNWJfMUE?oc=5",
-      "summary": "",
-      "published": "2026-08-04T00:00:01.000Z",
-      "source": "PR TIMES",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 8
     },
     {
       "id": "eb6e9de0aa795761",
@@ -2650,7 +2680,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 38,
+      "coverage": 39,
       "score": 21
     },
     {
@@ -2870,7 +2900,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 40,
+      "coverage": 41,
       "score": 34
     },
     {
@@ -3035,6 +3065,21 @@
       "score": 1
     },
     {
+      "id": "8790709bef9872a4",
+      "title": "German Court Rules Against Suno In Lawsuit Challenging Use Of Copyrighted Music In AI",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01d2RNMnJVMkVtSVpncndabWVEaDhvYlRNZXJDT1o2TjB6QndNeUlQTTVKMUxveXVFT1EzZG5Mb1FCWkIyakVpaVNMMnJVWmg3SEZkZ3JITVFrSkVhZkFMb1Bfc0ZsZVJlX01zWk1jTVpvU2RPLXBybUExeHdBaFE?oc=5",
+      "summary": "",
+      "published": "2026-07-31T07:00:00.000Z",
+      "source": "Deadline",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "AIにおける著作権で保護された音楽の使用に異議を申し立てる訴訟におけるSunoに対するドイツの裁判所の規則",
+      "score": 10
+    },
+    {
       "id": "7a63d529d386a950",
       "title": "IFPI rolls out labels’ AI chart-eligibility rules across its global network of official music charts",
       "url": "https://www.musicbusinessworldwide.com/ifpi-rolls-out-labels-ai-chart-eligibility-principles-across-its-global-network-of-official-music-charts/",
@@ -3079,7 +3124,7 @@
       "lang": "en",
       "titleJa": "Suno、気をつけて： GoogleがLyria AIミュージックモデルを「よりリアルで感情的に微妙なボーカル」にアップグレード",
       "summaryJa": "このモデルは、同社のAIソングクリエーションプラットフォームであるGoogle Flow Music内で展開された。",
-      "coverage": 9,
+      "coverage": 10,
       "score": 27
     },
     {
@@ -3195,7 +3240,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 62,
+      "coverage": 64,
       "score": 41
     },
     {
@@ -3237,7 +3282,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 43,
+      "coverage": 44,
       "score": 41
     },
     {
@@ -3331,7 +3376,7 @@
       "title": "ヤマハのボカロ開発者・剣持氏｢AI時代の音楽、人の手の介在が価値｣",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oYVRCYlRHbXFKa2tJWXN0R2Z5N0JEczBydXpqb1phdWVyYUVOZXlkTjY5YU1jMWoyeHRDTTk0OERDQnN5NVFmX3htRzZ3aFFEVUY2VmpQcjd6YUpRd0ZHWnBMSl9fQ0tzelBPTg?oc=5",
       "summary": "",
-      "published": "2026-07-27T09:50:30.000Z",
+      "published": "2026-07-27T07:00:00.000Z",
       "source": "日本経済新聞",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
