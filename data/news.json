@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T09:29:17.655Z",
-  "count": 293,
+  "generatedAt": "2026-08-22T13:25:56.635Z",
+  "count": 294,
   "newCount": 25,
   "translatedCount": 0,
   "ranking": [
@@ -8,12 +8,12 @@
     "ee8d9ab5cee083fc",
     "3cf7d30598e0c29b",
     "bc9a5a861ae0c7ff",
-    "24829f1bc7d147c0",
+    "b06ec6090dfafac2",
     "6f31006bf89f7a20",
+    "24829f1bc7d147c0",
     "9d47e678b5d5c341",
     "ca0896e7d24abe7d",
-    "f907c0882b82c23c",
-    "99cdc1acf4236841"
+    "f907c0882b82c23c"
   ],
   "sources": [
     {
@@ -297,6 +297,20 @@
   ],
   "items": [
     {
+      "id": "826db73c79dc95c4",
+      "title": "アップル、Apple MusicでAI生成音楽の表示義務化へ 年内にラベルをユーザーに公開",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Xby1rLTcwdDZtZUxfdVU5QURkYVNWMFU2aU15cnJyd0VxMkxRVXd0V0prMnl0SUNCZVBrMTZOZWZoTTBJcHVfT2RDZjQ0U3I0WXFVRjJvWkVENmtNQkhyRGVqVWFGazdMN3Y4Mngtb1VvQXRX?oc=5",
+      "summary": "",
+      "published": "2026-08-21T18:57:00.000Z",
+      "source": "BigGo ファイナンス",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
+    {
       "id": "05349ac28a8ecd27",
       "title": "From Apple Music’s AI labeling plan to Spotify’s $1.5B buyback… it’s MBW’s Weekly Round-Up",
       "url": "https://www.musicbusinessworldwide.com/from-apple-musics-ai-labeling-plan-to-spotifys-1-5bn-buyback-boost-its-mbws-weekly-round-up/",
@@ -338,7 +352,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 35
+      "score": 30
     },
     {
       "id": "a7863dbb95f28759",
@@ -352,7 +366,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 24
+      "score": 19
     },
     {
       "id": "d72e25b06d2c2fab",
@@ -393,7 +407,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 4,
+      "coverage": 5,
       "score": 34
     },
     {
@@ -528,7 +542,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 35,
+      "coverage": 37,
       "score": 41
     },
     {
@@ -570,7 +584,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 14,
+      "coverage": 15,
       "score": 48
     },
     {
@@ -661,7 +675,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 9,
+      "coverage": 10,
       "titleJa": "ラウンドヒルは、SunoとAnthropicをそれぞれ最大10億$で訴えています。決着をつけようとしているわけではありません。",
       "summaryJa": "各苦情は、故意に侵害された作品ごとに最大150,000 $の法定損害賠償を求めています。",
       "score": 36
@@ -808,7 +822,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 14,
+      "coverage": 15,
       "score": 30
     },
     {
@@ -882,10 +896,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 3,
+      "coverage": 4,
       "titleJa": "UMGとソニーが訴訟を起こす中、ロバート・キンクルはスノーとの取引を正当化します。「私の意見では、あなたはそれを受け入れます」。",
       "summaryJa": "Kynclは金曜日（ 8月14日）にSemaforのMixed Signalsポッドキャストに出演し、SunoとNetflixで音楽サービスを開始した理由について話し合った。",
-      "score": 28
+      "score": 36
     },
     {
       "id": "ee8d9ab5cee083fc",
@@ -898,7 +912,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 17,
+      "coverage": 18,
       "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
       "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
       "score": 43
@@ -1163,7 +1177,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 30,
+      "coverage": 31,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
       "score": 38
@@ -1209,7 +1223,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 35,
+      "coverage": 36,
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
       "score": 27
@@ -1547,7 +1561,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 39,
+      "coverage": 40,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
       "score": 27
@@ -1563,7 +1577,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 18,
+      "coverage": 19,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
       "score": 27
@@ -2203,7 +2217,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 132,
+      "coverage": 136,
       "score": 37
     },
     {
@@ -2694,7 +2708,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 41,
+      "coverage": 42,
       "score": 21
     },
     {
@@ -2914,7 +2928,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 43,
+      "coverage": 44,
       "score": 34
     },
     {
@@ -3138,7 +3152,7 @@
       "lang": "en",
       "titleJa": "Suno、気をつけて： GoogleがLyria AIミュージックモデルを「よりリアルで感情的に微妙なボーカル」にアップグレード",
       "summaryJa": "このモデルは、同社のAIソングクリエーションプラットフォームであるGoogle Flow Music内で展開された。",
-      "coverage": 12,
+      "coverage": 13,
       "score": 27
     },
     {
@@ -3254,7 +3268,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 68,
+      "coverage": 70,
       "score": 41
     },
     {
@@ -3296,7 +3310,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 46,
+      "coverage": 47,
       "score": 41
     },
     {
@@ -3335,7 +3349,7 @@
       "summary": "",
       "published": "2026-07-29T07:00:00.000Z",
       "source": "BigGo ファイナンス",
-      "sourceId": "gnews-ja-aimusic",
+      "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
@@ -3611,7 +3625,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 38,
+      "coverage": 39,
       "score": 21
     },
     {
