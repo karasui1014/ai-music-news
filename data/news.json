@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T13:25:56.635Z",
-  "count": 294,
-  "newCount": 25,
-  "translatedCount": 0,
+  "generatedAt": "2026-08-22T21:11:04.337Z",
+  "count": 295,
+  "newCount": 24,
+  "translatedCount": 1,
   "ranking": [
     "07016b237813ccb3",
     "ee8d9ab5cee083fc",
@@ -157,7 +157,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 0,
+      "matched": 1,
       "error": null
     },
     {
@@ -297,6 +297,22 @@
   ],
   "items": [
     {
+      "id": "562dcedb480dc98c",
+      "title": "Doodle generative compositions in your browser with Musical Spirograph",
+      "url": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition",
+      "summary": "I remember having a Spirograph as a kid and being obsessed with it. Its geometric patterns are hypnotic and gorgeous. I also love generative music composition. So bringing those two things together in a browser tab, I'm hooked. Musical Spirograph is a relatively simple concept. A set of points dash around the screen according to",
+      "published": "2026-08-22T17:00:00.000Z",
+      "source": "The Verge",
+      "sourceId": "theverge",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Musical Spirographを使用したブラウザでのDoodleジェネレーティブコンポジション",
+      "summaryJa": "子供の頃にスピログラフを持っていて、それに夢中になっていたのを覚えています。その幾何学模様は催眠的で豪華です。私はまた、生成的な音楽作曲が大好きです。ブラウザタブでこれら2つのことを一緒にすると、私は夢中になります。ミュージカルスピログラフは比較的シンプルなコンセプトです。に従って画面の周りにダッシュする一連のポイント",
+      "score": 12
+    },
+    {
       "id": "826db73c79dc95c4",
       "title": "アップル、Apple MusicでAI生成音楽の表示義務化へ 年内にラベルをユーザーに公開",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Xby1rLTcwdDZtZUxfdVU5QURkYVNWMFU2aU15cnJyd0VxMkxRVXd0V0prMnl0SUNCZVBrMTZOZWZoTTBJcHVfT2RDZjQ0U3I0WXFVRjJvWkVENmtNQkhyRGVqVWFGazdMN3Y4Mngtb1VvQXRX?oc=5",
@@ -308,7 +324,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 26
+      "score": 21
     },
     {
       "id": "05349ac28a8ecd27",
@@ -324,7 +340,7 @@
       "coverage": 1,
       "titleJa": "Apple MusicのAIラベリングプランからSpotifyの15億$の買い戻しまで… MBWの週次ラウンドアップ",
       "summaryJa": "ここ数日の最大の見出し...",
-      "score": 12
+      "score": 7
     },
     {
       "id": "5bd379acce3f9686",
@@ -338,7 +354,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "24829f1bc7d147c0",
@@ -407,7 +423,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 5,
+      "coverage": 6,
       "score": 34
     },
     {
@@ -529,7 +545,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 21
+      "score": 17
     },
     {
       "id": "3cf7d30598e0c29b",
@@ -542,7 +558,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 37,
+      "coverage": 39,
       "score": 41
     },
     {
@@ -584,7 +600,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 15,
+      "coverage": 16,
       "score": 48
     },
     {
@@ -675,7 +691,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 10,
+      "coverage": 11,
       "titleJa": "ラウンドヒルは、SunoとAnthropicをそれぞれ最大10億$で訴えています。決着をつけようとしているわけではありません。",
       "summaryJa": "各苦情は、故意に侵害された作品ごとに最大150,000 $の法定損害賠償を求めています。",
       "score": 36
@@ -896,7 +912,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 4,
+      "coverage": 5,
       "titleJa": "UMGとソニーが訴訟を起こす中、ロバート・キンクルはスノーとの取引を正当化します。「私の意見では、あなたはそれを受け入れます」。",
       "summaryJa": "Kynclは金曜日（ 8月14日）にSemaforのMixed Signalsポッドキャストに出演し、SunoとNetflixで音楽サービスを開始した理由について話し合った。",
       "score": 36
@@ -912,7 +928,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 18,
+      "coverage": 19,
       "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
       "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
       "score": 43
@@ -1177,7 +1193,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 31,
+      "coverage": 32,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
       "score": 38
@@ -1223,7 +1239,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 36,
+      "coverage": 37,
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
       "score": 27
@@ -1401,6 +1417,20 @@
       "score": -3
     },
     {
+      "id": "b6e4ed455ee6eb7b",
+      "title": "Suno、BMGと世界規模で提携｜訴えないまま過去の利用も清算",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBacWtYRkRiWGw3V1VFNG5FQzZ5VFpRcHhpSlhtZXhTbEtaOWhnNjFYVTh1VHVQRjJULWN2T1l4Mmk1T1ZncXVsMmdFbzRlYmFuekdV?oc=5",
+      "summary": "",
+      "published": "2026-08-13T07:00:00.000Z",
+      "source": "innovaTopia",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 6
+    },
+    {
       "id": "8bb7f73d5e3678b0",
       "title": "八王子・肌着専門店店主がミュージックビデオ公開 AIで楽曲と映像制作（みんなの経済新聞ネットワーク）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82cEZVaGh1VGlqTDJ0Y0gzb1pkV2hYR0NScVlXRGtFZXJodkdzN2FvM0E0dDBLZXh1WFc5XzdkS2tNS2Fmbl8yem1lUmIzbmlzdGZYNjExZ0R2bUVnSFVFdENYVXdBRW1SYzZIMjRMd2dmbDlEcVpLQWpUcW5QbEE?oc=5",
@@ -1457,20 +1487,6 @@
       "titleJa": "TicketmasterユーザーがGoogleのGemini AIチャットボットにライブイベントの検索を促すようになりました",
       "summaryJa": "Geminiユーザーは、Ticketmasterの接続されたアプリからAIプラットフォームにイベントチケットの検索を依頼することができます。",
       "score": -6
-    },
-    {
-      "id": "b6e4ed455ee6eb7b",
-      "title": "Suno、BMGと世界規模で提携｜訴えないまま過去の利用も清算",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBacWtYRkRiWGw3V1VFNG5FQzZ5VFpRcHhpSlhtZXhTbEtaOWhnNjFYVTh1VHVQRjJULWN2T1l4Mmk1T1ZncXVsMmdFbzRlYmFuekdV?oc=5",
-      "summary": "",
-      "published": "2026-08-12T22:46:06.000Z",
-      "source": "innovaTopia",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 6
     },
     {
       "id": "c1e6285f173200b5",
@@ -1561,7 +1577,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 40,
+      "coverage": 41,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
       "score": 27
@@ -1577,7 +1593,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 19,
+      "coverage": 20,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
       "score": 27
@@ -2217,7 +2233,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 136,
+      "coverage": 140,
       "score": 37
     },
     {
@@ -2708,7 +2724,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 42,
+      "coverage": 43,
       "score": 21
     },
     {
@@ -2928,7 +2944,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 44,
+      "coverage": 45,
       "score": 34
     },
     {
@@ -3152,7 +3168,7 @@
       "lang": "en",
       "titleJa": "Suno、気をつけて： GoogleがLyria AIミュージックモデルを「よりリアルで感情的に微妙なボーカル」にアップグレード",
       "summaryJa": "このモデルは、同社のAIソングクリエーションプラットフォームであるGoogle Flow Music内で展開された。",
-      "coverage": 13,
+      "coverage": 14,
       "score": 27
     },
     {
@@ -3268,7 +3284,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 70,
+      "coverage": 72,
       "score": 41
     },
     {
@@ -3310,7 +3326,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 47,
+      "coverage": 48,
       "score": 41
     },
     {
@@ -3514,20 +3530,6 @@
       "score": -6
     },
     {
-      "id": "77859bdc5d8aa325",
-      "title": "Deezer、1日9万曲のAI生成音楽がアップロード 全体の50%初めて上回る",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PdE9OUGJiY2ZFR0sxbWlDWDRCVG56YUtwY2NoTm1rMUVNWlp1RVQ0Z0V3YmloVkdDRGJsVFVvbWp5QmExenJJS0VHdE5XMzQ1R0dTTQ?oc=5",
-      "summary": "",
-      "published": "2026-07-24T08:22:54.000Z",
-      "source": "musicman.co.jp",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
       "id": "337b3c9ef7229c67",
       "title": "iZotope、AIボイス・エンハンス・プラグイン「VEA」の無償配布を開始…… 各種クロスグレード／アップグレードが過去最安値のサマー・セールもスタート",
       "url": "https://icon.jp/archives/27885",
@@ -3540,6 +3542,20 @@
       "lang": "ja",
       "coverage": 1,
       "score": 9
+    },
+    {
+      "id": "77859bdc5d8aa325",
+      "title": "Deezer、1日9万曲のAI生成音楽がアップロード 全体の50%初めて上回る",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PdE9OUGJiY2ZFR0sxbWlDWDRCVG56YUtwY2NoTm1rMUVNWlp1RVQ0Z0V3YmloVkdDRGJsVFVvbWp5QmExenJJS0VHdE5XMzQ1R0dTTQ?oc=5",
+      "summary": "",
+      "published": "2026-07-24T07:00:00.000Z",
+      "source": "音楽業界総合情報サイト",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
     },
     {
       "id": "b782ea57e3655b7b",
@@ -3625,7 +3641,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 39,
+      "coverage": 40,
       "score": 21
     },
     {
