@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T21:11:04.337Z",
-  "count": 295,
-  "newCount": 24,
-  "translatedCount": 1,
+  "generatedAt": "2026-08-23T03:50:32.410Z",
+  "count": 298,
+  "newCount": 25,
+  "translatedCount": 2,
   "ranking": [
     "07016b237813ccb3",
     "ee8d9ab5cee083fc",
@@ -22,7 +22,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 40,
-      "matched": 38,
+      "matched": 39,
       "error": null
     },
     {
@@ -84,7 +84,7 @@
       "name": "CDM",
       "category": "global",
       "ok": true,
-      "fetched": 10,
+      "fetched": 0,
       "matched": 0,
       "error": null
     },
@@ -423,8 +423,22 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 34
+    },
+    {
+      "id": "54f934d405cb9915",
+      "title": "クリエイティブAIスタジオであるAdobe Fireflyがさらに進化。クリエイターは音楽、スピーチ、効果音もすべて一か所で生成可能に",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdlIxaEMyRmgyTWJubHR0Z2xRQ1l5WTd1dHBybmJVb3RwRkhGQTk2d3ZIUkl6Mk84RTFFdEFtU2ZUYy04X2htMDlkLXpkUl9YQTZTQkxOa1VXcmZuZ2tkUU9QRkFuTTNOc3VNRHktSDg0REduOTBoSlMyTHlDeDJHQlhVZlRJWFMyU1RXY0dWMTZtZnZ3Um9UWDBxTG9XVDNQWWpGekN0SWs5bUpNSWxrZDkwY0FqS1Rpa2N1SXlCTzlSSlBmTDZ1bQ?oc=5",
+      "summary": "",
+      "published": "2026-08-21T02:40:31.000Z",
+      "source": "Adobe",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 10
     },
     {
       "id": "24ccb5beb8f164de",
@@ -517,7 +531,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 10
+      "score": 6
     },
     {
       "id": "92c8fadbe80549a3",
@@ -531,7 +545,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 10
+      "score": 6
     },
     {
       "id": "176364d2d1906352",
@@ -553,12 +567,12 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92QUh1MHIxLWU5SUNzLVFmN1pxU3dUUUVqeWQ3MUpnV0t2dVpTbmVPLWYzaHAxc1FtU19ZRVVlelgyNUYtTXlqdHo5bC1VYjIza1VudE9ibGs0a09PNEkxQkZMVnRBOHIxWXdrNG5ZV0VlRlZUb293?oc=5",
       "summary": "",
       "published": "2026-08-19T03:23:00.000Z",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 39,
+      "coverage": 41,
       "score": 41
     },
     {
@@ -600,7 +614,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 16,
+      "coverage": 17,
       "score": 48
     },
     {
@@ -691,7 +705,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 11,
+      "coverage": 12,
       "titleJa": "ラウンドヒルは、SunoとAnthropicをそれぞれ最大10億$で訴えています。決着をつけようとしているわけではありません。",
       "summaryJa": "各苦情は、故意に侵害された作品ごとに最大150,000 $の法定損害賠償を求めています。",
       "score": 36
@@ -838,7 +852,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 15,
+      "coverage": 16,
       "score": 30
     },
     {
@@ -912,7 +926,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 5,
+      "coverage": 6,
       "titleJa": "UMGとソニーが訴訟を起こす中、ロバート・キンクルはスノーとの取引を正当化します。「私の意見では、あなたはそれを受け入れます」。",
       "summaryJa": "Kynclは金曜日（ 8月14日）にSemaforのMixed Signalsポッドキャストに出演し、SunoとNetflixで音楽サービスを開始した理由について話し合った。",
       "score": 36
@@ -928,7 +942,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 19,
+      "coverage": 20,
       "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
       "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
       "score": 43
@@ -1193,7 +1207,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 32,
+      "coverage": 33,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
       "score": 38
@@ -1243,21 +1257,6 @@
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
       "score": 27
-    },
-    {
-      "id": "69b01aef69801f0e",
-      "title": "Suno is trying to look more like a real music production tool",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLXc1bzNnc2ZJbExPZTVINFpFNkJZUXc0MTM2R1Z2X3RzOUhCc2pDYnlKbVVJcTVoek9UR0F0M2lBYUFsWGVKWVpPb2N0TXJ5MTRHUmZVMy1pMEhHcE83MlhrUzBtaVdYUUstS1FGYTJkN2pMcnQ0YzItWmpiVzdSeWRIMUluLUxjV1pEOVNoblpLa3p4b1l3enQxYUJOQUg3SmdpdA?oc=5",
-      "summary": "",
-      "published": "2026-08-13T16:00:00.000Z",
-      "source": "The Verge",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "Sunoは本物の音楽制作ツールのように見えようとしています",
-      "score": 3
     },
     {
       "id": "08dbef746631b3c5",
@@ -1401,6 +1400,21 @@
       "titleJa": "ブライアン・メイは、クイーンズ・ザ・ゲームのカバーを再現するようAIに依頼しました。彼は結果に満足していませんでした。「これがまもなく世界を支配する知性のようなものですか？ ？ ！」",
       "summaryJa": "ギタリストはまた、深刻な環境上の嘆願をしました",
       "score": -6
+    },
+    {
+      "id": "69b01aef69801f0e",
+      "title": "Suno is trying to look more like a real music production tool",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLXc1bzNnc2ZJbExPZTVINFpFNkJZUXc0MTM2R1Z2X3RzOUhCc2pDYnlKbVVJcTVoek9UR0F0M2lBYUFsWGVKWVpPb2N0TXJ5MTRHUmZVMy1pMEhHcE83MlhrUzBtaVdYUUstS1FGYTJkN2pMcnQ0YzItWmpiVzdSeWRIMUluLUxjV1pEOVNoblpLa3p4b1l3enQxYUJOQUg3SmdpdA?oc=5",
+      "summary": "",
+      "published": "2026-08-13T07:00:00.000Z",
+      "source": "The Verge",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Sunoは本物の音楽制作ツールのように見えようとしています",
+      "score": 3
     },
     {
       "id": "869d068842280539",
@@ -1593,7 +1607,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 20,
+      "coverage": 21,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
       "score": 27
@@ -1711,7 +1725,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2pEdGtBTWVpUVdfcWpkMGJoOGYtMHhCQ3dHMUhmVjNCT1FRV241anV3UndSREJuM09ZNFpjaGFIaFJsZkthdHlPRTNfdTV1bm5HVm12SVFkd0tScnljclh3LUFlYm53a1V2QmdNMkItWHQzNExTRm9SdkNucHhXUFdHLXE5VWRYLWRZNjRKQVBJSDFsOW1MZUhIUTJ0b3MwU0dWSmhYRWJXWXFZLS1EQW1qWk5yYmFh?oc=5",
       "summary": "",
       "published": "2026-08-12T07:00:00.000Z",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -2233,7 +2247,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 140,
+      "coverage": 144,
       "score": 37
     },
     {
@@ -2541,6 +2555,21 @@
       "score": -3
     },
     {
+      "id": "bcef7db077594846",
+      "title": "Suno becomes first customer of Musixmatch’s Sentinel, which screens AI prompts and outputs for copyrighted material",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdGpEc2sxNGIxNkkwNEg0WUFJNjZjcHFyczBqVDYwa05GcGtPdmdYZDFWSXpRS0cyZlR3WHdHMFh3U2steHhUTVFKQVU1eXlJalVRVnpPVXFsaVVPVkpyYzlXOWp1bGUtdXhMeFY1bUotaXhCMmx2TkhrQmFGcHFtUERXR21JZG9mSFI0MURsYnRkQlJaWTY0c053UFFjT19yWGp6WmxLM0tKZ2NVd281SnhweUY0NE5tb1p4Z1lnUlpEWG5Jdjd2Z1Y2eGZBUnVUUkoyNTRZZUNYbmlXU2c?oc=5",
+      "summary": "",
+      "published": "2026-08-06T07:00:00.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Sunoは、著作権で保護された素材のAIプロンプトと出力をスクリーニングするMusixmatchのSentinelの最初の顧客になります",
+      "score": 10
+    },
+    {
       "id": "ca2e983dffc857ef",
       "title": "Music to confuse AI might be the next new genre",
       "url": "https://cdm.link/music-to-confuse-ai-might-be-the-next-new-genre/",
@@ -2627,6 +2656,21 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "Sunoのデータ侵害について知っておくべき5つのこと–そしてAI音楽会社がモデルをどのように訓練しているかを暴露したハッキング",
+      "score": 3
+    },
+    {
+      "id": "2101f0981d938cfe",
+      "title": "AI Song Maker Suno Takes 12K SF at 515 West 20th Street",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTzg4S1ZJQ3N4TVoyelFEc2gzekg3YmJZRzBycjctc0puS3pGODlySEhvMEYwZjFkaExwRjNhaE9GRjZmSFhLSGYtM2JGNDNoNURfR1Z2SGszN1ZoWk1nZ3JHTlU1YmRxaWk5MW1PQjlQbUpITGRuNGI0bUQ4M3BTWkVYdTRfdw?oc=5",
+      "summary": "",
+      "published": "2026-08-05T07:00:00.000Z",
+      "source": "Commercial Observer",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "AIソングメーカーのSunoが西20丁目515番地で12,000 SFを撮影",
       "score": 3
     },
     {
@@ -2724,7 +2768,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 43,
+      "coverage": 44,
       "score": 21
     },
     {
@@ -2944,7 +2988,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 45,
+      "coverage": 46,
       "score": 34
     },
     {
@@ -3099,7 +3143,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVnY2dXhLUnpIUnRjQ1c0UDJIVENRcmtkaHB0OGRYaUpyX1ZFbzVfZnltUmo4NGR4YXFvaXQzTjk5dkFRQ1A0V3UtTGNMdWpySFlNbVhiZ2s0ek5yVmhkUmt2UDZBSFg4SFdLU3VydG9jaU1reUlyMXlaRnFuQ2dUMHRINlg5ZTgtbll5N0IyYzNfYUtiR19TTE05Y9IBmwFBVV95cUxPUnJMWkxGcHIxT3lrcjdGaDhVWk16dFU2ZGw5ZG9sTnRES0FEakZfaEFab1liV0ZYa1RucDZsckktWUQzNWNsa0VUN05ncDJVQk5hdUttTW9QQ1loNkZsMGNVSXctdHdMWEYwaWN3VTVKMERLMF8zemdkOE9ERmlNcnBQZGlPd0dueFROeE9DTDVtcTVTaVFTZThXVQ?oc=5",
       "summary": "",
       "published": "2026-07-31T07:00:00.000Z",
-      "source": "dw.com",
+      "source": "DW.com",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -3168,7 +3212,7 @@
       "lang": "en",
       "titleJa": "Suno、気をつけて： GoogleがLyria AIミュージックモデルを「よりリアルで感情的に微妙なボーカル」にアップグレード",
       "summaryJa": "このモデルは、同社のAIソングクリエーションプラットフォームであるGoogle Flow Music内で展開された。",
-      "coverage": 14,
+      "coverage": 15,
       "score": 27
     },
     {
@@ -3284,7 +3328,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 72,
+      "coverage": 74,
       "score": 41
     },
     {
@@ -3326,7 +3370,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 48,
+      "coverage": 49,
       "score": 41
     },
     {
@@ -3641,7 +3685,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 40,
+      "coverage": 41,
       "score": 21
     },
     {
