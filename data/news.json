@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T21:11:08.224Z",
-  "count": 300,
-  "newCount": 22,
-  "translatedCount": 1,
+  "generatedAt": "2026-08-24T03:54:05.981Z",
+  "count": 301,
+  "newCount": 2,
+  "translatedCount": 0,
   "ranking": [
     "07016b237813ccb3",
     "ee8d9ab5cee083fc",
@@ -20,28 +20,28 @@
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 38,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -84,7 +84,7 @@
       "name": "CDM",
       "category": "global",
       "ok": true,
-      "fetched": 0,
+      "fetched": 10,
       "matched": 0,
       "error": null
     },
@@ -229,7 +229,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 30,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -265,7 +265,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 20,
-      "matched": 0,
+      "matched": 1,
       "error": null
     }
   ],
@@ -296,6 +296,20 @@
     }
   ],
   "items": [
+    {
+      "id": "1e3ab1ac4a850ac3",
+      "title": "【藤本健のDigital Audio Laboratory】生成AIと一緒に音楽プレーヤー「DAL Player」を鍛え直す。24bitの壁とGitHub初公開まで",
+      "url": "https://av.watch.impress.co.jp/docs/series/dal/2134839.html",
+      "summary": "先月の連載で、ChatGPTとOpenAIのコード生成AI「Codex」を使い、わずか30分でASIO対応の音楽プレーヤー「DAL Player」を作った話を紹介した。C#/.NET 10/WPF/NAudioという構成で、Ver0.1で最小限の再生機能を実装し、Ver0.2でASIO Control Panelボタンを追加。ただし異なるサンプリングレートのWAVへ切り替えるとアプリがクラッシュするバグが見つかり、これを次回の課題として持ち越していた。",
+      "published": "2026-08-23T23:00:00.000Z",
+      "source": "AV Watch",
+      "sourceId": "av-watch",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
     {
       "id": "d4cc9a1f39fffb81",
       "title": "Here’s What Dr. Dre Really Thinks About AI in Music",
@@ -454,7 +468,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 10
+      "score": 6
     },
     {
       "id": "24ccb5beb8f164de",
@@ -470,7 +484,7 @@
       "coverage": 1,
       "titleJa": "UdioとGRAIがUMGとLiquidaxが支援するAI音楽特許を採用",
       "summaryJa": "この動きにより、UMGとそのパートナーは、参加しているAIモデルによって著作権がどのように使用され、補償されるかについて、より多くのコントロールを得ることができます。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "639d6cd50d1388e4",
@@ -1118,7 +1132,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 20,
-      "score": 30
+      "score": 21
     },
     {
       "id": "f8c9620b9f39b12d",
