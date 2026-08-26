@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-25T21:16:47.691Z",
-  "count": 318,
-  "newCount": 30,
-  "translatedCount": 2,
+  "generatedAt": "2026-08-26T03:53:07.973Z",
+  "count": 324,
+  "newCount": 32,
+  "translatedCount": 0,
   "ranking": [
-    "07016b237813ccb3",
-    "3cf7d30598e0c29b",
+    "7f1fd98150c73d94",
     "21d36372c94ad925",
     "5260a75c2f019f73",
-    "7f1fd98150c73d94",
+    "4d5e0d1237823de0",
     "6f31006bf89f7a20",
-    "42039208a333b6ab",
+    "4a6923758e02dddb",
     "5a9a6d57f7fccaf5",
     "24829f1bc7d147c0",
-    "9d47e678b5d5c341"
+    "9d47e678b5d5c341",
+    "6cf7aac731d312ba"
   ],
   "sources": [
     {
@@ -83,10 +83,10 @@
       "id": "cdm",
       "name": "CDM",
       "category": "global",
-      "ok": true,
-      "fetched": 10,
+      "ok": false,
+      "fetched": 0,
       "matched": 0,
-      "error": null
+      "error": "HTTP 403"
     },
     {
       "id": "musictech",
@@ -139,7 +139,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -265,7 +265,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 20,
-      "matched": 1,
+      "matched": 3,
       "error": null
     }
   ],
@@ -296,6 +296,62 @@
     }
   ],
   "items": [
+    {
+      "id": "abf5336727e89043",
+      "title": "MetaのAIグラス「Meta Glasses」日本発売。50600円から",
+      "url": "https://av.watch.impress.co.jp/docs/news/2135673.html",
+      "summary": "MetaとEssilorLuxotticaは、AIグラス「Meta Glasses」を8月26日に日本で発売した。フレーム、カラー、レンズの組み合わせで全26種類のスタイルを展開し、価格は50,600円から。Meta.comやMetaの認定小売店で販売する。",
+      "published": "2026-08-26T03:19:38.000Z",
+      "source": "AV Watch",
+      "sourceId": "av-watch",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 15
+    },
+    {
+      "id": "8677762d79a54952",
+      "title": "画像・動画・音楽生成AIモデルを開発するStability AIがシリーズBラウンドで7,600万ドルの資金調達を実施",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rSXNZdERGR1hLcUtVMGptSFdwNWVNcE5zWmRnQW8tNl8yeTFObWtyaTcxbG8wMkpKYUlyNGkzRElGei12OTlnY0tDXzhzbnc?oc=5",
+      "summary": "",
+      "published": "2026-08-26T02:42:40.000Z",
+      "source": "STARTUP LOG",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 7
+    },
+    {
+      "id": "4a6923758e02dddb",
+      "title": "【小寺信良の週刊 Electric Zooma!】AIで答えを出す。Google「Pixel 11 Pro XL」のカメラ進化を探る",
+      "url": "https://av.watch.impress.co.jp/docs/series/zooma/2135465.html",
+      "summary": "先週に引き続き、今週もGoogle Pixelの新モデルをチェックする。",
+      "published": "2026-08-25T23:00:00.000Z",
+      "source": "AV Watch",
+      "sourceId": "av-watch",
+      "via": null,
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
+    {
+      "id": "4d5e0d1237823de0",
+      "title": "音楽配信サービスも“成分表示”の時代へ？ Spotifyによる透明性向上の取り組みを新機能「AI Persona」バッジから考える",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yaUpEN1puUFlMWGZfNkY3R0gzUHYxSjZ2Qk9CY3VSX1JRMmtsbEJ0UEU0ZHFvMzJ2OU5uU1ZZelFqQmVCTjZZTHluY2xIczRBNWhoNXBoRllXVmF5R2xndNIBZkFVX3lxTE9rbG5oQ0NQUGY2Z3ZicTZnLTBVNFJYQWtqVllOLUhkdldWdkR4eERLd2ZkbHJYd0ZFbk5BVmZwWE1YS3VYYVpiQWhjeWEwN0dBOGduZ29ZOUJGSDlqcVZhNFJGQ1F2dw?oc=5",
+      "summary": "",
+      "published": "2026-08-25T22:00:54.000Z",
+      "source": "Real Sound｜リアルサウンド",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 33
+    },
     {
       "id": "385487391f7ee1cf",
       "title": "Stability AI’s New $76M Funding Round Is Backed by Universal, Sony and Warner",
@@ -381,8 +437,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 31
+      "coverage": 4,
+      "score": 39
     },
     {
       "id": "996f676b2697162d",
@@ -411,7 +467,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 8,
       "score": 39
     },
     {
@@ -442,7 +498,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 24
+      "score": 19
     },
     {
       "id": "ae24010c0231e410",
@@ -517,8 +573,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 10
+      "coverage": 2,
+      "score": 18
     },
     {
       "id": "ce1b99c712ca9844",
@@ -549,6 +605,20 @@
       "score": 21
     },
     {
+      "id": "d81d88679aed6e03",
+      "title": "生成AIと一緒に音楽プレーヤー「DAL Player」を鍛え直す。24bitの壁とGitHub初公開まで【藤本健のDigital Audio Laboratory】",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tUlc0cjlldW53blJnakxjMUg5bjlLTFdwQ1lENlUtWExwbVRTT2syNkdPOXh0UTA3S0pFOEJPQm8ydkJyNnd5cDNrNldqeWhHdWxYS2RmVWJCZTB3cVp3d2tuVmtQYVcyTUFZ?oc=5",
+      "summary": "",
+      "published": "2026-08-23T23:00:00.000Z",
+      "source": "AV Watch",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 21
+    },
+    {
       "id": "d4cc9a1f39fffb81",
       "title": "Here’s What Dr. Dre Really Thinks About AI in Music",
       "url": "https://www.billboard.com/music/music-news/dr-dre-ai-music-1236322613/",
@@ -563,6 +633,20 @@
       "titleJa": "Dr. Dreが音楽におけるAIについて本当に考えていることは次のとおりです",
       "summaryJa": "伝説のプロデューサーの視点は驚くべきものかもしれません。",
       "score": 7
+    },
+    {
+      "id": "1db44dcab17661fc",
+      "title": "「AI音楽」が急増、先月リリースの約4割に 業界では開示や規制の動きも",
+      "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQNEdCSXdzWndTVk5jbjZGVzljdGMwTjlxWURzb05raVBPbjh3QjBWZEttQUtSNTEtbHBrMW12UFA2MkFXRU1zeXA1R0ZCdGpXV0VjN2NmbXdMZmk1THE5aUZsQl9yeEtPNHNSZ2V6Sm5HTHFUMGR3QWFkYllRdHJnTHRsS1dUWkpuVGt4cHJWeG4xWHFla29ZQ01rZkwyU2RmZEN6b0x1VUxyOU9PbzhFbVNGV2loT3pvRXc1d3ZGOXBqNHgzVm13cVY0Rml3WDFVUFVoc0tZdmE1eHF4bzlUaERUSWpUOGVCSVVXcUhCTVpDaGw3ck1NZU1qd3RfTlJwZ3o0VlFPeFBYcnlmUU1YT0FsRTZIMkg0TWlqMFEzN2VTQjlqNlF4bHkxdmNqNnZtNmZBcTJCaFpwb0p5MVYtVzVDMTljSzBfRkFMdVUwdzd0bExzcU1lUG9PdG5RYVFRWTdjR2k3UTZpb0JWYnMzM0xCRkRNU0Qzd0xkZTh1Y2g0NVdDY1VjdC1NOFc3VUY1UlMyVGJLTjRoMWowMHR6SUs0TWtkNHpZdUxNQ0VGSk10M3BfNU5CaW1xUWd3elUzQjEtUktvZWs2UWpDR3d5a3FyTDNOTDA0R2lkV2lWUi1DOEU3YTA0X1ZPYi1DTlU?oc=5",
+      "summary": "",
+      "published": "2026-08-23T17:23:00.000Z",
+      "source": "スマートニュース",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 21
     },
     {
       "id": "562dcedb480dc98c",
@@ -691,7 +775,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 18,
       "score": 30
     },
     {
@@ -877,13 +961,13 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92QUh1MHIxLWU5SUNzLVFmN1pxU3dUUUVqeWQ3MUpnV0t2dVpTbmVPLWYzaHAxc1FtU19ZRVVlelgyNUYtTXlqdHo5bC1VYjIza1VudE9ibGs0a09PNEkxQkZMVnRBOHIxWXdrNG5ZV0VlRlZUb293?oc=5",
       "summary": "",
       "published": "2026-08-19T03:23:00.000Z",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 61,
-      "score": 41
+      "coverage": 63,
+      "score": 32
     },
     {
       "id": "42039208a333b6ab",
@@ -897,7 +981,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 27
+      "score": 18
     },
     {
       "id": "2cf4380a1c7226d9",
@@ -911,7 +995,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 20
+      "score": 11
     },
     {
       "id": "07016b237813ccb3",
@@ -924,8 +1008,8 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 26,
-      "score": 48
+      "coverage": 27,
+      "score": 39
     },
     {
       "id": "7e72d4d1669399ce",
@@ -939,7 +1023,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 6
+      "score": -3
     },
     {
       "id": "f5961ed030f4ed2c",
@@ -1162,7 +1246,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 22,
+      "coverage": 23,
       "score": 21
     },
     {
@@ -1206,7 +1290,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 16,
+      "coverage": 17,
       "titleJa": "UMGとソニーが訴訟を起こす中、ロバート・キンクルはスノーとの取引を正当化します。「私の意見では、あなたはそれを受け入れます」。",
       "summaryJa": "Kynclは金曜日（ 8月14日）にSemaforのMixed Signalsポッドキャストに出演し、SunoとNetflixで音楽サービスを開始した理由について話し合った。",
       "score": 27
@@ -1222,7 +1306,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 30,
+      "coverage": 31,
       "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
       "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
       "score": 34
@@ -1369,7 +1453,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 20,
+      "coverage": 21,
       "score": 21
     },
     {
@@ -1517,7 +1601,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 43,
+      "coverage": 44,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
       "score": 38
@@ -1563,7 +1647,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 47,
+      "coverage": 48,
       "titleJa": "Suno Studio 2.0がDAWにAIアシスタントを導入",
       "summaryJa": "Suno氏は、新しいチャットボットは音楽制作を理解しているため、「バンドの他のメンバー」のように話すことができると述べています。",
       "score": 27
@@ -1901,7 +1985,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 50,
+      "coverage": 51,
       "titleJa": "BMGとSuno ReachがAIミュージックモデルのライセンス契約を締結",
       "summaryJa": "また、SunoのBMG作品の過去の使用を解決する契約に基づき、アーティストやソングライターはAIの入出力に使用される音楽をオプトインする必要があります。",
       "score": 27
@@ -2154,7 +2238,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 35,
+      "coverage": 36,
       "titleJa": "Sunoは、「音楽業界と提携して開発された」新しいモデルを約束しながら、PROのサブスクライバーを1か月あたり20曲のダウンロードに制限しています",
       "summaryJa": "Suno氏は、月曜日（ 8月10日）のブログ投稿で、ダウンロード制限は「悪い俳優が音楽を大量輸出することをより困難にする」と述べた",
       "score": 27
@@ -2571,7 +2655,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 178,
+      "coverage": 181,
       "score": 37
     },
     {
@@ -3065,7 +3149,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 51,
+      "coverage": 52,
       "score": 21
     },
     {
@@ -3253,8 +3337,8 @@
       "lang": "en",
       "titleJa": "Sunoは、画期的な裁判所の判決でドイツの歌の著作権を侵害した責任を負いました",
       "summaryJa": "ミュンヘン地方裁判所は、AI音楽会社に対する最初の重大な法的打撃の1つであるSunoに対するドイツのPRO GEMAに有利な判決を下しました。",
-      "coverage": 3,
-      "score": 26
+      "coverage": 4,
+      "score": 34
     },
     {
       "id": "16905c71cff0d422",
@@ -3285,7 +3369,7 @@
       "lang": "en",
       "titleJa": "ドイツのGEMAが提起した著作権侵害訴訟でSunoが敗訴",
       "summaryJa": "AI音楽ジェネレーターのSunoは、ドイツの収集協会GEMAが提起した著作権侵害訴訟で敗訴しました。収集協会は、Sunoが権利者へのライセンスまたは支払いなしにAIツールをトレーニングするために、著作権で保護された音楽を使用、保存、複製したと主張しています。ロイター通信は金曜日の朝（ 7月31日）に、ミュンヘン地方裁判所がスノー氏に判決を下したと報じた。",
-      "coverage": 56,
+      "coverage": 57,
       "score": 34
     },
     {
@@ -3625,7 +3709,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 94,
+      "coverage": 96,
       "score": 41
     },
     {
@@ -3667,7 +3751,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 59,
+      "coverage": 60,
       "score": 41
     },
     {
