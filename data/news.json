@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-30T17:06:50.037Z",
-  "count": 372,
-  "newCount": 23,
+  "generatedAt": "2026-08-30T22:59:19.553Z",
+  "count": 373,
+  "newCount": 25,
   "translatedCount": 0,
   "ranking": [
-    "af07a455d02bde70",
     "56f6efac375156b7",
+    "af07a455d02bde70",
     "1e3ab1ac4a850ac3",
     "5260a75c2f019f73",
     "cecd1109fda75db6",
@@ -297,6 +297,20 @@
   ],
   "items": [
     {
+      "id": "49b0ab7cca4aaf8f",
+      "title": "ソニーG傘下の音楽出版などアンソロピック提訴 AIが楽曲を｢無断学習｣",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OUjh6WVFka0dSbWZMRG1NS19laEpPS1RYNkIza2tSWGRQSWhPd21iOWdvSzdXX2RQWk0tZjRjTnNNTmthZGtsSDd0R1FxY3V0M0hDeHN3VnV3OGhoYTNmb2ZpNnRaWU1Dd3lnYQ?oc=5",
+      "summary": "",
+      "published": "2026-08-30T17:47:42.000Z",
+      "source": "日本経済新聞",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 15
+    },
+    {
       "id": "688cbee19566cbd8",
       "title": "北京「世界人型ロボット運動会」、天工Ultraが100mを9秒32 人類男子世界記録9秒58を上回る",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xVEE1eC1mZXFIdlFYa3dzZm5oWTR4bVppdnc1WVJjNUt3NURrWGdRTTFjZmZiSFpNVTZ0aUhuclZrdE9XWW9XM0twWmZlcE12NVdWZmQ1OUdUVVV3Z05FNTJoUDl3TVZ6azlvbnFyd1Q2ZThJ?oc=5",
@@ -410,7 +424,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 45
     },
     {
@@ -480,10 +494,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 12,
+      "coverage": 13,
       "titleJa": "裁判官は、UMGとソニーがSunoがAIを訓練するために「ストリームリッピング」を介してYouTubeを著作権侵害していると非難していることを認めます",
       "summaryJa": "しかし、裁判官は、すでに訴えられている560件に61,026件の録音を追加するというレーベルの別々の入札を却下した",
-      "score": 47
+      "score": 43
     },
     {
       "id": "45d62703254a4ff8",
@@ -499,7 +513,7 @@
       "coverage": 1,
       "titleJa": "各音楽リスニングプラットフォームがAI音楽をどのように扱っているか（更新）",
       "summaryJa": "BandcampのAI音楽の全面禁止からSpotifyの「AIペルソナ」アプローチまで、すべての音楽プラットフォームがAI生成コンテンツの洪水にどのように対処しているかをご紹介します。",
-      "score": 7
+      "score": 3
     },
     {
       "id": "8d609431db136dae",
@@ -515,7 +529,7 @@
       "coverage": 1,
       "titleJa": "ElevenLabsは、Suno、Udio、Googleがライバルのツールを構築するにつれて、ElevenMusicにセクションごとの曲編集を追加します",
       "summaryJa": "トラックは、ユーザー自身の歌詞から、既存の録音から、テキストプロンプトから、またはゼロから構築することができる、とElevenLabsは述べた。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "7562293796ca4594",
@@ -531,7 +545,7 @@
       "coverage": 1,
       "titleJa": "裁判官は、Sunoに対するインディーズアーティストの提案された集団訴訟を却下することを拒否し、AIの出力をクリアし、発見のためのストリームリッピングの主張をクリアします",
       "summaryJa": "原告が誤って引用したと裁判所に伝えたテネシー州消費者保護法に基づく申し立てで、1件の訴因のみが落ちました。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "197fc923d847ff94",
@@ -825,7 +839,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 18,
       "score": 30
     },
     {
@@ -1032,7 +1046,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 16,
+      "coverage": 17,
       "score": 30
     },
     {
@@ -1062,7 +1076,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 30,
+      "coverage": 31,
       "score": 30
     },
     {
@@ -1243,7 +1257,7 @@
       "coverage": 1,
       "titleJa": "Dr. Dreが音楽におけるAIについて本当に考えていることは次のとおりです",
       "summaryJa": "伝説のプロデューサーの視点は驚くべきものかもしれません。",
-      "score": 3
+      "score": -6
     },
     {
       "id": "1db44dcab17661fc",
@@ -1257,7 +1271,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 17
+      "score": 8
     },
     {
       "id": "562dcedb480dc98c",
@@ -1606,8 +1620,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 11
+      "coverage": 2,
+      "score": 19
     },
     {
       "id": "3cf7d30598e0c29b",
@@ -1620,7 +1634,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 91,
+      "coverage": 92,
       "score": 32
     },
     {
@@ -1724,7 +1738,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 35,
+      "coverage": 36,
       "titleJa": "ラウンドヒルは、SunoとAnthropicをそれぞれ最大10億$で訴えています。決着をつけようとしているわけではありません。",
       "summaryJa": "各苦情は、故意に侵害された作品ごとに最大150,000 $の法定損害賠償を求めています。",
       "score": 27
@@ -1886,7 +1900,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 41,
+      "coverage": 42,
       "score": 21
     },
     {
@@ -1930,7 +1944,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 34,
+      "coverage": 35,
       "titleJa": "UMGとソニーが訴訟を起こす中、ロバート・キンクルはスノーとの取引を正当化します。「私の意見では、あなたはそれを受け入れます」。",
       "summaryJa": "Kynclは金曜日（ 8月14日）にSemaforのMixed Signalsポッドキャストに出演し、SunoとNetflixで音楽サービスを開始した理由について話し合った。",
       "score": 27
@@ -1946,7 +1960,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 43,
+      "coverage": 44,
       "titleJa": "SunoのBMGライセンス契約、ダウンロード上限、透かしなどについて知っておくべき5つのこと",
       "summaryJa": "BMG取引は権利を提供し、キャップとウォーターマークはコントロールを提供します。他の2つは新しい出口です。1つはプロフェッショナル、もう1つはフィジカルです。",
       "score": 34
@@ -2121,7 +2135,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 4,
+      "coverage": 5,
       "titleJa": "SunoのStudio 2.0には、プロジェクトを制御し、サウンドを変換し、カスタムプラグインを生成できるAIチャットボットが追加されています",
       "summaryJa": "このアップデートでは、MIDIサポート、自動化、レイテンシ補償などの従来の機能も数多く追加されています",
       "score": 38
@@ -2199,7 +2213,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 20,
+      "coverage": 21,
       "score": 54
     },
     {
@@ -2227,7 +2241,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 61,
+      "coverage": 62,
       "titleJa": "Suno、MIDIサポート、AIチャットバーを備えたStudio 2.0をリリース...ダウンロード制限なし",
       "summaryJa": "Sunoは、「グラミー賞を受賞したアーティスト」が過去にSuno Studioを使用して「チャートトップのヒットを作った」と主張している",
       "score": 38
@@ -2641,7 +2655,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 35,
+      "coverage": 36,
       "titleJa": "Sunoは、新しい音楽モデルの発売に先立ち、BMGとグローバルライセンス契約を締結",
       "summaryJa": "BMGは、9か月前にワーナー・ミュージック・グループがAI企業との提携を発表して以来、Sunoとのライセンス契約を締結した最初の重要な権利者である。",
       "score": 27
@@ -2689,7 +2703,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 21
     },
     {
@@ -2892,7 +2906,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 53,
+      "coverage": 54,
       "titleJa": "Sunoは、「音楽業界と提携して開発された」新しいモデルを約束しながら、PROのサブスクライバーを1か月あたり20曲のダウンロードに制限しています",
       "summaryJa": "Suno氏は、月曜日（ 8月10日）のブログ投稿で、ダウンロード制限は「悪い俳優が音楽を大量輸出することをより困難にする」と述べた",
       "score": 27
@@ -3045,7 +3059,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 24,
+      "coverage": 25,
       "score": 30
     },
     {
@@ -3295,8 +3309,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 6
+      "coverage": 2,
+      "score": 14
     },
     {
       "id": "5241609e63a63859",
@@ -3309,7 +3323,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 235,
+      "coverage": 238,
       "score": 37
     },
     {
@@ -3805,7 +3819,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 18,
       "score": 32
     },
     {
