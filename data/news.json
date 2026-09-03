@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T07:49:57.131Z",
+  "generatedAt": "2026-09-03T13:22:12.284Z",
   "count": 400,
-  "newCount": 51,
-  "translatedCount": 9,
+  "newCount": 27,
+  "translatedCount": 3,
   "ranking": [
     "af07a455d02bde70",
     "56f6efac375156b7",
@@ -12,8 +12,8 @@
     "7562293796ca4594",
     "cecd1109fda75db6",
     "76a9cb224fe22fdd",
-    "3a00a5476a8d03ff",
-    "2242f43282d79e8f"
+    "350f87a1be1d9c4b",
+    "3a00a5476a8d03ff"
   ],
   "sources": [
     {
@@ -22,7 +22,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 40,
-      "matched": 36,
+      "matched": 31,
       "error": null
     },
     {
@@ -39,8 +39,8 @@
       "name": "Google News (AI music)",
       "category": "global",
       "ok": true,
-      "fetched": 40,
-      "matched": 40,
+      "fetched": 0,
+      "matched": 0,
       "error": null
     },
     {
@@ -112,7 +112,7 @@
       "category": "global",
       "ok": true,
       "fetched": 15,
-      "matched": 4,
+      "matched": 5,
       "error": null
     },
     {
@@ -297,6 +297,38 @@
   ],
   "items": [
     {
+      "id": "1cde7cb516ff9a50",
+      "title": "Canada’s Socan files latest music-industry lawsuit against Suno",
+      "url": "https://musically.com/2026/09/03/canadas-socan-files-latest-music-industry-lawsuit-against-suno/",
+      "summary": "Suno’s legal team are certainly having a busy week. Hot on the heels of the lawsuit filed by four US-based artists against the company comes another legal action – this one from Canadian collecting society Socan. The post is from Music Ally .",
+      "published": "2026-09-03T12:30:00.000Z",
+      "source": "Music Ally",
+      "sourceId": "musically",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "カナダのソカンは、スノーに対して最新の音楽業界訴訟を起こしています",
+      "summaryJa": "Sunoの法務チームは確かに忙しい一週間を過ごしています。米国を拠点とする4人のアーティストが同社に対して提起した訴訟に続いて、カナダの徴収団体ソカンからの別の法的措置が起こされた。この投稿はMusic Allyからのものです。",
+      "score": 21
+    },
+    {
+      "id": "3a72311a1b92d4e2",
+      "title": "JO:LA Labs launches AI ‘business operating system’ Roster",
+      "url": "https://musically.com/2026/09/03/jola-labs-launches-ai-business-operating-system-roster/",
+      "summary": "“No spreadsheets. No juggling apps. No guessing. Just ask,” is the pitch for Roster, which has just been launched by South African music-tech firm JO:LA Labs as “an end-to-end music business operating system” for artists and managers. The post is from Music Ally .",
+      "published": "2026-09-03T12:30:00.000Z",
+      "source": "Music Ally",
+      "sourceId": "musically",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "JO ： LA LabsがAI「ビジネスオペレーティングシステム」名簿を発表",
+      "summaryJa": "「スプレッドシートは必要ありません。アプリのジャグリングも必要ありません。南アフリカの音楽技術企業JO: LA Labsが、アーティストやマネージャーのための「エンドツーエンドの音楽ビジネスオペレーティングシステム」として立ち上げたばかりのRosterのピッチです。この投稿はMusic Allyからのものです。",
+      "score": 23
+    },
+    {
       "id": "c86f32a34715ec1e",
       "title": "プレスリリース PRTIMES記事詳細 | さんにちEye 山梨日日新聞デジタル",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43VWk0OXRlVEVTX01ERHY1VHFOOEZzZXBsRWNPQlJ1NklVMmZlNXlCZGkwbVY0QmNMSV9kVGwxYy1scVRpZm9jRkpOcHZ3bDJaQnMzenZxM29pemFYZV9xcTluNA?oc=5",
@@ -350,8 +382,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 24
+      "coverage": 2,
+      "score": 32
     },
     {
       "id": "4cf1778ce5842a31",
@@ -504,7 +536,7 @@
       "coverage": 1,
       "titleJa": "AIのインディーズの影響とインフラストラクチャの浸食を調査したレポート",
       "summaryJa": "調査会社のStvdioとSecretly Distributionは、独立系音楽セクターに関するレポートを発表し、「音楽のインフラストラクチャのための戦い」と主張している。この投稿はMusic Allyからのものです。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "930898737ca824fd",
@@ -520,7 +552,7 @@
       "coverage": 1,
       "titleJa": "Sonosは、より多くのAIアシスタントとエージェントにデバイスを開放しています",
       "summaryJa": "2024年はSonosの恐怖の年であり、間違いはありませんでした。プライバシーのミスステップ、広く嫌われているアプリのアップデート、製品の発売とレイオフの遅れです。この投稿はMusic Allyからのものです。",
-      "score": 23
+      "score": 18
     },
     {
       "id": "74c04c92ade92c91",
@@ -536,7 +568,21 @@
       "coverage": 1,
       "titleJa": "デヴィッド・ロウリーやジェイソン・イズベルなどのミュージシャンによって訴えられたスノ",
       "summaryJa": "AI音楽会社Sunoに対して提起された最新の訴訟は、米国を拠点とするミュージシャンのグループ、Jason Isbell、David Lowery、Guy Forsyth、Eduardo Calleによるものだ。この投稿はMusic Allyからのものです。",
-      "score": 21
+      "score": 16
+    },
+    {
+      "id": "3e047599a6fae69a",
+      "title": "語る程 / AI歌手が歌うブルージーなAIクレズマー",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zSTdrM09hMG1sZ2xkS1lCcWotam1IcWRzdFFicDRvZVk2THRTTnF0QWlMVW5SV0JmM2x4azNpWkJ5R3U5cUZVQkNXY0g2SFVUMXN3R1hDUjV6c3Bv?oc=5",
+      "summary": "",
+      "published": "2026-09-02T11:00:12.000Z",
+      "source": "YouTube",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 10
     },
     {
       "id": "b77087751b596b57",
@@ -587,7 +633,7 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UMzdRZmI5LWJyVDlkcTI0Q2ZtcWowbG1SdTRKZTZpZUdzdmxqaHpQelJ2Z3RiVmxFOW5lR1J6VVZXZXd6ek9NMGRqUUZBWjQ?oc=5",
       "summary": "",
       "published": "2026-09-02T02:05:16.000Z",
-      "source": "매일경제",
+      "source": "mk.co.kr",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -914,7 +960,7 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wTnk2NWZ2ZGFDc1pMbkx0ZjFmMlFyTmk4bE5qTm55a1hEOEZieTV6ODJwbkFXWEFtV1dlUTlBZUZ0b3AzcldpcUNYVThOSXdRZndOSTE2blFSZ0tBUnlvV21SZ1BtcGFreE1tN2drNWxDQQ?oc=5",
       "summary": "",
       "published": "2026-09-01T08:12:40.000Z",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1040,7 +1086,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "誰がAI音楽を恐れているのか？",
-      "score": 7
+      "score": 3
     },
     {
       "id": "24e290e394623129",
@@ -1055,7 +1101,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIミュージックジェネレーターのオペレーターは、著作権訴訟から逃れることはできません",
-      "score": 14
+      "score": 10
     },
     {
       "id": "8319d62515bf79b7",
@@ -1147,7 +1193,7 @@
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5yekNkdU1mekJBdmI4aEpCd0Z6UVd2Q0tDS1dWQlBLNXp2c1FVZHUxSUlMY1lqMnJlZ0tReTh3RnN5cW1n0gFCQVVfeXFMT2RNbGpiVE5WSkJleGZpVjRnOEs4T2tlX2lrTXlBQjI5d21RajlJV0xRREhWT01ZZDd5Y01CbzQtb2NR?oc=5",
       "summary": "",
       "published": "2026-08-29T20:52:49.000Z",
-      "source": "VOI.ID",
+      "source": "voi.id",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1271,6 +1317,20 @@
       "score": 39
     },
     {
+      "id": "1a3d567f944facbb",
+      "title": "ドクター・ドレー、音楽制作でのAI活用を擁護「ドラムマシン登場時と同じ」",
+      "url": "https://news.google.com/rss/articles/CBMihgRBVV95cUxORW1ZRjA5OFVQRGMxc3lydURaeHAtalpIZ2RWME5YamNMbFdzenhJM1p0dzFXZnEyeHR2bFBuaW9GbjhNU1BJZGxTN2xRajFvRTd0Q1VwTXZIT2xLaHFVbG13Rkh1UE1wbWdscWtOeU9mSEpOMXhYZ2JndzROVFk4N2dHcWl5Z0d6dFdWcnVLRzY1QkhXWUtQbzFvQkVaY2dfZXNrRVJraFBOZHZaNFVKMWIwV3dnd1dMY1Q5VUVzZUc0YWplck1FRVF2cjMtN0Y5YndjYVNoX2xKNUhqN3BHWS00SFpTZ1VnTXo5VGtqdHpqc0lLVnNBZ1JrUDNJZDAyQXdFTGVTbTh1ZnBWNVRnc25RVnpjSlAzV2NTVXc1Q29EbDBDV3hOOHI0ZXN2RzYxTE9FZVQ4V0lNTjVXVzc1NDlSSC04a0xVbkItb0RDQUp4SFAwWmVJMnJldzhlNS1OOTJuRkJOcmNzWUlWcjBxWEpNRlNXZ3VQOEVFaG9ja0F6UFlPT01sQ0sweWh1U1oyRFZMcW42UlVXODZ5eHlyU2luMzFTNzdtSmNhYVY0X3BjZlJoUnRhTGt6elFZdGlzWEltRDRRSmlCaEc1VDNNQWsycjZIZHZBSjVUX0I0cnQ5RjVQVzR0akZoOWs2MFpscFRpdGstdk96Sm80bGNOX3Rid2ZfZw?oc=5",
+      "summary": "",
+      "published": "2026-08-29T05:20:00.000Z",
+      "source": "スマートニュース",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 17
+    },
+    {
       "id": "d4fa9edbe961491c",
       "title": "【自作COVER】《トワイライト・フェイス》by Izumi-chan ──Suno AIに編曲してもらった♪ 【DTM】",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE55d0QySEVBUnZOLWhuSDNlNnc4R2t4VjFNV1pCOUZ5UkdmcEZqM2VmWnU4bF9JOEgySDZjQVp4UWQ3Zw?oc=5",
@@ -1290,7 +1350,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQUR6Mjc2LXN0cnljeTNLM2RMQ2xtWWV6cFRoa0R6emdDNW5Dd01EZlQ0TEpsem1SdWxXX2RGMUQwdjVUVkhZQnB2NnlZTHdJdXQxZzNYZUlFaTZydVVfSkZLdFFHcXU0eDZOZ3RieWc0VUJhVS1CZUN6cURPMUhQcHlSZlliU3BpaGRSUFhZdzYxRXk0TjlXdg?oc=5",
       "summary": "",
       "published": "2026-08-28T22:55:41.000Z",
-      "source": "Pasquale Pillitteri",
+      "source": "pasqualepillitteri.it",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1558,7 +1618,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 6
     },
     {
       "id": "35e875436caa3f2b",
@@ -1574,7 +1634,21 @@
       "coverage": 1,
       "titleJa": "SeatGeekは、会話型AIを追加する最新の発券会社です",
       "summaryJa": "ほとんどすべての主要なチケット販売サービスは、クロード、チャットGPT、ジェミニとの接続、Alexa +やスマートスピーカーとの統合、または独自のチャットボットを通じて、2026年に顧客がチャットすることを望んでいます。この投稿はMusic Allyからのものです。",
-      "score": 3
+      "score": -6
+    },
+    {
+      "id": "9f13641dd374f471",
+      "title": "【作業用/夜用】切ない夜に聴くAI楽曲 「もう翻訳しない。ボーカルバージョン」",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSMGk5Nk1jcGxNQWlUcGtiOW1TaEdvcVpMYXZWc2ZPZHNNTHJvS3RxRkZIZnhXLVE4aTNhaWpuYjhfLVVfSk9MYTQ1ejdXT0pSUnp3WEU3RnBqeThn?oc=5",
+      "summary": "",
+      "published": "2026-08-27T09:37:45.000Z",
+      "source": "YouTube",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
     },
     {
       "id": "e9b926476932e18a",
@@ -1589,7 +1663,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "消費者はAIだと言われるまでAI音楽を好む",
-      "score": 3
+      "score": -6
     },
     {
       "id": "14fda6f5b0c7245e",
@@ -1603,7 +1677,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 17
+      "score": 8
     },
     {
       "id": "f761df939d49fccb",
@@ -1617,7 +1691,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 6
+      "score": -3
     },
     {
       "id": "bcd34e8c9a87a2f9",
@@ -1631,7 +1705,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 6
+      "score": -3
     },
     {
       "id": "c5a0c0d1ccf18403",
@@ -1822,7 +1896,7 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00RW80LXZFWWMzOTRNSnlNdkEyMVQ2eE1VSkpndnhGTXp0bjFhckV4ZTloa2hpOWJ3bTg5SkJra0R3cUpSUERVZ3lUbEVDQXNqVlZsck1JU296ZjJVSWhwRFlqN0lzR0tBVmc?oc=5",
       "summary": "",
       "published": "2026-08-26T07:00:00.000Z",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
@@ -1857,6 +1931,20 @@
       "lang": "ja",
       "coverage": 28,
       "score": 21
+    },
+    {
+      "id": "50586fd9438f76e1",
+      "title": "Stability AI、大手音楽レーベルとEAから76億円のシリーズB調達",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LSExSdFV3ZHZydjNOQjZST05iVE5vakdvX1Z5R3AydVZQcU9xeFRRUF9jRjBVSlVjQ2l6ekQ0dUFkOFRqd1NDYWlhRVhuQVR0cXVXUFZaLVJaZmNydTVCV1hsN3U0T2QxVGxaRHJWVnZNQ2Jo?oc=5",
+      "summary": "",
+      "published": "2026-08-26T03:55:00.000Z",
+      "source": "BigGo ファイナンス",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
     },
     {
       "id": "abf5336727e89043",
@@ -1984,8 +2072,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 13
+      "coverage": 4,
+      "score": 21
     },
     {
       "id": "7669236b1a062367",
@@ -2134,7 +2222,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 45,
+      "coverage": 46,
       "score": 21
     },
     {
@@ -2501,7 +2589,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 21,
+      "coverage": 22,
       "score": 21
     },
     {
@@ -2545,6 +2633,20 @@
       "lang": "ja",
       "coverage": 1,
       "score": 17
+    },
+    {
+      "id": "6028e22788da9c6a",
+      "title": "ミュージックテック企業MPAGがAI音楽教育および楽譜取引アプリ「マイミュージックファイブ(mymusic5)」にピアノ入門者のための新規学習機能を国内で発売したと21日明らかにした。",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1nS25sLVE4Vm9YeVI5d1Q3U05yVkhjb2wxbVpJdHhfNTZZNFpIWVRPdWpyYVRicWdBeDJESVBDek5iWVlVclh3bUd5QQ?oc=5",
+      "summary": "",
+      "published": "2026-08-21T07:00:00.000Z",
+      "source": "mk.co.kr",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 11
     },
     {
       "id": "54f934d405cb9915",
@@ -2793,7 +2895,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 105,
+      "coverage": 106,
       "score": 32
     },
     {
@@ -3147,7 +3249,8 @@
       "category": "global",
       "lang": "en",
       "coverage": 1,
-      "score": -6
+      "score": -6,
+      "titleJa": "MUNAはADÉLAが大好きで、AI音楽が大嫌いです"
     },
     {
       "id": "b06ec6090dfafac2",
@@ -3218,7 +3321,7 @@
       "summary": "",
       "published": "2026-08-17T07:00:00.000Z",
       "source": "BigGo ファイナンス",
-      "sourceId": "gnews-ja-aimusic",
+      "sourceId": "gnews-ja-suno",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
@@ -3323,7 +3426,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 35,
+      "coverage": 36,
       "score": 21
     },
     {
@@ -3339,6 +3442,20 @@
       "lang": "ja",
       "coverage": 1,
       "score": 8
+    },
+    {
+      "id": "5e953cddf9f587a4",
+      "title": "メビウス-∞verdrive mix-【AI Vocal】",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxLTVtMFlrMDdnVHF4ckZMVFZEQjRxX09EUUhWRXJrSU91bEY5R2RxaE4zdVJkak9faUl1Q2NYbU1RS2NBMzJGYUhHS2dGUUFWRTNnV2JzcHoxMDE5?oc=5",
+      "summary": "",
+      "published": "2026-08-16T07:00:00.000Z",
+      "source": "YouTube",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
     },
     {
       "id": "b6268c3f1db76c73",
@@ -3444,7 +3561,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 32,
+      "coverage": 33,
       "score": 54
     },
     {
@@ -3724,6 +3841,20 @@
       "score": 6
     },
     {
+      "id": "3fbb1e46d658880f",
+      "title": "AIに書かせた文章に「透かし」が入って就職活動「内定取り消し」が激増「エントリーシート丸投げ」は絶対にやめておけ！",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nRDZpY19reUhwclYtanQxVnlZbHU1UGtCcEl2alVvcklsV01jVERKd2NrWWc0LXFlNFdBVXNKVFlGWW5JWDB1aXAzSEhaMWF6QV9aRlFqY1hnNHMxMW9odFJWQS1OZzVDV05iZHRJS2dZSkJ0UVN3Mg?oc=5",
+      "summary": "",
+      "published": "2026-08-13T07:00:00.000Z",
+      "source": "au Webポータル",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
+    },
+    {
       "id": "8bb7f73d5e3678b0",
       "title": "八王子・肌着専門店店主がミュージックビデオ公開 AIで楽曲と映像制作（みんなの経済新聞ネットワーク）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82cEZVaGh1VGlqTDJ0Y0gzb1pkV2hYR0NScVlXRGtFZXJodkdzN2FvM0E0dDBLZXh1WFc5XzdkS2tNS2Fmbl8yem1lUmIzbmlzdGZYNjExZ0R2bUVnSFVFdENYVXdBRW1SYzZIMjRMd2dmbDlEcVpLQWpUcW5QbEE?oc=5",
@@ -3734,8 +3865,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 2,
-      "score": 16
+      "coverage": 3,
+      "score": 24
     },
     {
       "id": "e14b0f524bd501e3",
@@ -3934,7 +4065,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 18,
       "score": 21
     },
     {
@@ -4081,8 +4212,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 13
+      "coverage": 4,
+      "score": 21
     },
     {
       "id": "b376ac8aebd1da59",
@@ -4333,7 +4464,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 36,
+      "coverage": 37,
       "score": 30
     },
     {
@@ -4495,7 +4626,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 21
     },
     {
@@ -4553,7 +4684,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 5,
+      "coverage": 6,
       "score": 41
     },
     {
@@ -4597,7 +4728,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 274,
+      "coverage": 275,
       "score": 37
     },
     {
@@ -4968,6 +5099,20 @@
       "score": 10
     },
     {
+      "id": "5d46896c30a60eb5",
+      "title": "サノがAI音楽の原則を発表した – 著作権闘争の後",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWm0ydnpxWnZzUUZFQXoyMFpwVUlwMUlkdExQRUxBTVlNalQydGhTalhtaWxNbzJ2VUNkUjA1ZXZKbkJRdm5xNkNfOGZOd3FtUUlmYmZtRU95Ym9RenJhZklKbzJ6UTFNS3h0UHZWdVpVOUwxWkVYZG1Ua25ZUm1tTlRlX2ZsVFE?oc=5",
+      "summary": "",
+      "published": "2026-08-06T07:00:00.000Z",
+      "source": "Unite.AI",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 15
+    },
+    {
       "id": "ca2e983dffc857ef",
       "title": "Music to confuse AI might be the next new genre",
       "url": "https://cdm.link/music-to-confuse-ai-might-be-the-next-new-genre/",
@@ -5024,7 +5169,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 13,
+      "coverage": 14,
       "score": 37
     },
     {
@@ -6042,149 +6187,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": 9
-    },
-    {
-      "id": "77859bdc5d8aa325",
-      "title": "Deezer、1日9万曲のAI生成音楽がアップロード 全体の50%初めて上回る",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PdE9OUGJiY2ZFR0sxbWlDWDRCVG56YUtwY2NoTm1rMUVNWlp1RVQ0Z0V3YmloVkdDRGJsVFVvbWp5QmExenJJS0VHdE5XMzQ1R0dTTQ?oc=5",
-      "summary": "",
-      "published": "2026-07-24T07:00:00.000Z",
-      "source": "音楽業界総合情報サイト",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "b782ea57e3655b7b",
-      "title": "As GEMA awaits its Suno copyright verdict, the German collecting society launches ‘PLAI’ – a fully licensed dataset for training AI music tools",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdVpsXzY0T3RLekxzYllCNVcxNVlUN0l1OHpHSXg2a2xCaGxfTzdBNWxsaV9CeVY1eG4xSUsxWU84ejllZE1NSkgxMEhlNWNQeGk5ckZzYTlRSFBOa2VVQ05aS1dCZ0J6QXBPdFo2RDlrN2FMVVNLcVNRMC1FenFfVjVtM0lSemhiZHYzYUpJVnMzWFh2dm9uRXFuVlliT0ZnaHQ1Zm9iZ2hQbmIyWU96Q1VVWXRXM3JMQUV1WUhQd2VHUnREZEJESWxwamppNDBXSGl1UEJtZ29UM283Z0hYeG9pUXB2Ul82dDItUm9BSXBCaEFkdUhSY2hlVTFuY29VNlRVbU1Da01TZw?oc=5",
-      "summary": "",
-      "published": "2026-07-24T07:00:00.000Z",
-      "source": "Music Business Worldwide",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "titleJa": "GEMAがSunoの著作権判決を待っている間に、ドイツの収集協会は、AI音楽ツールをトレーニングするための完全にライセンスされたデータセットである「PLAI」を立ち上げます",
-      "coverage": 1,
-      "score": 10
-    },
-    {
-      "id": "2df9aab9f289ae5b",
-      "title": "An A.I. Music F.A.Q.: Can I Remix Madonna? Is This All Legal?",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXWS0wdkhDRjFFR0xhMEhVWjRheDBFdF9vUkl3X01ZaXF1eGFuZElqTnlsaUcwRU1xUTdJOFdoZjdEcnAwZHZsUWVkNko1S0czMVZCX0ZZaGxfaVRleXFmRmpKWUN3YUd2SGFNTFVhUkY?oc=5",
-      "summary": "",
-      "published": "2026-07-24T07:00:00.000Z",
-      "source": "The New York Times",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "titleJa": "AIミュージックFAQ ：マドンナをリミックスできますか？これはすべて合法ですか？",
-      "coverage": 1,
-      "score": -6
-    },
-    {
-      "id": "14e2da6299ae9823",
-      "title": "AIが楽曲を量産する時代 人間が作った曲は「高級すしになる」未来 [AIの時代]",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HODlVdWRqNS1mdFhmTGszOVlLTUtmbFRUNW0tWDUxREw5WjRSWlFPeUd5dlphS1N1eTUyNlEwd3ZLamZtclZXVGhKeDRwSFRNN2t3ZUNxdzNZRl9Kbk12M2xZQjhUU00?oc=5",
-      "summary": "",
-      "published": "2026-07-24T07:00:00.000Z",
-      "source": "朝日新聞",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "e917912d7f502299",
-      "title": "Can I Remix Madonna? Is This All Legal? An A.I. Music F.A.Q.",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXWS0wdkhDRjFFR0xhMEhVWjRheDBFdF9vUkl3X01ZaXF1eGFuZElqTnlsaUcwRU1xUTdJOFdoZjdEcnAwZHZsUWVkNko1S0czMVZCX0ZZaGxfaVRleXFmRmpKWUN3YUd2SGFNTFVhUkY?oc=5",
-      "summary": "",
-      "published": "2026-07-24T07:00:00.000Z",
-      "source": "The New York Times",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "マドンナをリミックスできますか？これはすべて合法ですか？ An A.I. Music F.A.Q.",
-      "score": -6
-    },
-    {
-      "id": "5dafdbf38239d8c7",
-      "title": "アニメや動画、音楽を作る入門本が多数セール中、「Kindle本サマーセール 第1弾」開催！3万冊以上が対象",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nZEtsV2lpeVk1aDB5bnY0SGpYYWdHUncyVzBEc2tRVmE2OUZEeWhZV05QY1RobGtiYjRHYUxLZDFid213MFVyVUZKLURIdDdVTWkzRHZUVi1ybkRkLU5FbXB1YWR0VGlJVTRYcW1MRVhxT3FvNXc?oc=5",
-      "summary": "",
-      "published": "2026-07-24T07:00:00.000Z",
-      "source": "窓の杜",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 11
-    },
-    {
-      "id": "d518a607395ec764",
-      "title": "「ストリーミング詐欺」に悩む音楽業界 AIの曲に「利益奪われる」（朝日新聞）",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lVnV0Z1R3XzlMUmU2dE4yTTJoWHlDdVNNU0I4Ym9acGQzcXJuZ0FublNkSDJYbWpEUnFuU0tjNEpmdk1vd0FmeFlvQ0s1T1B4TUx4RHRxaEd5aGx3N1psZVNKV0t1U0VMNExpYm53eXBCVDJ0ZVlMb2hCYVZYNms?oc=5",
-      "summary": "",
-      "published": "2026-07-23T22:00:00.000Z",
-      "source": "Yahoo!ニュース",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 41,
-      "score": 21
-    },
-    {
-      "id": "2365cbed9a5e2c39",
-      "title": "AIが楽曲からミュージックビデオを自動生成：時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93Ml9rLW9Wak55emwtVjh3R3RNWXBmdjZCenlHV0xQamMzWlJZWEVVeUtjSkJhOXJHVXhTUEpPNkNHMy1QZEtsaW4xdTVLcnJOeVdod05QcmYydVp6UDBYWnBzbU1qNjVzVXFr?oc=5",
-      "summary": "",
-      "published": "2026-07-23T15:10:00.000Z",
-      "source": "時事ドットコム",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "9ca9000e688bc1a1",
-      "title": "Sony MusicがUdioを再提訴、音源3万117件を主張──裁判所が「別訴でやれ」と示した先の一手",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCY1BBODJjSjczRUFodUVISkliR3ljcFo3VmFMSGduX0ZoMGxHRWgxSk9hbHkxOEJPTjZzYnphNUkzTHRTTjlsTFQwdHlBWVRzc1RPcEEwZUJ4VlM4WEpsbnZuMUFaYU15Z1FJ?oc=5",
-      "summary": "",
-      "published": "2026-07-23T07:19:15.000Z",
-      "source": "innovaTopia",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 6
-    },
-    {
-      "id": "96336b0d9c7e0681",
-      "title": "ソニー、音楽生成AI「Udio」相手に2件目の著作権侵害訴訟を提起",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZWHVPeDA0T1pUcGdudXo0a19pSlR4aml0T3o0WFhURG1PSlRIRndoMlNuamt0b2NHR2syYjl0dVFXUmFLZ0lmcGRkNG1NYXZzVjhrdQ?oc=5",
-      "summary": "",
-      "published": "2026-07-23T07:00:00.000Z",
-      "source": "音楽業界総合情報サイト",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 13
     }
   ]
 }
