@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T12:43:40.304Z",
+  "generatedAt": "2026-09-12T15:57:14.114Z",
   "count": 400,
-  "newCount": 28,
-  "translatedCount": 1,
+  "newCount": 4,
+  "translatedCount": 0,
   "ranking": [
     "eee66c3e066d532c",
     "7463df75442f2f84",
@@ -20,28 +20,28 @@
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 34,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -337,7 +337,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "W&LのPLAI LabがAIミュージックフェスティバルとディスカッションを開催",
-      "score": 12
+      "score": 7
     },
     {
       "id": "5deef4048bb40dd9",
@@ -353,7 +353,7 @@
       "coverage": 1,
       "titleJa": "Acon Digitalの機械学習を搭載したAcoustica 8オーディオエディタは、同社の「これまでで最も野心的なリリース」です",
       "summaryJa": "長年にわたる編集、マスタリング、復元スイートには、AI搭載ツールが搭載されたメジャーアップデートがあります",
-      "score": 23
+      "score": 18
     },
     {
       "id": "db0f4d578271a3f2",
@@ -803,7 +803,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 30
+      "score": 26
     },
     {
       "id": "aa9c00cee64fb30c",
@@ -818,7 +818,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "海賊からパートナーへ？ Suno、AI音楽戦略を書き直す",
-      "score": 16
+      "score": 12
     },
     {
       "id": "3250943e69c1c354",
@@ -833,7 +833,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AI音楽は合法化されていますか？ Suno、メジャーラベルカタログをベースにした新モデルを発表",
-      "score": 27
+      "score": 23
     },
     {
       "id": "5c4c9e45170ff2fc",
@@ -849,7 +849,7 @@
       "coverage": 1,
       "titleJa": "Amazonプライムビデオの新しいAI技術は、唇と吹き替えられたオーディオを一致させます",
       "summaryJa": "アマゾンのプライムビデオは、俳優の口の中を「人間の吹き替え」音声で並べる新しいAI搭載機能を発売します。この機能は現在、ドイツのシリーズMaxton Hallの英語のダブでのみ利用可能ですが、Prime Videoは将来的に「追加タイトル」に拡張する予定です。Prime Videoは発表の中で、",
-      "score": 7
+      "score": 3
     },
     {
       "id": "47da58adbe4511f5",
@@ -1665,7 +1665,7 @@
       "coverage": 1,
       "titleJa": "Nirosta Steel、AIアカウントをフォローしたことについて謝罪",
       "summaryJa": "「いくつかのアカウントに非常に有害なコンテンツが含まれていることに気づかなかったので、プロフィールを削除しました。」",
-      "score": 3
+      "score": -6
     },
     {
       "id": "802271be2811bb64",
