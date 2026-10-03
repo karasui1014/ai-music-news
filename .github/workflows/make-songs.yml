@@ -1,0 +1,36 @@
+# songs.txt を Spotify から作るための、1回だけ使う設定（作り終わったら消します）
+
+name: 曲リストを作る
+
+on:
+  push:
+    branches: [claude/substack-post-automation-n56qs4]
+    paths: [make-songs.mjs, .github/workflows/make-songs.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: リポジトリを取り出す
+        uses: actions/checkout@v4
+
+      - name: Node.js を用意する
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Spotify から曲を集める
+        run: node make-songs.mjs
+
+      - name: songs.txt を保存する
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add songs.txt
+          git commit -m "曲リストを Spotify から作成"
+          git push
