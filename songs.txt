@@ -1,0 +1,31 @@
+# おはスタ用の曲リスト
+#
+# ここに書いた曲から、毎朝1曲をランダムに選んで Substack のノートに投稿します。
+#
+# 書き方:
+#   - Spotify の「曲」のリンクを 1行に1つ 貼るだけ
+#     例) https://open.spotify.com/intl-ja/track/xxxxxxxxxxxxxxxxxxxxxx?si=xxxx
+#   - 後ろについている「?si=...」は付いたままで大丈夫です
+#   - 「#」で始まる行はメモ扱いで、無視されます
+#   - 曲を外したいときは、その行を消すか、先頭に「#」を付けます
+#
+# ↓ この下に曲のリンクを貼ってください
+
+https://open.spotify.com/track/3pYeCjHup0mI0Ozx9asonl   # 最終バスの魔法
+https://open.spotify.com/track/3WE0yjRcTNQcJyKLfcggq9   # Perfect Paradox
+https://open.spotify.com/track/22P2GAwaGfx3oJHFygPbat   # Subliminal Wave
+https://open.spotify.com/track/2tMcJVURn75JpmS1Q2sGJu   # タイムラプスの空白
+https://open.spotify.com/track/2ZdqLWiWROT2PHIUW3eQHX   # 桜色のミステリー
+https://open.spotify.com/track/6pjGIESzgHqJhhQzBVTU3m   # バイオメトリクスの嘘
+https://open.spotify.com/track/3C41jZJD1l3yyEC2bPS6IN   # Route Infinity
+https://open.spotify.com/track/0r1DolwmwMhj9aJPCI3tsC   # 残響スコール
+https://open.spotify.com/track/54aD6uoVm4TfgjkqZExo1t   # RE:LOOP
+https://open.spotify.com/track/6VwfjAKBrDFXQ2SwtaVj04   # Somnia
+https://open.spotify.com/track/7pSSSoDIuYhcXK9GjosyTy   # Phantom Switchback
+https://open.spotify.com/track/72Hkhph6jIz0js6nJ49cad   # 夏風
+https://open.spotify.com/track/5r0jQ6W1LA6rOViL2j0M6b   # Signal Dust
+https://open.spotify.com/track/3UTHKKzTTnwufNYA0hnnLs   # アナログの証拠
+https://open.spotify.com/track/5zYIC65H27UHmEkxnoMnx5   # Masquerade Mystery
+https://open.spotify.com/track/76ZT38CAN3T8cEZj0KT6Kv   # 廃墟ホテルの最後の客
+https://open.spotify.com/track/3n5qZVCZOe3tMxilDEh9cU   # 星のフィルム
+https://open.spotify.com/track/152Bfv6BRG9yxD0EWDaX9J   # 消えた階層
