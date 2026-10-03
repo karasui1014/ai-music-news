@@ -1,0 +1,45 @@
+# 毎朝、songs.txt からランダムに1曲選んで Substack のノートに投稿します。
+# パソコンの電源が入っていなくても動きます。
+
+name: おはスタ自動投稿
+
+on:
+  schedule:
+    # GitHub の時刻は UTC（日本時間 −9時間）で指定します。
+    # GitHub は混んでいると数分〜数十分遅れて動くので、少し早めにしています。
+    - cron: '45 22 * * *'   # 日本時間 朝7:45（実際の投稿は8時ごろ）
+  workflow_dispatch:         # GitHubの画面から手動でも実行できます
+    inputs:
+      dry_run:
+        description: 'テストモード（チェックが入っていると投稿せず、選んだ曲を表示するだけ）'
+        type: boolean
+        default: true
+
+# 投稿するだけなので、リポジトリは読むだけ
+permissions:
+  contents: read
+
+concurrency:
+  group: substack-note
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: リポジトリを取り出す
+        uses: actions/checkout@v4
+
+      - name: Node.js を用意する
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 今日の一曲を投稿する
+        run: node substack-note.mjs
+        env:
+          SUBSTACK_SID: ${{ secrets.SUBSTACK_SID }}
+          # 自動実行のときは空なので本番投稿、手動実行のときはチェックに従う
+          DRY_RUN: ${{ inputs.dry_run }}
