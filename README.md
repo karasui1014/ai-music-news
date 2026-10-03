@@ -26,7 +26,7 @@ AI音楽まわりの最新ニュースを自動で集めて、スマホで読み
 | `ローカルで確認.command` | ダブルクリックでこのMacだけで表示を確認する |
 | `substack-note.mjs` | Substack のノートに「おはスタ✨今日の一曲」を投稿する本体 |
 | `songs.txt` | **おはスタで紹介する曲のリスト**。曲を増やす・減らすときはここを編集 |
-| `.github/workflows/substack-note.yml` | 毎朝8時ごろに自動で投稿するための設定 |
+| `.github/workflows/substack-note.yml` | 毎朝7時ごろに自動で投稿するための設定 |
 
 ---
 
@@ -239,7 +239,7 @@ Actionsタブでエラーを確認します。`Permission denied` と出てい�
 
 ## 7. Substack「おはスタ」自動投稿
 
-毎朝8時ごろ、`songs.txt` の曲から1曲をランダムに選んで、Substack のノートに
+毎朝7時ごろ、`songs.txt` の曲から1曲をランダムに選んで、Substack のノートに
 
 > おはスタ✨今日の一曲
 > （Spotify の曲のカード）
@@ -296,7 +296,7 @@ Substack の合言葉は、しばらくすると期限が切れます。また�
 `substack-note.mjs` の上のほうにある `const MESSAGE = 'おはスタ✨今日の一曲';` の `'` と `'` の間を書きかえてください。
 
 **投稿時間を変えたい**
-`.github/workflows/substack-note.yml` の `cron: '45 22 * * *'` を変えます。数字は「分 時」で、**日本時間から9時間引いた時刻**を書きます（例: 日本時間20時 → `'45 10 * * *'`）。
+`.github/workflows/substack-note.yml` の `cron: '45 21 * * *'` を変えます。数字は「分 時」で、**日本時間から9時間引いた時刻**を書きます（例: 日本時間20時 → `'45 10 * * *'`）。
 
 **自動投稿を止めたい**
 Actions タブ → **おはスタ自動投稿** → 右上の **「…」→ Disable workflow**。
