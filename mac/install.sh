@@ -33,16 +33,21 @@ chmod 700 "$DIR/post.sh"
 echo '✅ 1/5 投稿のプログラムを置きました'
 
 # 2) 合言葉を保存する
+# 1行を貼り付けたときの余分な改行などが残っていたら、読み捨てる
+while read -rs -t 1 _ < /dev/tty; do :; done
+
 echo ''
 echo '👉 Substack の合言葉（substack.sid の値）を貼り付けて、return キーを押してください。'
 echo '   ※ 貼り付けても画面には何も表示されません。そのまま return を押せば大丈夫です。'
-read -rs SID < /dev/tty
+SID=''
+while [ -z "$SID" ]; do
+  read -rs SID < /dev/tty || true
+  SID=$(printf '%s' "$SID" | tr -d '[:space:]' | sed -e 's/^substack\.sid=//' -e 's/;.*$//')
+  if [ -z "$SID" ]; then
+    echo '   （まだ何も入っていません。合言葉を貼り付けて return キーを押してください）'
+  fi
+done
 echo ''
-SID=$(printf '%s' "$SID" | tr -d '[:space:]' | sed -e 's/^substack\.sid=//' -e 's/;.*$//')
-if [ -z "$SID" ]; then
-  echo '❌ 合言葉が空でした。もう一度、最初からやり直してください。'
-  exit 1
-fi
 (umask 077; printf '%s' "$SID" > "$DIR/sid")
 echo '✅ 2/5 合言葉を保存しました'
 
