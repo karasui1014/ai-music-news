@@ -41,13 +41,23 @@ echo '👉 Substack の合言葉（substack.sid の値）を貼り付けて、re
 echo '   ※ 貼り付けても画面には何も表示されません。そのまま return を押せば大丈夫です。'
 SID=''
 while [ -z "$SID" ]; do
-  read -rs SID < /dev/tty || true
-  SID=$(printf '%s' "$SID" | tr -d '[:space:]' | sed -e 's/^substack\.sid=//' -e 's/;.*$//')
+  read -rs RAW < /dev/tty || true
+  # 表の1行ぶん（名前・ドメインなど）が一緒にコピーされていても、合言葉の部分だけを取り出す
+  SID=$(printf '%s' "$RAW" | grep -oE 's(%3A|:)[^[:space:];]+' | head -n 1 || true)
+  if [ -z "$SID" ]; then
+    SID=$(printf '%s' "$RAW" | tr -d '[:space:]' | sed -e 's/^substack\.sid=//' -e 's/;.*$//')
+  fi
   if [ -z "$SID" ]; then
     echo '   （まだ何も入っていません。合言葉を貼り付けて return キーを押してください）'
   fi
 done
 echo ''
+# 全部は表示せず、文字数と最初の4文字だけ見せる（コピーがうまくいったかの目安）
+echo "   受け取った合言葉: ${#SID}文字（「$(printf '%s' "$SID" | cut -c1-4)」で始まる）"
+case "$SID" in
+  s%3A*|s:*) ;;
+  *) echo '   ⚠️ ふつうは「s%3A」で始まります。コピーがうまくいっていないかもしれません。' ;;
+esac
 (umask 077; printf '%s' "$SID" > "$DIR/sid")
 echo '✅ 2/5 合言葉を保存しました'
 
