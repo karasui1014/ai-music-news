@@ -2,16 +2,20 @@
 # おはスタ 自動投稿（Mac用）
 #
 # GitHub の songs.txt から1曲をランダムに選び、
-# 「おはスタ✨今日の一曲」＋曲のカード で Substack のノートに投稿します。
-# Mac に最初から入っている道具（curl / osascript）だけで動きます。
+# Safari で substack.com を開いて「おはスタ✨今日の一曲」＋曲のカード をノートに投稿します。
+# Safari でログインしている状態をそのまま使うので、合言葉（Cookie）のコピーはいりません。
+#
+# 必要な設定:
+#   Safari のメニュー「開発」→「Apple EventsからのJavaScriptを許可」にチェック
 #
 # Substack には公式の投稿APIがないため、ブラウザと同じ非公式の入り口を使います。
 # Substack 側の変更で、ある日動かなくなる可能性があります。
 #
 # 使い方:
 #   post.sh          … 投稿する（今日すでに投稿していたら何もしない）
-#   post.sh check    … 投稿せず、Substack につながるかだけ確かめる
+#   post.sh check    … 投稿せず、Safari を操作できるかだけ確かめる
 #   post.sh force    … 今日すでに投稿していても、もう一度投稿する
+# 設定のときは、$DIR/run-check があれば check として動く（launchd 経由で確認するため）
 
 set -u
 export LANG=ja_JP.UTF-8
@@ -22,12 +26,72 @@ MESSAGE='おはスタ✨今日の一曲'
 DIR="$HOME/Library/Application Support/ohasuta"
 LOG="$HOME/Library/Logs/ohasuta.log"
 SONGS_URL='https://raw.githubusercontent.com/karasui1014/ai-music-news/main/songs.txt'
-UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
 MODE="${1:-post}"
+if [ -f "$DIR/run-check" ]; then
+  rm -f "$DIR/run-check"
+  MODE=check
+fi
 
 log() { echo "$(date '+%Y-%m-%d %H:%M:%S') $*" | tee -a "$LOG"; }
 notify() { osascript -e "display notification \"$1\" with title \"おはスタ自動投稿\"" >/dev/null 2>&1 || true; }
 fail() { log "❌ $1"; notify "$1"; exit 1; }
+
+# Safari で substack.com を開き、JavaScript を実行して、その結果（文字）を返す。
+# JavaScript は window.__ohasuta に結果を入れる。終わるまで最大90秒待つ。
+run_in_safari() {
+  osascript - "$1" <<'APPLESCRIPT' 2>&1
+on run argv
+  set js to item 1 of argv
+  tell application "Safari"
+    make new document with properties {URL:"https://substack.com/home"}
+    delay 1
+    -- 開いたウインドウを番号（id）で覚えておく（タイトルが変わっても見失わないように）
+    set winId to id of front window
+    -- ページの読み込みを待つ（最大60秒）
+    set loaded to false
+    repeat 60 times
+      delay 1
+      try
+        if (do JavaScript "document.readyState" in tab 1 of window id winId) is "complete" then
+          set loaded to true
+          exit repeat
+        end if
+      on error errMsg
+        if errMsg contains "JavaScript" then
+          close window id winId
+          return "NEED_JS_SETTING " & errMsg
+        end if
+      end try
+    end repeat
+    if not loaded then
+      close window id winId
+      return "ERROR substack.com を開けませんでした（ネットの状態を確認してください）"
+    end if
+    delay 2
+    do JavaScript js in tab 1 of window id winId
+    set resultText to "running"
+    repeat 90 times
+      delay 1
+      set resultText to (do JavaScript "String(window.__ohasuta)" in tab 1 of window id winId)
+      if resultText is not "running" then exit repeat
+    end repeat
+    close window id winId
+    return resultText
+  end tell
+end run
+APPLESCRIPT
+}
+
+# Safari から返ってきた結果を見て、うまくいかなかったら止める
+check_result() {
+  case "$1" in
+    OK*) ;;
+    NEED_JS_SETTING*) fail 'Safari の「開発」→「Apple EventsからのJavaScriptを許可」にチェックを入れてください。' ;;
+    *1743*|*"not allowed"*|*"許可されていません"*) fail 'Safari を操作する許可がありません。システム設定 → プライバシーとセキュリティ → オートメーション で許可してください。' ;;
+    *LOGIN*) fail 'Safari で Substack にログインしていないようです。Safari で substack.com にログインしてください。' ;;
+    *) fail "うまくいきませんでした: $(printf '%s' "$1" | head -c 300)" ;;
+  esac
+}
 
 today=$(date +%Y-%m-%d)
 if [ "$MODE" = post ] && [ "$(cat "$DIR/last-posted" 2>/dev/null)" = "$today" ]; then
@@ -35,48 +99,16 @@ if [ "$MODE" = post ] && [ "$(cat "$DIR/last-posted" 2>/dev/null)" = "$today" ];
   exit 0
 fi
 
-SID=$(cat "$DIR/sid" 2>/dev/null || true)
-[ -n "$SID" ] || fail '合言葉が保存されていません。設定をやり直してください。'
-
 # スリープから起きた直後はネットがつながっていないことがあるので、最大3分待つ
 for _ in $(seq 1 36); do
   curl -s -o /dev/null --max-time 5 https://substack.com && break
   sleep 5
 done
 
-# Substack に送る。結果は「本文」と「状態番号」を RES_BODY / RES_CODE に入れる
-send() {
-  local args=(-sS --max-time 30 -X "$1" "https://substack.com/api/v1$2"
-    -H "Cookie: substack.sid=$SID" -H 'Accept: application/json'
-    -H 'Origin: https://substack.com' -H 'Referer: https://substack.com/home' -A "$UA"
-    -w '\n%{http_code}')
-  if [ -n "${3:-}" ]; then args+=(-H 'Content-Type: application/json' --data-binary "$3"); fi
-  local res
-  res=$(curl "${args[@]}") || fail "Substack につながりませんでした（$2）"
-  RES_CODE=$(printf '%s\n' "$res" | tail -n 1)
-  RES_BODY=$(printf '%s\n' "$res" | sed '$d')
-  if printf '%s' "$RES_BODY" | grep -q 'Just a moment'; then
-    fail 'Substack の門番（ロボット確認）に止められました。'
-  fi
-}
-
-# send して、うまくいかなかったら止める
-api() {
-  send "$@"
-  case "$RES_CODE" in
-    2??) ;;
-    401|403) fail "Substack の合言葉の期限が切れている可能性があります（${RES_CODE}）。入れ直してください。" ;;
-    *) fail "Substack が $RES_CODE を返しました（$2）: $(printf '%s' "$RES_BODY" | head -c 200)" ;;
-  esac
-}
-
 if [ "$MODE" = check ]; then
-  send GET /subscriptions
-  case "$RES_CODE" in
-    2??) log '✅ 合言葉OK。Substack につながりました（投稿はしていません）。' ;;
-    401|403) log "⚠️ Substack の門番は通れましたが、合言葉の確認で ${RES_CODE} が返りました（本番の投稿で確かめます）。" ;;
-    *) log "✅ Substack の門番は通れました（合言葉の確認はできませんでした: ${RES_CODE}）。" ;;
-  esac
+  res=$(run_in_safari 'window.__ohasuta = "OK"')
+  check_result "$res"
+  log '✅ Safari を操作できました（投稿はしていません）。'
   exit 0
 fi
 
@@ -97,16 +129,41 @@ count=$(printf '%s\n' "$ids" | grep -c . || true)
 song="https://open.spotify.com/track/$(printf '%s\n' "$ids" | sed -n "$((RANDOM % count + 1))p")"
 log "🎵 ${count}曲の中から選びました: $song"
 
-# 1) 曲のリンクを「カード」として登録する
-api POST /comment/attachment "{\"url\":\"$song\",\"type\":\"link\"}"
-att_id=$(osascript -l JavaScript -e 'function run(a){var o=JSON.parse(a[0]);return o.id===undefined?"":JSON.stringify(o.id)}' "$RES_BODY" 2>/dev/null || true)
-[ -n "$att_id" ] || fail "曲のカードを作れませんでした: $(printf '%s' "$RES_BODY" | head -c 200)"
+# Safari の中で動かす JavaScript。
+# 1) 曲のリンクを「カード」として登録 → 2) 文言＋カードでノートを投稿
+# （Mac の古い bash は $( ) の中のヒアドキュメントを読み間違えることがあるので read で受け取る）
+read -r -d '' js <<EOF || true
+(function () {
+  window.__ohasuta = "running";
+  var post = function (path, body) {
+    return fetch(path, {
+      method: "POST", credentials: "include",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(body)
+    }).then(function (r) {
+      return r.text().then(function (t) {
+        if (r.status === 401 || r.status === 403) throw new Error("LOGIN " + r.status);
+        if (r.status >= 300) throw new Error(path + " " + r.status + " " + t.slice(0, 200));
+        return t ? JSON.parse(t) : {};
+      });
+    });
+  };
+  post("/api/v1/comment/attachment", { url: "$song", type: "link" })
+    .then(function (att) {
+      if (att.id === undefined) throw new Error("曲のカードを作れませんでした " + JSON.stringify(att).slice(0, 200));
+      return post("/api/v1/comment/feed", {
+        bodyJson: { type: "doc", attrs: { schemaVersion: "v1" },
+          content: [{ type: "paragraph", content: [{ type: "text", text: "$MESSAGE" }] }] },
+        attachmentIds: [att.id], tabId: "for-you", surface: "feed", replyMinimumRole: "everyone"
+      });
+    })
+    .then(function () { window.__ohasuta = "OK"; })
+    .catch(function (e) { window.__ohasuta = "ERROR " + e.message; });
+})();
+EOF
 
-# 2) 文言＋カードでノートを投稿する
-note=$(osascript -l JavaScript -e 'function run(a){return JSON.stringify({
-  bodyJson:{type:"doc",attrs:{schemaVersion:"v1"},content:[{type:"paragraph",content:[{type:"text",text:a[0]}]}]},
-  attachmentIds:[JSON.parse(a[1])],tabId:"for-you",surface:"feed",replyMinimumRole:"everyone"})}' "$MESSAGE" "$att_id")
-api POST /comment/feed "$note"
+res=$(run_in_safari "$js")
+check_result "$res"
 
 echo "$today" > "$DIR/last-posted"
 log '✅ 投稿しました！'
