@@ -11,7 +11,7 @@ LABEL='com.karasui.ohasuta'
 launchctl bootout "gui/$(id -u)/$LABEL" 2>/dev/null || true
 rm -f "$HOME/Library/LaunchAgents/$LABEL.plist"
 rm -rf "$HOME/Library/Application Support/ohasuta"
-echo '✅ 毎朝の予約と、保存していた合言葉を消しました'
+echo '✅ 毎朝の予約と、設定のファイルを消しました'
 
 echo '👉 Mac を毎朝起こす設定も消すので、Mac のパスワードを入力して return キーを押してください。'
 sudo pmset repeat cancel
