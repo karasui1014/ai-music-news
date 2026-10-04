@@ -45,37 +45,44 @@ on run argv
   tell application "Safari"
     make new document with properties {URL:"https://substack.com/home"}
     delay 1
-    -- 開いたウインドウを番号（id）で覚えておく（タイトルが変わっても見失わないように）
-    set winId to id of front window
+    -- Safari の設定によっては新しいタブとして開くので、開いたタブそのものを覚えておく
+    set theTab to current tab of front window
     -- ページの読み込みを待つ（最大60秒）
     set loaded to false
     repeat 60 times
       delay 1
       try
-        if (do JavaScript "document.readyState" in tab 1 of window id winId) is "complete" then
+        if (do JavaScript "document.readyState + ' ' + location.host" in theTab) starts with "complete" then
           set loaded to true
           exit repeat
         end if
       on error errMsg
         if errMsg contains "JavaScript" then
-          close window id winId
+          close theTab
           return "NEED_JS_SETTING " & errMsg
         end if
       end try
     end repeat
     if not loaded then
-      close window id winId
+      close theTab
       return "ERROR substack.com を開けませんでした（ネットの状態を確認してください）"
     end if
     delay 2
-    do JavaScript js in tab 1 of window id winId
+    -- 本当に substack.com のページか確かめてから動かす（ほかのタブで動かさないため）
+    set theHost to (do JavaScript "location.host" in theTab)
+    if theHost is not "substack.com" then
+      close theTab
+      return "ERROR substack.com ではないページが開いていました: " & theHost
+    end if
+    do JavaScript js in theTab
     set resultText to "running"
     repeat 90 times
       delay 1
-      set resultText to (do JavaScript "String(window.__ohasuta)" in tab 1 of window id winId)
+      set resultText to (do JavaScript "String(window.__ohasuta)" in theTab)
       if resultText is not "running" then exit repeat
     end repeat
-    close window id winId
+    -- 開いたタブだけを閉じる
+    close theTab
     return resultText
   end tell
 end run
