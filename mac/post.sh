@@ -42,36 +42,61 @@ run_in_safari() {
   osascript - "$1" <<'APPLESCRIPT' 2>&1
 on run argv
   set js to item 1 of argv
+  -- 開くページに目印をつけて、あとで「自分が開いたタブ」を確実に見分けられるようにする
+  set marker to "ohasuta=" & ((random number from 100000 to 999999) as text)
+  set targetURL to "https://substack.com/home?" & marker
+  -- Safari が閉じていたら先に起動して、前回のウインドウが開き直されるのを待つ
+  if not (application "Safari" is running) then
+    tell application "Safari" to launch
+    delay 10
+  end if
   tell application "Safari"
-    make new document with properties {URL:"https://substack.com/home"}
-    delay 1
-    -- Safari の設定によっては新しいタブとして開くので、開いたタブそのものを覚えておく
-    set theTab to current tab of front window
+    make new document with properties {URL:targetURL}
+    -- 目印がついたタブを、すべてのウインドウから探す（最大20秒）
+    set theTab to missing value
+    repeat 20 times
+      delay 1
+      try
+        repeat with wi from 1 to (count of windows)
+          set winId to id of window wi
+          repeat with ti from 1 to (count of tabs of window id winId)
+            try
+              if (URL of tab ti of window id winId) contains marker then
+                set theTab to tab ti of window id winId
+              end if
+            end try
+          end repeat
+        end repeat
+      end try
+      if theTab is not missing value then exit repeat
+    end repeat
+    if theTab is missing value then
+      return "ERROR Substack を開いたタブが見つかりませんでした"
+    end if
     -- ページの読み込みを待つ（最大60秒）
     set loaded to false
     repeat 60 times
       delay 1
       try
-        if (do JavaScript "document.readyState + ' ' + location.host" in theTab) starts with "complete" then
+        if (do JavaScript "document.readyState" in theTab) is "complete" then
           set loaded to true
           exit repeat
         end if
       on error errMsg
         if errMsg contains "JavaScript" then
-          close theTab
+          my closeIfSubstack(theTab)
           return "NEED_JS_SETTING " & errMsg
         end if
       end try
     end repeat
     if not loaded then
-      close theTab
+      my closeIfSubstack(theTab)
       return "ERROR substack.com を開けませんでした（ネットの状態を確認してください）"
     end if
     delay 2
-    -- 本当に substack.com のページか確かめてから動かす（ほかのタブで動かさないため）
+    -- 本当に substack.com のページか確かめてから動かす（違ったら何もせず、タブも閉じない）
     set theHost to (do JavaScript "location.host" in theTab)
     if theHost is not "substack.com" then
-      close theTab
       return "ERROR substack.com ではないページが開いていました: " & theHost
     end if
     do JavaScript js in theTab
@@ -81,11 +106,19 @@ on run argv
       set resultText to (do JavaScript "String(window.__ohasuta)" in theTab)
       if resultText is not "running" then exit repeat
     end repeat
-    -- 開いたタブだけを閉じる
-    close theTab
+    my closeIfSubstack(theTab)
     return resultText
   end tell
 end run
+
+-- 自分が開いた substack.com のタブだけを閉じる（ほかのタブは絶対に閉じない）
+on closeIfSubstack(theTab)
+  tell application "Safari"
+    try
+      if (URL of theTab) starts with "https://substack.com/" then close theTab
+    end try
+  end tell
+end closeIfSubstack
 APPLESCRIPT
 }
 
