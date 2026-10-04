@@ -65,7 +65,7 @@ api() {
   send "$@"
   case "$RES_CODE" in
     2??) ;;
-    401|403) fail "Substack の合言葉の期限が切れている可能性があります（$RES_CODE）。入れ直してください。" ;;
+    401|403) fail "Substack の合言葉の期限が切れている可能性があります（${RES_CODE}）。入れ直してください。" ;;
     *) fail "Substack が $RES_CODE を返しました（$2）: $(printf '%s' "$RES_BODY" | head -c 200)" ;;
   esac
 }
@@ -74,8 +74,8 @@ if [ "$MODE" = check ]; then
   send GET /subscriptions
   case "$RES_CODE" in
     2??) log '✅ 合言葉OK。Substack につながりました（投稿はしていません）。' ;;
-    401|403) fail "Substack の合言葉が正しくないようです（$RES_CODE）。コピーし直してください。" ;;
-    *) log "✅ Substack の門番は通れました（合言葉の確認はできませんでした: $RES_CODE）。" ;;
+    401|403) fail "Substack の合言葉が正しくないようです（${RES_CODE}）。コピーし直してください。" ;;
+    *) log "✅ Substack の門番は通れました（合言葉の確認はできませんでした: ${RES_CODE}）。" ;;
   esac
   exit 0
 fi
