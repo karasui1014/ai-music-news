@@ -42,22 +42,23 @@ echo '   ※ 貼り付けても画面には何も表示されません。その�
 SID=''
 while [ -z "$SID" ]; do
   read -rs RAW < /dev/tty || true
-  # 表の1行ぶん（名前・ドメインなど）が一緒にコピーされていても、合言葉の部分だけを取り出す
+  # 表の1行ぶん（名前・ドメインなど）が一緒にコピーされていても、合言葉の部分（s%3A…）だけを取り出す
   SID=$(printf '%s' "$RAW" | grep -oE 's(%3A|:)[^[:space:];]+' | head -n 1 || true)
-  if [ -z "$SID" ]; then
-    SID=$(printf '%s' "$RAW" | tr -d '[:space:]' | sed -e 's/^substack\.sid=//' -e 's/;.*$//')
-  fi
-  if [ -z "$SID" ]; then
+  RAW=$(printf '%s' "$RAW" | tr -d '[:space:]')
+  if [ -z "$RAW" ]; then
     echo '   （まだ何も入っていません。合言葉を貼り付けて return キーを押してください）'
+  elif [ -z "$SID" ]; then
+    # 合言葉ではないもの（画面の文字など）が貼り付けられた。全部は見せず、最初の4文字だけ見せる
+    echo ''
+    echo "   ❌ 合言葉ではないものが貼り付けられたようです（「$(printf '%s' "$RAW" | cut -c1-4)」で始まる ${#RAW}文字）。"
+    echo '      合言葉は「s%3A」で始まる、80〜90文字くらいの文字です。'
+    echo '      Safari で「値」をダブルクリックして、値が青く選ばれた状態になってから'
+    echo '      Command + A → Command + C でコピーし、ここに貼り付けて return キーを押してください。'
   fi
 done
 echo ''
 # 全部は表示せず、文字数と最初の4文字だけ見せる（コピーがうまくいったかの目安）
 echo "   受け取った合言葉: ${#SID}文字（「$(printf '%s' "$SID" | cut -c1-4)」で始まる）"
-case "$SID" in
-  s%3A*|s:*) ;;
-  *) echo '   ⚠️ ふつうは「s%3A」で始まります。コピーがうまくいっていないかもしれません。' ;;
-esac
 (umask 077; printf '%s' "$SID" > "$DIR/sid")
 echo '✅ 2/5 合言葉を保存しました'
 
@@ -98,9 +99,13 @@ echo '✅ 4/5 毎朝 7:00 に投稿する予約を入れました'
 
 # 5) 7:00 に Mac を起こす（投稿中は caffeinate でスリープしないようにしている）
 echo ''
-echo '👉 スリープ中でも Mac を起こすために、Mac のパスワードを入力して return キーを押してください。'
-echo '   （Mac にログインするときのパスワードです。入力しても画面には何も表示されません）'
-sudo pmset repeat wakeorpoweron MTWRFSU 07:00:00
+if pmset -g sched 2>/dev/null | grep -qiE 'wake.*7:00 ?AM'; then
+  echo '   （Mac を起こす設定はもう入っているので、パスワードの入力はいりません）'
+else
+  echo '👉 スリープ中でも Mac を起こすために、Mac のパスワードを入力して return キーを押してください。'
+  echo '   （Mac にログインするときのパスワードです。入力しても画面には何も表示されません）'
+  sudo pmset repeat wakeorpoweron MTWRFSU 07:00:00
+fi
 echo '✅ 5/5 毎朝 7:00 に Mac を起こす設定をしました'
 
 echo ''
