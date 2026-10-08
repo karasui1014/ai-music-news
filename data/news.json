@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-08T16:11:46.199Z",
+  "generatedAt": "2026-10-08T19:05:57.364Z",
   "count": 400,
-  "newCount": 35,
-  "translatedCount": 2,
+  "newCount": 33,
+  "translatedCount": 1,
   "ranking": [
     "d61d2874e87bed8c",
     "2e51b44bf88cf4be",
+    "8d24729150ba743c",
     "d4b0ba00b88d989a",
     "54ffb9163c0a968e",
-    "8d24729150ba743c",
+    "aa27ee8c27ed7c6a",
     "11f165f65f3b988b",
-    "12ae192ea21372f8",
-    "6f74c2b2ee47022c",
-    "e42f448e1fc04d8f",
-    "f97cbc24fbf03c06"
+    "b2781812f9b48ba1",
+    "303803a36fcbfdc8",
+    "12ae192ea21372f8"
   ],
   "sources": [
     {
@@ -22,7 +22,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 40,
-      "matched": 35,
+      "matched": 36,
       "error": null
     },
     {
@@ -103,7 +103,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 2,
+      "matched": 1,
       "error": null
     },
     {
@@ -297,6 +297,22 @@
   ],
   "items": [
     {
+      "id": "aa27ee8c27ed7c6a",
+      "title": "Elon Musk says Grok Bot will use Suno’s AI music models, alongside Anthropic’s Claude and Midjourney",
+      "url": "https://www.musicbusinessworldwide.com/elon-musk-says-grok-bot-will-use-sunos-ai-music-models-alongside-anthropics-claude-and-midjourney/",
+      "summary": "Suno does not currently offer an official public API. MBW reported in July that the company was exploring the launch of one.",
+      "published": "2026-10-08T17:10:31.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "イーロン・マスク氏によると、Grok Botは、AnthropicのClaudeとMidjourneyと並んで、SunoのAI音楽モデルを使用するという。",
+      "summaryJa": "Sunoは現在、公式の公開APIを提供していません。MBWは7月に、同社が1社の立ち上げを検討していると報告した。",
+      "score": 32
+    },
+    {
       "id": "0f00c216dd06b448",
       "title": "Elon Musk says X’s AI-bot Grok will use Suno for music tasks",
       "url": "https://musically.com/2026/10/08/elon-musk-says-xs-ai-bot-grok-will-use-suno-for-music-tasks/",
@@ -339,8 +355,8 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 2,
-      "score": 30
+      "coverage": 3,
+      "score": 38
     },
     {
       "id": "d3ef2f7cfc7c2e81",
@@ -395,8 +411,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 15
+      "coverage": 2,
+      "score": 23
     },
     {
       "id": "f8ce8c073b73c384",
@@ -485,7 +501,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "A.I.ロイヤリティで数百万ドルを稼いだ音楽詐欺師に18ヶ月の刑が言い渡される",
-      "score": 19
+      "score": 14
     },
     {
       "id": "6df5c4f85593c61f",
@@ -501,7 +517,7 @@
       "coverage": 1,
       "titleJa": "テイラー・スウィフトをアウトストリームするために1万のボットとAI曲を使用したため、詐欺師は投獄されました",
       "summaryJa": "男性は、AIスキームが音楽ストリーミングのロイヤリティで800万$を盗んだことで18ヶ月を獲得します。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "29773d20f834c62b",
@@ -517,7 +533,7 @@
       "coverage": 1,
       "titleJa": "AI曲のボットストリームで刑務所に送られた男性",
       "summaryJa": "マイク・スミスは、音楽ストリーミング詐欺で連邦政府の告訴に直面した最初の人物です",
-      "score": 12
+      "score": 7
     },
     {
       "id": "c40a279ce92a0ce8",
@@ -592,8 +608,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 19
+      "coverage": 4,
+      "score": 27
     },
     {
       "id": "9d3c25e52a6f8cca",
@@ -773,7 +789,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 4,
+      "coverage": 5,
       "score": 34
     },
     {
@@ -909,7 +925,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 39
     },
     {
@@ -986,10 +1002,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "米国の控訴裁判所は、AIトレーニングをめぐる「フェアユース」の防御を棄却した。レーベルとスノとの戦いにはどういう意味があるのでしょうか？",
       "summaryJa": "米国控訴裁判所は、9月29日にトムソン・ロイターとAI法務調査会社ROSS Intelligenceに対して判決を下しました",
-      "score": 20
+      "score": 28
     },
     {
       "id": "d61d2874e87bed8c",
@@ -1002,7 +1018,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 9,
+      "coverage": 10,
       "score": 50
     },
     {
@@ -1044,7 +1060,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 4,
+      "coverage": 5,
       "score": 30
     },
     {
@@ -1311,7 +1327,7 @@
       "coverage": 1,
       "titleJa": "ElevenLabsの評価額は2倍の220億$ – AI音楽のライバルであるSunoの4倍",
       "summaryJa": "ElevenLabsは、220億$の評価で3億$の従業員入札オファーを完了しました。",
-      "score": 4
+      "score": -5
     },
     {
       "id": "980b5c9fcf85c97e",
@@ -2022,7 +2038,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 40,
+      "coverage": 41,
       "score": 32
     },
     {
@@ -2052,7 +2068,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 51,
+      "coverage": 52,
       "titleJa": "ソニーとUMGがSunoを再び訴える",
       "summaryJa": "ソニーとユニバーサルミュージックグループは、Sunoに対してさらに別の訴訟を起こしました。レーベルは、新しいv 6モデルがまだ著作権を侵害していると主張している。なぜなら、それは以前のモデルからのユーザー出力で訓練されているからだ。以前のモデル自体は、YouTubeや他のソースからリッピングされた無許可の音楽で訓練されていたからだ。ソニーとUMGは、署名しなかった注目すべきホールドアウトである",
       "score": 27
@@ -2184,7 +2200,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 49,
+      "coverage": 50,
       "score": 21
     },
     {
@@ -2671,7 +2687,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 54,
+      "coverage": 55,
       "titleJa": "Sunoは、最新のソニーとユニバーサルの訴訟を爆発させるため、V 6モデルがユーザーからの「クリエイション」について訓練されたことを確認します",
       "summaryJa": "同社は、ユニバーサルミュージックグループとソニーミュージックエンタテインメントが提起した2回目の著作権訴訟に対応する声明で、その説明を記載した。",
       "score": 34
@@ -2937,7 +2953,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 58,
+      "coverage": 59,
       "titleJa": "「Sunoの死」： Redditユーザーはv 6モデルアップデート後にSunoに反対しています",
       "summaryJa": "このアップデートでは、音楽レーベルも満足していません。「V 6は新たなスタートではありません。同じ毒された木の果実です。」",
       "score": 38
@@ -3085,7 +3101,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 132,
+      "coverage": 133,
       "score": 44
     },
     {
@@ -3259,7 +3275,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 76,
+      "coverage": 77,
       "titleJa": "いくつかのレーベルがSunoと取引する中、アーティストの担当者は「それはワイルドでワイルドな西部」と鳴り響きます",
       "summaryJa": "SunoがWMGなどと提携して新しいv 6音楽モデルを発表したことで、マネージャーや弁護士は急速に進化するAI音楽の世界に自分たちの考えを提示しています。",
       "score": 27
@@ -3291,7 +3307,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 73,
+      "coverage": 74,
       "titleJa": "ユニバーサルとソニーは、プラットフォームのv 6モデルが「同じ毒された木の果実」であると主張して、2度目のSunoを訴えた",
       "summaryJa": "米国の著作権法では、意図的な侵害に対する損害賠償は、作品ごとに最大$ 150,000に設定されています。その上限では、60,202の録音は理論的には最大90億$をわずかに上回ります。",
       "score": 34
@@ -3554,7 +3570,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 61,
+      "coverage": 62,
       "titleJa": "「サブスクリプションをキャンセルします」： SunoユーザーはV 6アップデートを「うぬぼれた、一般的な、魂のないゴミ」と非難しました",
       "summaryJa": "業界に支えられたV 6モデルのリリースに続いて、AI音楽プラットフォームの最も熱心なサポーターの一部が船を放棄している",
       "score": 38
@@ -3688,7 +3704,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 53,
+      "coverage": 54,
       "titleJa": "ユニバーサルとワーナーのプレス裁判所、SunoとUdioの取引をめぐる米国ミュージシャンの訴訟を終結",
       "summaryJa": "この訴訟は、レコード会社との組合の団体交渉協定である録音労働協定の第21条（ a ）に基づいている。",
       "score": 27
@@ -4027,7 +4043,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 186,
+      "coverage": 187,
       "score": 21
     },
     {
@@ -4317,7 +4333,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 108,
+      "coverage": 109,
       "score": 63
     },
     {
@@ -4615,7 +4631,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 8,
+      "coverage": 9,
       "titleJa": "ユニバーサルミュージックは、ElevenLabsとAI音楽プラットフォームを立ち上げています",
       "summaryJa": "木曜日の発表によると、ユニバーサルミュージックグループは、ユーザーがライセンスされた音楽のカタログから曲のリミックス、マッシュアップ、トラックの新しいテイクを作成することを可能にする新しいAI搭載プラットフォームを立ち上げている。レコードレーベルは、同社を専門とするElevenLabsとの複数年のライセンス契約を通じてプラットフォームを開発しています。",
       "score": 27
@@ -4882,7 +4898,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 114,
+      "coverage": 115,
       "titleJa": "Sunoは、著作権訴訟が積み重なるにつれて、AIモデルをライセンスされた音楽で訓練された新しいモデルに置き換える",
       "summaryJa": "一連の訴訟に取り組んでいるSuno氏は、新しいモデルであるSuno v 6は、以前のバージョンのAIモデルのトレーニングに使用した音楽を使用してトレーニングされていないと述べた。",
       "score": 45
@@ -4914,7 +4930,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 53,
+      "coverage": 54,
       "titleJa": "Suno、WMG、BMG、Believeと提携してv 6 AI音楽モデルを発表",
       "summaryJa": "最高製品責任者のJack Brody氏によると、Sunoの以前のモデルは廃止されます",
       "score": 38
@@ -4973,7 +4989,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 54,
+      "coverage": 55,
       "titleJa": "Sunoは、v 6 AI音楽モデルを発売します。知っておくべきことは次のとおりです。",
       "summaryJa": "今日はSunoにとって重要な日です。最新のAI音楽モデルを発売しています。Suno v 6は、音楽の権利者と共に開発された最初の世代です。この投稿はMusic Allyからのものです。",
       "score": 27
@@ -5005,7 +5021,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 45,
+      "coverage": 46,
       "titleJa": "Sunoは、ライセンスされた音楽でAI音楽モデルをゼロから再構築しました",
       "summaryJa": "業界に裏打ちされたV 6モデルのリリースに加えて、AIミュージックプラットフォームは、ユーザーが参加アーティストの音楽を使用して作成し、リミックスできるツールの開発を発表しました",
       "score": 38
@@ -5050,7 +5066,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 128,
+      "coverage": 130,
       "score": 37
     },
     {
@@ -5182,7 +5198,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 116,
+      "coverage": 117,
       "score": 37
     },
     {
@@ -6185,20 +6201,6 @@
       "titleJa": "JO ： LA LabsがAI「ビジネスオペレーティングシステム」名簿を発表",
       "summaryJa": "「スプレッドシートは必要ありません。アプリのジャグリングも必要ありません。南アフリカの音楽技術企業JO: LA Labsが、アーティストやマネージャーのための「エンドツーエンドの音楽ビジネスオペレーティングシステム」として立ち上げたばかりのRosterのピッチです。この投稿はMusic Allyからのものです。",
       "score": 5
-    },
-    {
-      "id": "98b23ef9261696d5",
-      "title": "オーストラリアの音楽チャート、完全AI生成楽曲を対象外に。ARIAがルール変更",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWFNLODZSTEpvT09faHBEQUFuV1IwY2dwRUQ2SFVYWkJXcXYxQ2xTc2NxbnFneFdpMXM2a0RkUGV2RUJQRjQxZnhmMGloSEpwRkFpTUN5Zmw2dHdUaTNRWnpUeTcxOWtQcGgzRjFTME5GY2p2bXpxbXI1NFR3dDBoX3hkanZFTmN1MG9VWEtBbEc3eDgxSDFZUXFPMzdhUVNLaDlJOQ?oc=5",
-      "summary": "",
-      "published": "2026-09-03T10:51:10.000Z",
-      "source": "Music Ally Japan",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
     }
   ]
 }
