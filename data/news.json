@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-07T19:09:51.061Z",
+  "generatedAt": "2026-10-08T00:32:04.270Z",
   "count": 400,
-  "newCount": 28,
-  "translatedCount": 3,
+  "newCount": 30,
+  "translatedCount": 1,
   "ranking": [
     "d61d2874e87bed8c",
     "e4445f3b8c4c2a5c",
     "2e51b44bf88cf4be",
     "f97cbc24fbf03c06",
-    "59a2fc79536d2335",
     "0b0ed5c3ee203663",
     "9d3c25e52a6f8cca",
+    "59a2fc79536d2335",
     "060af44ecaebab02",
     "6d040ea8f30c9725",
-    "75da62620833a6ab"
+    "54ffb9163c0a968e"
   ],
   "sources": [
     {
@@ -139,7 +139,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -166,7 +166,7 @@
       "category": "global",
       "ok": true,
       "fetched": 20,
-      "matched": 0,
+      "matched": 1,
       "error": null
     },
     {
@@ -297,6 +297,20 @@
   ],
   "items": [
     {
+      "id": "d4b0ba00b88d989a",
+      "title": "SUNO プロンプト辞典「prompt-jukebox」、アーティストの「らしさ」を作る語をタップでプロンプトに足せる機能を公開",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qYUVMY3ZjX29qYzJqRXFOSzIzamdzUkdtSzc4NnJfUXQ1UnNmSFlBQ3ByZ0s5Y0kxTGRXZDEtVjkzR0REYjE5N295YmlRckpLXzA4NzV4TFBKcDBFdGFzb0hRYURBSjdwZ1E?oc=5",
+      "summary": "",
+      "published": "2026-10-07T22:00:01.000Z",
+      "source": "PR TIMES",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 35
+    },
+    {
       "id": "9687409b8db19de2",
       "title": "RIAA CEO Talks Midterms, AI Deepfakes and Trump: ‘Music Is a Very Bipartisan Issue’",
       "url": "https://www.billboard.com/pro/riaa-ceo-midterms-ai-deepfakes-trump-botr/",
@@ -326,6 +340,22 @@
       "coverage": 1,
       "titleJa": "A.I.ロイヤリティで数百万ドルを稼いだ音楽詐欺師に18ヶ月の刑が言い渡される",
       "score": 19
+    },
+    {
+      "id": "6df5c4f85593c61f",
+      "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+      "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+      "summary": "Man gets 18 months for AI scheme stealing $8M in music streaming royalties.",
+      "published": "2026-10-07T17:57:39.000Z",
+      "source": "Ars Technica",
+      "sourceId": "arstechnica",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "テイラー・スウィフトをアウトストリームするために1万のボットとAI曲を使用したため、詐欺師は投獄されました",
+      "summaryJa": "男性は、AIスキームが音楽ストリーミングのロイヤリティで800万$を盗んだことで18ヶ月を獲得します。",
+      "score": 12
     },
     {
       "id": "29773d20f834c62b",
@@ -479,7 +509,7 @@
       "coverage": 1,
       "titleJa": "AI音楽ストリーミング詐欺師、800万$のロイヤリティ詐欺で懲役1.5年の判決",
       "summaryJa": "マイケル・スミス氏は今年初め、ストリーミング詐欺をめぐる初の刑事事件で、ボットを使用して偽の曲を何十億回もストリーミングしたことを認めた。",
-      "score": 19
+      "score": 14
     },
     {
       "id": "59a2fc79536d2335",
@@ -494,7 +524,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "イタリアの規制当局、AI音楽スタートアップSunoの利用規約を調査",
-      "score": 28
+      "score": 23
     },
     {
       "id": "c44683930f3be002",
@@ -569,8 +599,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 1,
-      "score": 10
+      "coverage": 2,
+      "score": 18
     },
     {
       "id": "281d54adf5d88b86",
@@ -705,8 +735,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 35
+      "coverage": 4,
+      "score": 43
     },
     {
       "id": "e9e24a00dfd400c8",
@@ -798,7 +828,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 54
     },
     {
@@ -813,7 +843,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 19
+      "score": 15
     },
     {
       "id": "cff649239a1f8563",
@@ -1192,7 +1222,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AI音楽の風景でSunoのMikey Shulmanを見る",
-      "score": 12
+      "score": 3
     },
     {
       "id": "34cec47b87acb846",
@@ -1206,7 +1236,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 17
+      "score": 8
     },
     {
       "id": "54399caf4181ecb4",
@@ -1221,7 +1251,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIは最初のフェアユース上訴を失いました。スノは心配すべきです。",
-      "score": 12
+      "score": 3
     },
     {
       "id": "dbbcd9abb0220d8c",
@@ -1235,7 +1265,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 6
     },
     {
       "id": "849e20ba49eec10a",
@@ -1653,7 +1683,7 @@
       "title": "イレブンラボ、ユニバーサル ミュージック グループと戦略的提携に合意。AI音楽制作プラットフォームを共同開発",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1adzl5NWlUV2lpQmpXNFYwRkxLRTN4Vl82dDdQelVDMzdiNEVxU0xoZXJ0RWZhWDRvak41c1dLb1Q1SDQzVTRXWkYxUTlDTUFmSTA0LTJLTE1DczZpc1FfVWxVY044VW5xRTlvaTY2Z09kQQ?oc=5",
       "summary": "",
-      "published": "2026-09-28T07:43:37.000Z",
+      "published": "2026-09-28T07:00:00.000Z",
       "source": "AIsmiley",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
@@ -1818,7 +1848,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 37,
+      "coverage": 38,
       "score": 32
     },
     {
@@ -1848,7 +1878,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 48,
+      "coverage": 49,
       "titleJa": "ソニーとUMGがSunoを再び訴える",
       "summaryJa": "ソニーとユニバーサルミュージックグループは、Sunoに対してさらに別の訴訟を起こしました。レーベルは、新しいv 6モデルがまだ著作権を侵害していると主張している。なぜなら、それは以前のモデルからのユーザー出力で訓練されているからだ。以前のモデル自体は、YouTubeや他のソースからリッピングされた無許可の音楽で訓練されていたからだ。ソニーとUMGは、署名しなかった注目すべきホールドアウトである",
       "score": 27
@@ -1904,7 +1934,7 @@
       "title": "【コラム】BARKS烏丸哲也の音楽業界裏話070「AI時代、ミュージシャンに求められること」",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBvamRYc2g5T3VUb2Z6VlFtYmpNd1NodUE4VDUySnhrNFROay1ESnBiWFBZYXNCSXdqUTVwWnJtMHh3elE?oc=5",
       "summary": "",
-      "published": "2026-09-25T07:00:00.000Z",
+      "published": "2026-09-25T09:22:00.000Z",
       "source": "BARKS",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
@@ -1980,7 +2010,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 46,
+      "coverage": 47,
       "score": 21
     },
     {
@@ -2467,7 +2497,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 51,
+      "coverage": 52,
       "titleJa": "Sunoは、最新のソニーとユニバーサルの訴訟を爆発させるため、V 6モデルがユーザーからの「クリエイション」について訓練されたことを確認します",
       "summaryJa": "同社は、ユニバーサルミュージックグループとソニーミュージックエンタテインメントが提起した2回目の著作権訴訟に対応する声明で、その説明を記載した。",
       "score": 34
@@ -2733,7 +2763,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 55,
+      "coverage": 56,
       "titleJa": "「Sunoの死」： Redditユーザーはv 6モデルアップデート後にSunoに反対しています",
       "summaryJa": "このアップデートでは、音楽レーベルも満足していません。「V 6は新たなスタートではありません。同じ毒された木の果実です。」",
       "score": 38
@@ -2881,7 +2911,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 129,
+      "coverage": 130,
       "score": 44
     },
     {
@@ -3055,7 +3085,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 73,
+      "coverage": 74,
       "titleJa": "いくつかのレーベルがSunoと取引する中、アーティストの担当者は「それはワイルドでワイルドな西部」と鳴り響きます",
       "summaryJa": "SunoがWMGなどと提携して新しいv 6音楽モデルを発表したことで、マネージャーや弁護士は急速に進化するAI音楽の世界に自分たちの考えを提示しています。",
       "score": 27
@@ -3087,7 +3117,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 70,
+      "coverage": 71,
       "titleJa": "ユニバーサルとソニーは、プラットフォームのv 6モデルが「同じ毒された木の果実」であると主張して、2度目のSunoを訴えた",
       "summaryJa": "米国の著作権法では、意図的な侵害に対する損害賠償は、作品ごとに最大$ 150,000に設定されています。その上限では、60,202の録音は理論的には最大90億$をわずかに上回ります。",
       "score": 34
@@ -3147,7 +3177,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 28
     },
     {
@@ -3350,7 +3380,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 58,
+      "coverage": 59,
       "titleJa": "「サブスクリプションをキャンセルします」： SunoユーザーはV 6アップデートを「うぬぼれた、一般的な、魂のないゴミ」と非難しました",
       "summaryJa": "業界に支えられたV 6モデルのリリースに続いて、AI音楽プラットフォームの最も熱心なサポーターの一部が船を放棄している",
       "score": 38
@@ -3484,7 +3514,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 50,
+      "coverage": 51,
       "titleJa": "ユニバーサルとワーナーのプレス裁判所、SunoとUdioの取引をめぐる米国ミュージシャンの訴訟を終結",
       "summaryJa": "この訴訟は、レコード会社との組合の団体交渉協定である録音労働協定の第21条（ a ）に基づいている。",
       "score": 27
@@ -4113,7 +4143,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 105,
+      "coverage": 106,
       "score": 63
     },
     {
@@ -4664,7 +4694,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 111,
+      "coverage": 112,
       "titleJa": "Sunoは、著作権訴訟が積み重なるにつれて、AIモデルをライセンスされた音楽で訓練された新しいモデルに置き換える",
       "summaryJa": "一連の訴訟に取り組んでいるSuno氏は、新しいモデルであるSuno v 6は、以前のバージョンのAIモデルのトレーニングに使用した音楽を使用してトレーニングされていないと述べた。",
       "score": 45
@@ -4696,7 +4726,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 50,
+      "coverage": 51,
       "titleJa": "Suno、WMG、BMG、Believeと提携してv 6 AI音楽モデルを発表",
       "summaryJa": "最高製品責任者のJack Brody氏によると、Sunoの以前のモデルは廃止されます",
       "score": 38
@@ -4755,7 +4785,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 51,
+      "coverage": 52,
       "titleJa": "Sunoは、v 6 AI音楽モデルを発売します。知っておくべきことは次のとおりです。",
       "summaryJa": "今日はSunoにとって重要な日です。最新のAI音楽モデルを発売しています。Suno v 6は、音楽の権利者と共に開発された最初の世代です。この投稿はMusic Allyからのものです。",
       "score": 27
@@ -4787,7 +4817,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 42,
+      "coverage": 43,
       "titleJa": "Sunoは、ライセンスされた音楽でAI音楽モデルをゼロから再構築しました",
       "summaryJa": "業界に裏打ちされたV 6モデルのリリースに加えて、AIミュージックプラットフォームは、ユーザーが参加アーティストの音楽を使用して作成し、リミックスできるツールの開発を発表しました",
       "score": 38
@@ -4832,7 +4862,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 123,
+      "coverage": 125,
       "score": 37
     },
     {
@@ -4964,7 +4994,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 114,
+      "coverage": 115,
       "score": 37
     },
     {
@@ -5093,7 +5123,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 104,
+      "coverage": 105,
       "titleJa": "Sunoは、AIを訓練するためにYouTubeオーディオを取得したことを認めていますが、UMGとソニーが「ストリームリッピング」の主張をもたらすという立場に挑戦しています",
       "summaryJa": "AI音楽会社は、UMGとソニー・ミュージックエンタテインメントからの最初の修正された苦情に対する回答を提出しました。",
       "score": 27
@@ -5240,7 +5270,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 118,
+      "coverage": 119,
       "score": 21
     },
     {
@@ -6168,37 +6198,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": -3
-    },
-    {
-      "id": "4cf1778ce5842a31",
-      "title": "Jason Isbell, Musicians Sue Suno Over Alleged AI Use of Artists’ Names and Voices",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ29wWENjTXFUc0R3c2VEOUlSOG1PcEN4ZExsWDFQSFpqV25icUUzaHE5SGpwWEIyM19IdFJfblBLMGQybkotQ3g5OWtuanc0dmZMMmtxZUQ1S3hJTXlnbHBRYlNwRE9sTVI1MVlINXFDaVZhS1cyQ3JDQy1sUFBpVG45TFY4cjZoRFdDN3pBTDFrQQ?oc=5",
-      "summary": "",
-      "published": "2026-09-02T23:53:05.000Z",
-      "source": "Law Commentary",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "ジェイソン・イズベル、アーティストの名前と声のAI使用の疑いでミュージシャンのスー・スノ",
-      "score": 3
-    },
-    {
-      "id": "0b8e7b8fb84a9226",
-      "title": "Suno Sued by Canadian Music Rights Organization SOCAN for Copyright Infringement",
-      "url": "https://www.billboard.com/pro/ai-music-platform-suno-sued-canadian-music-socan/",
-      "summary": "The organization filed a lawsuit against the AI music platform for allegedly infringing at least 150 songs within its repertoire.",
-      "published": "2026-09-02T23:18:50.000Z",
-      "source": "Billboard",
-      "sourceId": "billboard",
-      "via": null,
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "Sunoは著作権侵害でカナダの音楽権利団体SOCANに訴えられました",
-      "summaryJa": "同組織は、そのレパートリー内の少なくとも150曲を侵害したとされるAI音楽プラットフォームに対して訴訟を起こした。",
-      "score": 10
     }
   ]
 }
