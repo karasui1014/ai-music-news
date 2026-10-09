@@ -66,3 +66,7 @@ h1 { font-weight: 900; font-size: 68px; letter-spacing: .02em; line-height: 1.1;
 .bubble .who { font-weight: 900; font-size: 15px; color: var(--plan); display: block; margin-bottom: 4px; }
 
 .foot { display: flex; justify-content: space-between; margin-top: 18px; font-weight: 700; font-size: 17px; color: var(--sub); }
+
+/* キャラの絵（キャラシートから切り抜いて使う） */
+.chara-img { width: 360px; height: 430px; border-radius: 30px; border: 4px solid var(--plan); background-color: #fff; background-repeat: no-repeat; box-shadow: 0 8px 0 var(--plan-soft); }
+.chara-img.smile { background-image: url(chara-sheet.png); background-size: 2381px 1584px; background-position: -2009px -488px; }
