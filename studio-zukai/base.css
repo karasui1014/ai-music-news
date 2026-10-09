@@ -1,0 +1,68 @@
+@font-face { font-family: 'ZMG'; font-weight: 500; src: url(fonts/zmg-500.ttf); }
+@font-face { font-family: 'ZMG'; font-weight: 700; src: url(fonts/zmg-700.ttf); }
+@font-face { font-family: 'ZMG'; font-weight: 900; src: url(fonts/zmg-900.ttf); }
+
+:root {
+  --bg: #FFF8EE;
+  --ink: #2A2733;
+  --sub: #6B6576;
+  --line: #EADFCF;
+  --card: #FFFFFF;
+  --plan: #E39A0B;      /* Premium（ページごとに上書き） */
+  --plan-soft: #FFF1D6;
+}
+.plan-premium { --plan: #E39A0B; --plan-soft: #FFF1D6; --mark: #FFD66B; }
+.plan-master  { --plan: #E0457B; --plan-soft: #FFE4EE; --mark: #FFB8D0; }
+.plan-creator { --plan: #16A37B; --plan-soft: #DDF5EC; --mark: #A8E8D2; }
+.plan-free    { --plan: #3B7BEA; --plan-soft: #E2ECFF; --mark: #BBD2FF; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1456px; height: 816px; }
+body {
+  font-family: 'ZMG', sans-serif; color: var(--ink); background: var(--bg);
+  position: relative; overflow: hidden;
+}
+/* 背景のまる */
+.blob { position: absolute; border-radius: 50%; background: var(--plan-soft); }
+.blob.a { width: 520px; height: 520px; right: -140px; top: -180px; }
+.blob.b { width: 260px; height: 260px; left: -90px; bottom: -110px; opacity: .8; }
+
+.page { position: absolute; inset: 0; padding: 44px 56px 40px; display: flex; flex-direction: column; }
+
+/* 上の帯 */
+.top { display: flex; align-items: center; gap: 14px; }
+.brand { background: var(--ink); color: #fff; font-weight: 700; font-size: 20px; padding: 8px 18px; border-radius: 999px; }
+.no { font-weight: 900; font-size: 20px; color: var(--sub); letter-spacing: .04em; }
+.plan-chip { margin-left: auto; background: var(--plan); color: #fff; font-weight: 900; font-size: 20px; padding: 8px 20px; border-radius: 999px; }
+
+.main { flex: 1; min-height: 0; display: flex; gap: 36px; margin-top: 26px; }
+.left { flex: 1; display: flex; flex-direction: column; }
+.right { width: 380px; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; position: relative; }
+
+/* タイトル */
+.title { display: flex; align-items: center; gap: 22px; }
+.emoji { width: 96px; height: 96px; border-radius: 28px; background: var(--card); border: 4px solid var(--plan); display: grid; place-items: center; font-size: 54px; box-shadow: 0 6px 0 var(--plan); }
+h1 { font-weight: 900; font-size: 68px; letter-spacing: .02em; line-height: 1.1; }
+.catch { margin-top: 18px; font-weight: 700; font-size: 27px; line-height: 1.5; }
+.catch mark { background: linear-gradient(transparent 55%, var(--mark, #FFD66B) 55%); color: inherit; padding: 0 2px; }
+
+/* 3ステップ */
+.steps { display: flex; align-items: stretch; gap: 14px; margin-top: 28px; }
+.step { flex: 1; background: var(--card); border: 3px solid var(--line); border-radius: 22px; padding: 22px 20px 20px; }
+.step .n { display: inline-block; background: var(--plan); color: #fff; font-weight: 900; font-size: 16px; padding: 3px 12px; border-radius: 999px; }
+.step h3 { font-weight: 900; font-size: 30px; margin-top: 12px; }
+.step p { font-weight: 700; font-size: 20px; color: var(--sub); line-height: 1.6; margin-top: 8px; }
+.arrow { align-self: center; font-weight: 900; font-size: 34px; color: var(--plan); }
+
+/* ポイント */
+.points { display: flex; gap: 14px; margin-top: 24px; }
+.point { flex: 1; display: flex; align-items: center; gap: 12px; background: var(--plan-soft); border-radius: 18px; padding: 14px 18px; font-weight: 700; font-size: 19px; line-height: 1.4; }
+.point .i { font-size: 30px; }
+
+/* キャラの場所（ドモAIで作った絵をここに置く） */
+.chara-slot { width: 360px; height: 430px; border: 4px dashed #CFC3B0; border-radius: 30px; display: grid; place-items: center; text-align: center; color: #B4A892; font-weight: 700; font-size: 20px; line-height: 1.6; background: rgba(255,255,255,.55); }
+.bubble { position: absolute; top: 0; left: -10px; right: -10px; background: var(--card); border: 3px solid var(--ink); border-radius: 26px; padding: 16px 20px; font-weight: 700; font-size: 20px; line-height: 1.5; }
+.bubble::after { content: ''; position: absolute; bottom: -18px; left: 50%; border: 10px solid transparent; border-top: 12px solid var(--ink); }
+.bubble .who { font-weight: 900; font-size: 15px; color: var(--plan); display: block; margin-bottom: 4px; }
+
+.foot { display: flex; justify-content: space-between; margin-top: 18px; font-weight: 700; font-size: 17px; color: var(--sub); }
