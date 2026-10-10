@@ -1,0 +1,63 @@
+/* Studio Next 機能紹介 v2：ドモAIの絵を背景いっぱいに敷き、左のパネルで説明する */
+@font-face { font-family: 'ZMG'; font-weight: 500; src: url(fonts/zmg-500.ttf); }
+@font-face { font-family: 'ZMG'; font-weight: 700; src: url(fonts/zmg-700.ttf); }
+@font-face { font-family: 'ZMG'; font-weight: 900; src: url(fonts/zmg-900.ttf); }
+
+:root { --ink: #2A2733; --sub: #6B6576; --line: #EFE6D8; }
+.plan-premium { --plan: #E39A0B; --soft: #FFF3DC; --mark: #FFD66B; }
+.plan-master  { --plan: #DB3F76; --soft: #FFE7EF; --mark: #FFB9D1; }
+.plan-creator { --plan: #13996F; --soft: #E0F5EC; --mark: #A6E6CF; }
+.plan-free    { --plan: #3474E0; --soft: #E4EDFF; --mark: #B9D0FF; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1456px; height: 816px; }
+body {
+  font-family: 'ZMG', sans-serif; color: var(--ink); overflow: hidden; position: relative;
+  /* 日本語を言葉の切れ目（<wbr>）でだけ折り返す */
+  word-break: keep-all; overflow-wrap: anywhere; line-break: strict;
+  font-feature-settings: 'palt';
+}
+
+/* 背景の絵（ドモAI）。絵がまだ無いときは、やわらかい色で仮置き */
+.art { position: absolute; inset: 0; background: var(--art, linear-gradient(120deg, #FFF8EE 0%, var(--soft) 100%)) center / cover no-repeat; }
+.art-placeholder { position: absolute; right: 60px; bottom: 0; width: 400px; height: 720px; border: 4px dashed rgba(0,0,0,.18); border-bottom: none; border-radius: 200px 200px 0 0; display: grid; place-items: center; text-align: center; color: rgba(0,0,0,.35); font-weight: 700; font-size: 22px; line-height: 1.6; }
+
+/* 左の説明パネル */
+.panel { position: absolute; left: 40px; top: 36px; bottom: 36px; width: 900px; background: rgba(255,255,255,.94); border-radius: 36px; box-shadow: 0 18px 50px rgba(60,40,10,.14); padding: 34px 40px 28px; display: flex; flex-direction: column; }
+
+.top { display: flex; align-items: center; gap: 12px; }
+.brand { background: var(--ink); color: #fff; font-weight: 700; font-size: 17px; padding: 7px 16px; border-radius: 999px; }
+.no { font-weight: 900; font-size: 17px; color: var(--sub); letter-spacing: .04em; }
+.plan-chip { margin-left: auto; background: var(--plan); color: #fff; font-weight: 900; font-size: 18px; padding: 7px 18px; border-radius: 999px; }
+
+.title { display: flex; align-items: center; gap: 18px; margin-top: 22px; }
+.emoji { flex: none; width: 76px; height: 76px; border-radius: 24px; background: var(--soft); border: 3px solid var(--plan); display: grid; place-items: center; font-size: 42px; }
+h1 { font-weight: 900; font-size: var(--h1, 58px); line-height: 1.15; letter-spacing: .01em; }
+.catch { margin-top: 14px; font-weight: 700; font-size: 25px; line-height: 1.55; }
+.catch mark { background: linear-gradient(transparent 58%, var(--mark) 58%); color: inherit; padding: 0 1px; }
+
+/* 3つのステップ（縦） */
+.steps { flex: 1; min-height: 0; margin: 18px 0 16px; display: flex; flex-direction: column; justify-content: space-evenly; gap: 10px; }
+.step { display: flex; align-items: center; gap: 16px; background: #FFFDF9; border: 2px solid var(--line); border-radius: 22px; padding: 14px 18px; }
+.num { flex: none; width: 50px; height: 50px; border-radius: 50%; background: var(--plan); color: #fff; font-weight: 900; font-size: 22px; display: grid; place-items: center; }
+.what { flex: 1; min-width: 0; }
+.what h3 { font-weight: 900; font-size: 26px; line-height: 1.3; }
+.what p { font-weight: 700; font-size: 18px; color: var(--sub); line-height: 1.5; margin-top: 4px; }
+/* 小さい悠ちゃんのひとこと */
+.say { flex: none; width: 360px; display: flex; align-items: center; gap: 10px; }
+.face { flex: none; width: 52px; height: 52px; border-radius: 50%; border: 3px solid var(--plan); background: var(--soft) var(--face, none) no-repeat; background-size: var(--face-size, cover); background-position: var(--face-pos, center); display: grid; place-items: center; font-weight: 900; font-size: 20px; color: var(--plan); }
+.say p { position: relative; flex: 1; background: var(--soft); border-radius: 16px; padding: 9px 13px; font-weight: 700; font-size: 16.5px; line-height: 1.5; }
+.say p::before { content: ''; position: absolute; left: -10px; top: 50%; margin-top: -7px; border: 7px solid transparent; border-right: 10px solid var(--soft); border-left: 0; }
+
+/* ポイント */
+.points { display: flex; gap: 12px; }
+.point { flex: 1; display: flex; align-items: center; gap: 12px; border: 2px dashed var(--plan); border-radius: 18px; padding: 11px 16px; font-weight: 700; font-size: 17px; line-height: 1.45; }
+.point .i { font-size: 26px; }
+
+.foot { display: flex; justify-content: space-between; margin-top: 14px; font-weight: 700; font-size: 14px; color: var(--sub); }
+
+/* 大きい悠ちゃんのあいさつ（絵の上） */
+.hello { position: absolute; left: 975px; top: 52px; width: max-content; max-width: 330px; background: #fff; border: 3px solid var(--ink); border-radius: 24px; padding: 14px 18px; font-weight: 900; font-size: 20px; line-height: 1.5; box-shadow: 0 8px 20px rgba(0,0,0,.08); }
+.hello::after { content: ''; position: absolute; right: 36px; bottom: -16px; border: 10px solid transparent; border-top: 13px solid var(--ink); border-bottom: 0; }
+
+.hello .nm { display: inline-block; }
