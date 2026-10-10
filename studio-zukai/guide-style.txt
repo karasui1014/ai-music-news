@@ -1,0 +1,23 @@
+<style>
+  /* 案内型レイアウト */
+  .main { gap: 0; }
+  .left { padding-right: 20px; }
+  .steps { gap: 12px; }
+  .step { display: flex; flex-direction: column; align-items: flex-start; }
+  .say { width: 100%; }
+  .top { position: relative; z-index: 3; }
+  .say { display: flex; align-items: flex-start; gap: 10px; margin-top: auto; padding-top: 14px; }
+  .face { flex: none; width: 64px; height: 64px; border-radius: 50%; border: 3px solid var(--plan); background: #fff url(chara-sheet.png) no-repeat; background-size: 1000px 666px; }
+  .face.f1 { background-size: 1300px 865px; background-position: -975px -110px; }
+  .face.f2 { background-size: 1300px 865px; background-position: -962px -342px; }
+  .face.f3 { background-size: 1300px 865px; background-position: -1164px -332px; }
+  .say p { position: relative; flex: 1; background: var(--plan-soft); color: var(--ink); border-radius: 14px; padding: 9px 12px; font-size: 16px; font-weight: 700; line-height: 1.45; margin: 0; }
+  .say p::before { content: ''; position: absolute; left: -9px; top: 18px; border: 6px solid transparent; border-right: 9px solid var(--plan-soft); }
+  .step p.desc { font-size: 19px; }
+  .catch { max-width: 840px; }
+
+  .guide { position: relative; width: 330px; }
+  .guide .big { position: absolute; right: -10px; bottom: -40px; width: 300px; height: 700px; background: url(chara-sheet.png) no-repeat; background-size: 1609px 1070px; background-position: -394px -80px; mix-blend-mode: multiply; -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent), linear-gradient(to bottom, #000 85%, transparent); -webkit-mask-composite: source-in; }
+  .guide .hello { position: absolute; left: -150px; top: 0px; width: 250px; background: #fff; border: 3px solid var(--ink); border-radius: 22px; padding: 14px 16px; font-weight: 900; font-size: 21px; line-height: 1.45; z-index: 2; }
+  .guide .hello::after { content: ""; position: absolute; right: -20px; top: 40px; border: 10px solid transparent; border-left: 12px solid var(--ink); }
+</style>
