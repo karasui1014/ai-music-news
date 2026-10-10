@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Studio Next 機能紹介の図解（12枚）を作る。
+Studio Next 機能紹介の図解（11枚）を作る。
 
-使い方:  python3 gen.py   → 01〜12 の .html ができる（画像にするのは別の手順）
+使い方:  python3 gen.py   → 01〜11 の .html ができる（画像にするのは別の手順）
 
 キャラの絵:
   いまは chara-sheet.png（キャラシート）を仮に切り抜いて使っている。
   ドモAIで作った絵が届いたら、chara/ フォルダに
-    big-01.png 〜 big-12.png（大きい悠ちゃん・背景は白）
+    big-01.png 〜 big-11.png（大きい悠ちゃん・背景は白）
     face-a.png 〜 face-c.png（小さい悠ちゃん・背景は白）
   を置けば、自動でそちらに切り替わる。
 """
@@ -85,12 +85,6 @@ CARDS = [
                 ('えらぶ', 'ジャンル・応募先の<br>傾向と批評の口調', '甘口なら、良いところ中心だよ'),
                 ('チェック', '客観的な批評と<br>改善案', 'コンペに出す前に見ておこうね')],
          points=[('🎧', 'MP3・WAV・FLACなど<br>100MBまで'), ('🧭', '3つの視点で<br>ひとりよがりを防ぐ')]),
-    dict(slug='seedance-batch', emoji='🎞', name='Seedance Batch Studio', plan='creator', place='「つくる」→ 外部ツール → Seedance Batch Studio',
-         catch='動画の素材を<mark>まとめて</mark>、<mark>いっぺんに生成</mark>できる。',
-         steps=[('用意する', '作りたい素材を<br>まとめて準備', '1本ずつ待たなくていいよ'),
-                ('まとめて生成', 'バッチで<br>いっぺんに作る', 'そのあいだに別の作業ができるよ'),
-                ('えらぶ', 'できた素材から<br>使うものを選ぶ', 'MVの素材集めがラクになるよ')],
-         points=[('🎞', 'MVや動画の<br>素材集めに'), ('⏱', '1本ずつ待つ手間を<br>へらせる')]),
     dict(slug='seedance-prompt', emoji='🎥', name='シーダンス2.5 プロンプト工房', plan='creator', place='「つくる」→ 外部ツール → シーダンス2.5 プロンプト工房',
          catch='Seedance 2.5用のプロンプトを<mark>香盤表</mark>の形で<mark>組み立てて</mark>くれる。',
          steps=[('えらぶ', '「かんたん」か<br>「こだわり」', 'まずは3つ埋めるだけでOKだよ'),
