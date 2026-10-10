@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T09:28:34.430Z",
+  "generatedAt": "2026-10-10T15:06:27.700Z",
   "count": 400,
-  "newCount": 34,
-  "translatedCount": 2,
+  "newCount": 28,
+  "translatedCount": 0,
   "ranking": [
     "d4b0ba00b88d989a",
     "d61d2874e87bed8c",
@@ -121,7 +121,7 @@
       "category": "global",
       "ok": true,
       "fetched": 40,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -297,6 +297,20 @@
   ],
   "items": [
     {
+      "id": "506cd92ae1fd7bb7",
+      "title": "Kizuna AI、初のハロウィン楽曲「モンスターファクトリー」リリース ケンモチヒデフミと初タッグ",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44WXNMczk0YmVqVnd2blZzdnd6TThvWUlOMXZNM043OWwzWTJaVXdJMF9FRkVqQVl2OHpFcFRtU1pLajg3M0Fpa1RGMUtCZmZyX1A4YXc5QXZjd9IBX0FVX3lxTFBxRVlqdnRYaWlFQ0VRQnFNR2hiTVYxSldSYWFrbDJxS29GNmVBT25jeTdPeXY2RHpmSFFuNUlQbEltVmpENWpiQ2Y5dERjdGxnejFUQlFLaDNwWFUtZG93?oc=5",
+      "summary": "",
+      "published": "2026-10-10T09:25:56.000Z",
+      "source": "Real Sound｜リアルサウンド",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 26
+    },
+    {
       "id": "80d2c77d4668f261",
       "title": "AIを使って音楽を作り、リスナーを「偽装」したとして、懲役刑を言い渡された。",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HSjI0MndNeEVhOXZHRXNzSU4wd3U1eFdURkdzMFhNRXdOTWdWcEc1ODh5bzlCMDdRZV8zZ3VVOTVvajlUaVY3eXFhZWpEQUtuVGJnNWstNzY3aEZFc3ctdVJzNG9yT2JuRkxKUFBGXzViektLXzBNU01IY1ZVSFk?oc=5",
@@ -354,7 +368,7 @@
       "coverage": 1,
       "titleJa": "「初のクリエイティブエンターテイメントプラットフォーム」を実現するための新しいSunoライブミュージック部門",
       "summaryJa": "昨年11月のワーナー・ミュージック・グループとのSunoのライセンス契約の一部には、コンサート発見プラットフォームSongkickの買収が含まれていた。当時は奇妙な癖のように感じられました。AI音楽生成プラットフォームはライブギグと何の関係があるのでしょうか？しかし、今度はこの一見奇妙なカップルの関係がどのように機能するかを見ていきましょう。この投稿はMusic Allyからのものです。",
-      "score": 21
+      "score": 16
     },
     {
       "id": "5d759d35e69dfb4f",
@@ -368,7 +382,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "deca5a9660cab739",
@@ -382,7 +396,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 26
+      "score": 21
     },
     {
       "id": "190b7d8966f4ea4c",
@@ -396,7 +410,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "e54db0c9ae20e486",
@@ -412,7 +426,7 @@
       "coverage": 1,
       "titleJa": "MetaとTikTokが新しいエージェント型AI広告機能を発表",
       "summaryJa": "ニューヨークでAdvertising Weekが開催され、MetaとTikTokの両方が、エージェント型AIの世界にさらに足を踏み入れる新しい広告機能を発表しました。この投稿はMusic Allyからのものです。",
-      "score": 23
+      "score": 18
     },
     {
       "id": "fccbfa386b03eb7d",
@@ -426,7 +440,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 26
+      "score": 21
     },
     {
       "id": "eda107e5fd916f7b",
@@ -455,8 +469,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 2,
-      "score": 18
+      "coverage": 3,
+      "score": 26
     },
     {
       "id": "913b32e10e0caa29",
@@ -469,7 +483,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 5,
+      "coverage": 6,
       "score": 41
     },
     {
@@ -606,7 +620,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 9,
+      "coverage": 10,
       "score": 41
     },
     {
@@ -662,7 +676,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 5,
+      "coverage": 6,
       "score": 34
     },
     {
@@ -735,7 +749,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 9,
+      "coverage": 11,
       "score": 54
     },
     {
@@ -815,7 +829,7 @@
       "coverage": 1,
       "titleJa": "新しいCFO、3件のライセンス契約、7億7,500万ドル以上の資金調達により、54億ドル相当のSunoがIPOを阻止しているのはなぜですか？",
       "summaryJa": "同社の潜在的な株式市場の野心と、そこに到達する際に直面する障壁を示すシグナル。",
-      "score": 8
+      "score": 4
     },
     {
       "id": "f97cbc24fbf03c06",
@@ -831,7 +845,7 @@
       "coverage": 1,
       "titleJa": "イタリアの競争監視機関が「不公平な条件」についてスノを調査",
       "summaryJa": "Sunoの法的頭痛は、しばらく前にヨーロッパとスカンジナビアの収集協会によって提起された訴訟により、米国を超えて拡大しました。現在、イタリアが関与していますが、これは著作権侵害に関するものではありません。まあ、直接ではありません。投稿はMusic Allyからのものです。",
-      "score": 23
+      "score": 19
     },
     {
       "id": "111bb76ad6373388",
@@ -847,7 +861,7 @@
       "coverage": 1,
       "titleJa": "Tencent Musicは、DeepSeekをストリーミングサービスに統合しました。現在、親会社のテンセントは、AI企業の120億$以上の資金調達ラウンドの最大の支援者の1つです（レポート）",
       "summaryJa": "DeepSeekは、TMEのAIソングライティングツール、AIアシスタント、コメントセクションなどに組み込まれています",
-      "score": -1
+      "score": -5
     },
     {
       "id": "f5c0c288cc71fa36",
@@ -861,7 +875,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 19
+      "score": 15
     },
     {
       "id": "303803a36fcbfdc8",
@@ -1083,7 +1097,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 30
     },
     {
@@ -1311,7 +1325,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 9,
+      "coverage": 10,
       "titleJa": "米国の控訴裁判所は、AIトレーニングをめぐる「フェアユース」の防御を棄却した。レーベルとスノとの戦いにはどういう意味があるのでしょうか？",
       "summaryJa": "米国控訴裁判所は、9月29日にトムソン・ロイターとAI法務調査会社ROSS Intelligenceに対して判決を下しました",
       "score": 36
@@ -1327,7 +1341,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 16,
+      "coverage": 17,
       "score": 50
     },
     {
@@ -1514,10 +1528,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "Sunoは200万人の加入者と3億$の収益を「はるかに超えている」とMikey Shulmanは言う。彼はAI音楽にはまだ「確固たるルール」がないことは「良い」と主張する",
       "summaryJa": "シュルマン氏はまた、WMGとBMGが彼らの取引から何を得て、誰がAIのルールを設定すべきかを説明しました。",
-      "score": 11
+      "score": 19
     },
     {
       "id": "662e762ee723f61a",
@@ -1638,21 +1652,6 @@
       "score": 17
     },
     {
-      "id": "a0c3443c791fac99",
-      "title": "AI Startup Suno’s New Tool Puts Music to Spoken Word",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUUlwX19xVEpZcmlyNTQ0dGdVOGVWa1hwdkV4UWFtSnhYdTVJeW5sejhnM0Zsd0NvMjlBY3hEeHBoQmgtZjlNVlNQVHAya0l2U3htTnIzaVFHMlFUQzFiTG5WZVVVUEdwOEZWLWZ0WE1USWl2WW03Uk5EU2k5djFvU3RiLVhBZ3RnWU51cktzcDZTcTM5bUNWbkhkTURpdnNBaGxPT1lB?oc=5",
-      "summary": "",
-      "published": "2026-10-01T22:01:05.000Z",
-      "source": "Bloomberg.com",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "AIスタートアップSunoの新しいツールが音声に音楽を加える",
-      "score": 3
-    },
-    {
       "id": "e98777271099d1e1",
       "title": "悪質ホスト被害 アニメに 美しい作画、音楽はAI 専門学生制作 府警相談窓口を紹介 ／大阪",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9laWZfODZmekZVWExINjJqY3FmMTc5Sk9xVFFRQW05VE43bFp6V0FJRzhHRjMzVUcyQTF6elF5X3FpaG90Q1dOSWFITDF3RWFuZDFpSXFaQlBsTzFWX3d4YzVGYXY5eWEz?oc=5",
@@ -1709,6 +1708,21 @@
       "lang": "ja",
       "coverage": 1,
       "score": -3
+    },
+    {
+      "id": "a0c3443c791fac99",
+      "title": "AI Startup Suno’s New Tool Puts Music to Spoken Word",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUUlwX19xVEpZcmlyNTQ0dGdVOGVWa1hwdkV4UWFtSnhYdTVJeW5sejhnM0Zsd0NvMjlBY3hEeHBoQmgtZjlNVlNQVHAya0l2U3htTnIzaVFHMlFUQzFiTG5WZVVVUEdwOEZWLWZ0WE1USWl2WW03Uk5EU2k5djFvU3RiLVhBZ3RnWU51cktzcDZTcTM5bUNWbkhkTURpdnNBaGxPT1lB?oc=5",
+      "summary": "",
+      "published": "2026-10-01T07:00:00.000Z",
+      "source": "Bloomberg.com",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "AIスタートアップSunoの新しいツールが音声に音楽を加える",
+      "score": 3
     },
     {
       "id": "a8d624ea535168ea",
@@ -2021,6 +2035,20 @@
       "lang": "ja",
       "coverage": 1,
       "score": -3
+    },
+    {
+      "id": "76c81327515f4b43",
+      "title": "dull gray sky #suno #オリジナル曲",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LRzNyd2NOdHpOSWFXb2VSZTAxblM5V1BsbmlHRGdhdUpZY2h0Sy1TQ0s3WWZrNVotdVNMeGczQWI2cUcwc0ZDcnIzdDRWV1FnTF82T1E4Rm9md1VX?oc=5",
+      "summary": "",
+      "published": "2026-09-30T07:00:00.000Z",
+      "source": "YouTube",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 6
     },
     {
       "id": "14c9d927bbc806f4",
@@ -2435,7 +2463,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 47,
+      "coverage": 48,
       "score": 32
     },
     {
@@ -2465,7 +2493,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 58,
+      "coverage": 59,
       "titleJa": "ソニーとUMGがSunoを再び訴える",
       "summaryJa": "ソニーとユニバーサルミュージックグループは、Sunoに対してさらに別の訴訟を起こしました。レーベルは、新しいv 6モデルがまだ著作権を侵害していると主張している。なぜなら、それは以前のモデルからのユーザー出力で訓練されているからだ。以前のモデル自体は、YouTubeや他のソースからリッピングされた無許可の音楽で訓練されていたからだ。ソニーとUMGは、署名しなかった注目すべきホールドアウトである",
       "score": 27
@@ -2597,7 +2625,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 52,
+      "coverage": 53,
       "score": 21
     },
     {
@@ -3084,7 +3112,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 61,
+      "coverage": 62,
       "titleJa": "Sunoは、最新のソニーとユニバーサルの訴訟を爆発させるため、V 6モデルがユーザーからの「クリエイション」について訓練されたことを確認します",
       "summaryJa": "同社は、ユニバーサルミュージックグループとソニーミュージックエンタテインメントが提起した2回目の著作権訴訟に対応する声明で、その説明を記載した。",
       "score": 34
@@ -3350,7 +3378,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 65,
+      "coverage": 66,
       "titleJa": "「Sunoの死」： Redditユーザーはv 6モデルアップデート後にSunoに反対しています",
       "summaryJa": "このアップデートでは、音楽レーベルも満足していません。「V 6は新たなスタートではありません。同じ毒された木の果実です。」",
       "score": 38
@@ -3498,7 +3526,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 139,
+      "coverage": 140,
       "score": 44
     },
     {
@@ -3701,7 +3729,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 83,
+      "coverage": 84,
       "titleJa": "いくつかのレーベルがSunoと取引する中、アーティストの担当者は「それはワイルドでワイルドな西部」と鳴り響きます",
       "summaryJa": "SunoがWMGなどと提携して新しいv 6音楽モデルを発表したことで、マネージャーや弁護士は急速に進化するAI音楽の世界に自分たちの考えを提示しています。",
       "score": 27
@@ -3733,7 +3761,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 80,
+      "coverage": 81,
       "titleJa": "ユニバーサルとソニーは、プラットフォームのv 6モデルが「同じ毒された木の果実」であると主張して、2度目のSunoを訴えた",
       "summaryJa": "米国の著作権法では、意図的な侵害に対する損害賠償は、作品ごとに最大$ 150,000に設定されています。その上限では、60,202の録音は理論的には最大90億$をわずかに上回ります。",
       "score": 34
@@ -4026,7 +4054,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 68,
+      "coverage": 69,
       "titleJa": "「サブスクリプションをキャンセルします」： SunoユーザーはV 6アップデートを「うぬぼれた、一般的な、魂のないゴミ」と非難しました",
       "summaryJa": "業界に支えられたV 6モデルのリリースに続いて、AI音楽プラットフォームの最も熱心なサポーターの一部が船を放棄している",
       "score": 38
@@ -4160,7 +4188,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 60,
+      "coverage": 61,
       "titleJa": "ユニバーサルとワーナーのプレス裁判所、SunoとUdioの取引をめぐる米国ミュージシャンの訴訟を終結",
       "summaryJa": "この訴訟は、レコード会社との組合の団体交渉協定である録音労働協定の第21条（ a ）に基づいている。",
       "score": 27
@@ -4499,7 +4527,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 189,
+      "coverage": 190,
       "score": 21
     },
     {
@@ -4789,7 +4817,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 115,
+      "coverage": 116,
       "score": 63
     },
     {
@@ -6175,34 +6203,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": -10
-    },
-    {
-      "id": "060dba9435fda6e3",
-      "title": "6万種のAIトーンを足元に？ IK Multimedia TONEX Board 発売 〜ギター／ベース用オールインワン・プロセッサー",
-      "url": "https://www.snrec.jp/entry/2026/09/07/130000",
-      "summary": "IK Multimedia TONEX Boardが2026年9月4日に発売。AIによるTone Modelを1プリセットで最大4基同時処理し、AmpliTube 5由来の70種類以上のエフェクトを12スロットに配置できるギター/ベース用オールインワン・プロセッサーだ。5インチ・カラー・タッチスクリーン、独立パラメトリックEQ付きステレオ2系統出力（XLR/TRS）、USB-Cで4イン/2アウトのオーディオI/O機能も搭載。ToneNETの6万種以上のTone Modelにアクセスでき、198,000円（税込）。",
-      "published": "2026-09-07T04:00:00.000Z",
-      "source": "サンレコ",
-      "sourceId": "snrec",
-      "via": null,
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "958331e7ec9ec6ab",
-      "title": "【ミニレビュー】ディスプレイ付きAIグラス「RayNeo iO Smart Glasses」使ってみた",
-      "url": "https://av.watch.impress.co.jp/docs/review/minireview/2137403.html",
-      "summary": "TCL傘下のARグラス特化ブランド・RayNeoは、AIとディスプレイ機能を搭載したスマートグラス「RayNeo iO Smart Glasses」を、9月4日16時より日本国内で発売した。実機を試すことができたので、その使い勝手を紹介する。",
-      "published": "2026-09-06T23:00:00.000Z",
-      "source": "AV Watch",
-      "sourceId": "av-watch",
-      "via": null,
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 11
     }
   ]
 }
