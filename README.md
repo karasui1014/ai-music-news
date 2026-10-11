@@ -27,6 +27,10 @@ AI音楽まわりの最新ニュースを自動で集めて、スマホで読み
 | `songs.txt` | **おはスタで紹介する曲のリスト**。曲を増やす・減らすときはここを編集 |
 | `mac/post.sh` | Substack のノートに「おはスタ✨今日の一曲」を投稿する本体（Macで動く） |
 | `mac/install.sh` / `mac/uninstall.sh` | おはスタ自動投稿を Mac に設定する／取り外す |
+| `studio-next/intros.json` | **昼・夕方に投稿するスタジオネクストのツール紹介（12個）の文章**。文章を直すときはここを編集 |
+| `studio-next/images/` | ツール紹介の画像（01.jpg〜12.jpg） |
+| `mac/studio-next.sh` | Substack のノートにツール紹介を投稿する本体（Macで動く） |
+| `mac/studio-next-install.sh` / `mac/studio-next-uninstall.sh` | ツール紹介の自動投稿を Mac に設定する／取り外す |
 
 ---
 
@@ -317,3 +321,55 @@ bash <(curl -fsSL https://raw.githubusercontent.com/karasui1014/ai-music-news/ma
 
 **GitHub の Secrets に残っている `SUBSTACK_SID` について**
 GitHub から投稿していたときの名残りで、今は使っていません。リポジトリの **Settings → Secrets and variables → Actions** で、`SUBSTACK_SID` の **ゴミ箱マーク** を押して消しておくと安心です。
+
+---
+
+## 8. Substack「スタジオネクストのツール紹介」自動投稿
+
+毎日 **12:00 と 18:00** に、スタジオネクストの制作ツール紹介（12個）から1つずつ選んで、Substack のノートに
+
+> 🧰 スタジオネクストのツール紹介
+> 【ツールの名前】＋ 紹介文
+> ▼ スタジオネクストはこちら（リンク）
+> （紹介画像）
+
+を自動で投稿します。朝 7:00 の「おはスタ」とあわせて、1日3回の投稿になります。
+12個をランダムな順番で出していき、**一巡するまで同じ紹介は出ません**（6日で一巡して、また並べ直します）。
+
+仕組みはおはスタと同じで、**カラスイさんの Mac の Safari から投稿します**（同じく非公式なやり方です）。
+画像のアップロードだけうまくいかなかったときは、画像のかわりにスタジオネクストのリンクのカードを付けて投稿し、記録に「⚠️」を残します。
+
+### 設定する
+
+おはスタの設定（セクション7）が済んでいれば、Safari の準備はもうできています。
+
+1. **ターミナル** を開く
+2. 次の1行をコピーして、ターミナルに貼り付けて **return**
+   ```
+   bash <(curl -fsSL https://raw.githubusercontent.com/karasui1014/ai-music-news/main/mac/studio-next-install.sh)
+   ```
+3. Safari のウインドウが開いて閉じます。確認が出たら **「許可」（OK）**
+4. 最後に「ためしに、今すぐ1回投稿してみますか？」と聞かれるので、`y` か `n` → **return**
+
+> 💡 Mac を自動で起こすのは、おはスタの朝 7:00 だけです。12:00・18:00 に Mac がスリープしていたら、
+> その日のうちに Mac を開いたタイミングで投稿されます（夜中や翌朝に開いたときは、その分は飛ばします）。
+
+### 紹介文を直す・増やす
+
+GitHub で `studio-next/intros.json` を開き、えんぴつマークで編集 → **Commit changes**。
+`lines` の1行が、投稿の1段落になります。最後の「▼ スタジオネクストはこちら」とリンクは自動で付きます。
+紹介を増やすときは、画像を `studio-next/images/` に入れて、`id` がほかと重ならないように1つ足します。
+Mac は投稿のたびに GitHub から最新の内容を読みにいくので、Mac 側の作業はいりません。
+
+### 困ったとき
+
+記録は次の1行で見られます。出てきた文字を Claude に伝えてください。
+```
+tail -n 20 ~/Library/Logs/studio-next.log
+```
+Safari やログインまわりの対処は、おはスタ（セクション7）の「困ったとき」と同じです。
+
+**自動投稿を止めたい**（おはスタはそのまま残ります）
+```
+bash <(curl -fsSL https://raw.githubusercontent.com/karasui1014/ai-music-news/main/mac/studio-next-uninstall.sh)
+```
