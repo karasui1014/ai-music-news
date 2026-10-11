@@ -6,13 +6,13 @@
 #
 # やること:
 #   1. 投稿の本体（studio-next.sh）を Mac に置く
-#   2. 毎日 12:00 と 18:00 に投稿する予約を入れる（launchd）
+#   2. 毎日 12:00・15:00・18:00・21:00 に投稿する予約を入れる（launchd）
 #   3. 予約と同じ形で Safari を動かして、うまく操作できるか確かめる（投稿はしない）
 #   4. 希望があれば、今すぐ1回投稿してみる
 #
 # Safari の準備（「Apple EventsからのJavaScriptを許可」と Substack へのログイン）は、おはスタと同じです。
 # おはスタの設定が済んでいれば、追加でやることはありません。
-# ※ Mac を自動で起こす設定は、おはスタの朝7:00 だけです。12:00・18:00 にスリープしていたら、
+# ※ Mac を自動で起こす設定は、おはスタの朝7:00 だけです。12:00・15:00・18:00・21:00 にスリープしていたら、
 #    次に Mac を開いたときに（その日の12時以降なら）投稿されます。
 
 set -eu
@@ -54,7 +54,7 @@ curl -fsSL "$BASE/studio-next.sh" -o "$DIR/studio-next.sh"
 chmod 700 "$DIR/studio-next.sh"
 echo '✅ 1/3 投稿のプログラムを置きました'
 
-# 2) 毎日 12:00 と 18:00 の予約
+# 2) 毎日 12:00・15:00・18:00・21:00 の予約
 cat > "$PLIST" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -75,7 +75,15 @@ cat > "$PLIST" <<EOF
       <key>Minute</key><integer>0</integer>
     </dict>
     <dict>
+      <key>Hour</key><integer>15</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
       <key>Hour</key><integer>18</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Hour</key><integer>21</integer>
       <key>Minute</key><integer>0</integer>
     </dict>
   </array>
@@ -84,7 +92,7 @@ cat > "$PLIST" <<EOF
 EOF
 launchctl bootout "gui/$(id -u)/$LABEL" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$PLIST"
-echo '✅ 2/3 毎日 12:00 と 18:00 に投稿する予約を入れました'
+echo '✅ 2/3 毎日 12:00・15:00・18:00・21:00 に投稿する予約を入れました'
 
 # 3) 予約と同じ形で Safari を動かしてみる
 echo ''
@@ -100,7 +108,7 @@ echo '✅ 3/3 Safari を動かせました'
 
 echo ''
 echo '🎉 設定がすべて終わりました！'
-echo '   毎日 12:00 と 18:00 に、ツール紹介を1つずつ投稿します。'
+echo '   毎日 12:00・15:00・18:00・21:00 に、ツール紹介を1つずつ投稿します。'
 echo ''
 
 # 4) 今すぐ1回投稿してみるか

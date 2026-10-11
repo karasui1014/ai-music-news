@@ -1,7 +1,7 @@
 #!/bin/bash
 # スタジオネクストのツール紹介 自動投稿（Mac用）
 #
-# 毎日 12:00 と 18:00 に、studio-next/intros.json の12個の紹介から1つを選び、
+# 毎日 12:00・15:00・18:00・21:00 に、studio-next/intros.json の12個の紹介から1つを選び、
 # Safari で substack.com を開いて「紹介文＋画像＋スタジオネクストへのリンク」をノートに投稿します。
 # 12個をランダムな順番で一巡するまで、同じ紹介は出しません（一巡したら、また並べ直します）。
 # Safari でログインしている状態をそのまま使うので、合言葉（Cookie）のコピーはいりません。
@@ -13,7 +13,7 @@
 # Substack 側の変更で、ある日動かなくなる可能性があります。
 #
 # 使い方:
-#   studio-next.sh          … 投稿する（12:00〜17:59 は「昼」、18:00〜 は「夕方」の分。同じ枠は1日1回だけ）
+#   studio-next.sh          … 投稿する（12時台〜は「昼」、15時〜「午後」、18時〜「夕方」、21時〜「夜」の分。同じ枠は1日1回だけ）
 #   studio-next.sh check    … 投稿せず、Safari を操作できるかだけ確かめる
 #   studio-next.sh force    … 時間や回数に関係なく、いま1回投稿する
 #   studio-next.sh report   … 投稿せず、紹介ごとの文言といいね数の成績を表示する
@@ -267,20 +267,23 @@ fi
 today=$(date +%Y-%m-%d)
 hour=$((10#$(date +%H)))
 
-# どの枠（昼／夕方）の投稿かを決める
+# どの枠（昼／午後／夕方／夜）の投稿かを決める（2026-10-12に15時・21時を追加）
 slot=manual
 slot_ja=手動
 if [ "$MODE" = post ]; then
-  if [ "$hour" -ge 18 ]; then
-    slot=evening
+  if [ "$hour" -ge 21 ]; then
+    slot=night; slot_ja=夜
+  elif [ "$hour" -ge 18 ]; then
+    slot=evening; slot_ja=夕方
+  elif [ "$hour" -ge 15 ]; then
+    slot=afternoon; slot_ja=午後
   elif [ "$hour" -ge 12 ]; then
-    slot=noon
+    slot=noon; slot_ja=昼
   else
     # 夜中や朝に Mac が起きて、前の日の予約が遅れて動いたときは投稿しない
     log "投稿の時間（12時〜）ではないので、何もしません。"
     exit 0
   fi
-  if [ "$slot" = noon ]; then slot_ja=昼; else slot_ja=夕方; fi
   if [ "$(cat "$DIR/last-$slot" 2>/dev/null)" = "$today" ]; then
     log "今日の${slot_ja}の分はもう投稿済みなので、何もしません。"
     exit 0
