@@ -166,8 +166,25 @@ ids=$(grep -v '^[[:space:]]*#' "$DIR/songs.txt" \
 count=$(printf '%s\n' "$ids" | grep -c . || true)
 [ "$count" -gt 0 ] || fail 'songs.txt に曲のリンクが1つもありません。'
 
-song="https://open.spotify.com/track/$(printf '%s\n' "$ids" | sed -n "$((RANDOM % count + 1))p")"
-log "🎵 ${count}曲の中から選びました: $song"
+# 一巡するまで同じ曲を出さない（2026-10-12〜）。
+# 順番待ちの列（queue）に、今も songs.txt にある曲だけを残す。
+# 列が空になったら全曲をランダムに並べ直す（前回と同じ曲が続かないようにする）。
+QUEUE="$DIR/queue"
+touch "$QUEUE"
+printf '%s\n' "$ids" > "$DIR/all-ids"
+grep -xF -f "$DIR/all-ids" "$QUEUE" > "$QUEUE.tmp" || true
+mv "$QUEUE.tmp" "$QUEUE"
+if [ ! -s "$QUEUE" ]; then
+  last=$(cat "$DIR/last-id" 2>/dev/null || true)
+  printf '%s\n' "$ids" | awk 'BEGIN { srand() } { print rand() "\t" $0 }' | sort -n | cut -f2 > "$QUEUE"
+  if [ -n "$last" ] && [ "$(head -n 1 "$QUEUE")" = "$last" ] && [ "$(wc -l < "$QUEUE" | tr -d ' ')" -gt 1 ]; then
+    { tail -n +2 "$QUEUE"; echo "$last"; } > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
+  fi
+  log "🔀 曲の順番を並べ直しました（${count}曲）"
+fi
+song_id=$(head -n 1 "$QUEUE")
+song="https://open.spotify.com/track/${song_id}"
+log "🎵 残り$(wc -l < "$QUEUE" | tr -d ' ')曲の中から: ${song}"
 
 # Safari の中で動かす JavaScript。
 # 1) 曲のリンクを「カード」として登録 → 2) 文言＋カードでノートを投稿
@@ -206,5 +223,8 @@ res=$(run_in_safari "$js")
 check_result "$res"
 
 echo "$today" > "$DIR/last-posted"
+# 投稿できたら列の先頭を消して記録する（失敗したら同じ曲を次回もう一度試す）
+tail -n +2 "$QUEUE" > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
+echo "$song_id" > "$DIR/last-id"
 log '✅ 投稿しました！'
 notify '今日の一曲を投稿しました🎵'
