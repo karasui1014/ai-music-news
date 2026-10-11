@@ -16,6 +16,14 @@
 #   studio-next.sh          … 投稿する（12:00〜17:59 は「昼」、18:00〜 は「夕方」の分。同じ枠は1日1回だけ）
 #   studio-next.sh check    … 投稿せず、Safari を操作できるかだけ確かめる
 #   studio-next.sh force    … 時間や回数に関係なく、いま1回投稿する
+#   studio-next.sh report   … 投稿せず、紹介ごとの文言といいね数の成績を表示する
+#
+# 文言の育て方（2026-10-12〜）:
+#   intros.json の各紹介には文言が A・B・C の3パターンある（variants）。
+#   同じ紹介の番が回ってきたら、前回その紹介に付いた「いいね＋リステック」を見て、
+#     ・直近12投稿の中央値以上（かつ1以上）なら → 同じ文言のまま
+#     ・少なかったら → まだ試していない文言へ。全部試したら平均がいちばん良い文言へ
+#   投稿の記録は $DIR/history.tsv（日付・紹介・文言・ノートID）に残る。
 # 設定のときは、$DIR/run-check や $DIR/run-force があれば、それぞれ check / force として動く（launchd 経由で確認するため）
 
 set -u
@@ -135,6 +143,127 @@ check_result() {
 }
 
 mkdir -p "$DIR"
+
+# いいね数を取ってきて、次に使う文言を決める補助プログラム（Mac 標準の python3 で動く）
+cat > "$DIR/variant.py" <<'PY'
+import datetime, json, os, statistics, sys, urllib.request
+
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
+      "(KHTML, like Gecko) Version/18.0 Safari/605.1.15")
+HANDLE = "karasui"
+_cache = {}
+
+def get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return json.load(r)
+
+def score(nid):
+    """いいね＋リステックの数。取れなかったら None"""
+    if not nid:
+        return None
+    if nid in _cache:
+        return _cache[nid]
+    try:
+        d = get("https://substack.com/api/v1/reader/comment/%s" % nid)
+        c = (d.get("item") or {}).get("comment") or d.get("comment") or d
+        v = int(c.get("reaction_count") or 0) + int(c.get("restacks") or 0)
+    except Exception:
+        v = None
+    _cache[nid] = v
+    return v
+
+def load_hist(d):
+    rows = []
+    p = os.path.join(d, "history.tsv")
+    if os.path.exists(p):
+        for line in open(p, encoding="utf-8"):
+            f = line.rstrip("\n").split("\t")
+            if len(f) >= 4:
+                rows.append({"date": f[0], "id": f[1], "var": f[2], "nid": f[3]})
+    return rows
+
+def load_items(d):
+    return json.load(open(os.path.join(d, "intros.json"), encoding="utf-8"))
+
+def keys_of(item):
+    return [v["key"] for v in (item.get("variants") or [])] or ["A"]
+
+def fmt(x):
+    return ("%.1f" % x).rstrip("0").rstrip(".")
+
+def choose(d, iid):
+    item = next((i for i in load_items(d) if i.get("id") == iid), {})
+    keys = keys_of(item)
+    hist = load_hist(d)
+    mine = [h for h in hist if h["id"] == iid and h["var"] in keys]
+    if not mine:
+        return keys[0], "はじめての紹介"
+    last = mine[-1]
+    ls = score(last["nid"])
+    if ls is None:
+        return last["var"], "前回の反応を取れなかったので同じ文言"
+    recent = [s for s in (score(h["nid"]) for h in hist[-12:]) if s is not None]
+    med = statistics.median(recent) if recent else 0
+    if ls >= 1 and ls >= med:
+        return last["var"], "前回%dいいねで好評（直近の中央値%s）なので同じ文言" % (ls, fmt(med))
+    tried = []
+    for h in mine:
+        if h["var"] not in tried:
+            tried.append(h["var"])
+    untried = [k for k in keys if k not in tried]
+    if untried:
+        return untried[0], "前回%dいいね（直近の中央値%s）だったので、まだ試していない文言へ" % (ls, fmt(med))
+    avg = {}
+    for k in keys:
+        ss = [s for s in (score(h["nid"]) for h in mine if h["var"] == k) if s is not None]
+        avg[k] = sum(ss) / len(ss) if ss else 0
+    li = keys.index(last["var"])
+    cands = [k for k in keys if k != last["var"]] or keys
+    best = max(cands, key=lambda k: (avg[k], -((keys.index(k) - li) % len(keys))))
+    return best, "前回%dいいね。全部の文言を試したので、平均がいちばん良い文言へ" % ls
+
+def latest_note_id():
+    """数分以内に投稿された自分のノートのID（投稿の返事にIDが無かったときの予備）"""
+    uid = get("https://substack.com/api/v1/user/%s/public_profile" % HANDLE)["id"]
+    feed = get("https://substack.com/api/v1/reader/feed/profile/%s?types%%5B%%5D=note" % uid)
+    c = feed["items"][0]["comment"]
+    t = datetime.datetime.fromisoformat(c["date"].replace("Z", "+00:00"))
+    if (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() < 900:
+        return str(c["id"])
+    return ""
+
+def report(d):
+    hist = load_hist(d)
+    print("紹介ごとの成績（いいね＋リステック）")
+    for item in load_items(d):
+        mine = [h for h in hist if h["id"] == item["id"]]
+        line = "  %s %s" % (item["id"], item.get("title", ""))
+        if not mine:
+            print(line + " ： まだ投稿していません")
+            continue
+        parts = []
+        for h in mine:
+            s = score(h["nid"])
+            parts.append("%s 文言%s ❤%s" % (h["date"][5:], h["var"], "?" if s is None else s))
+        print(line + " ： " + " ／ ".join(parts))
+
+if __name__ == "__main__":
+    mode, d = sys.argv[1], sys.argv[2]
+    if mode == "choose":
+        k, why = choose(d, sys.argv[3])
+        print(k + "\t" + why)
+    elif mode == "latest":
+        print(latest_note_id())
+    elif mode == "report":
+        report(d)
+PY
+
+if [ "$MODE" = report ]; then
+  /usr/bin/python3 "$DIR/variant.py" report "$DIR"
+  exit 0
+fi
+
 today=$(date +%Y-%m-%d)
 hour=$((10#$(date +%H)))
 
@@ -207,6 +336,15 @@ id=$(head -n 1 "$QUEUE")
 # set -u のせいで「unbound variable」で黙って止まる（2026-10-11 に実際に起きた）
 log "🧰 今回の紹介: ${id}（${slot_ja}）"
 
+# 前回の反応を見て、今回の文言（A/B/C）を決める。判断できなければ A
+variant=A
+reason=判断できなかったので文言A
+if out=$(/usr/bin/python3 "$DIR/variant.py" choose "$DIR" "$id" 2>/dev/null) && [ -n "$out" ]; then
+  variant=$(printf '%s' "$out" | cut -f1)
+  reason=$(printf '%s' "$out" | cut -f2-)
+fi
+log "✍️ 文言${variant}を使います（${reason}）"
+
 # Safari の中で動かす JavaScript。
 # 1) 紹介文と画像を GitHub から読む → 2) 画像を Substack に上げる → 3) 紹介文＋画像＋リンクでノートを投稿
 #    画像だけうまくいかなかったときは、スタジオネクストのリンクのカードを付けて投稿する
@@ -217,6 +355,7 @@ read -r -d '' js <<EOF || true
   var BASE = "https://raw.githubusercontent.com/karasui1014/ai-music-news/main/studio-next/";
   var SITE = "https://karasui1014.github.io/studio-next/";
   var ID = "$id";
+  var VARIANT = "$variant";
   var note = "";
   var item = null;
   var post = function (path, body) {
@@ -272,7 +411,9 @@ read -r -d '' js <<EOF || true
         });
     })
     .then(function (attId) {
-      var lines = item.lines.concat(["", "▼ スタジオネクストはこちら", SITE]);
+      var chosen = item.lines;
+      (item.variants || []).forEach(function (v) { if (v.key === VARIANT) chosen = v.lines; });
+      var lines = chosen.concat(["", "▼ スタジオネクストはこちら", SITE]);
       var body = {
         bodyJson: { type: "doc", attrs: { schemaVersion: "v1" }, content: lines.map(paragraph) },
         tabId: "for-you", surface: "feed", replyMinimumRole: "everyone"
@@ -280,7 +421,10 @@ read -r -d '' js <<EOF || true
       if (attId !== null && attId !== undefined) body.attachmentIds = [attId];
       return post("/api/v1/comment/feed", body);
     })
-    .then(function () { window.__snext = "OK" + note; })
+    .then(function (r) {
+      var nid = (r && (r.id || (r.comment && r.comment.id))) || "";
+      window.__snext = "OK id=" + nid + note;
+    })
     .catch(function (e) { window.__snext = "ERROR " + e.message; });
 })();
 EOF
@@ -292,8 +436,16 @@ check_result "$res"
 tail -n +2 "$QUEUE" > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
 echo "$id" > "$DIR/last-id"
 [ "$slot" = manual ] || echo "$today" > "$DIR/last-$slot"
-case "$res" in
-  "OK ("*) log "⚠️ ${res#OK }" ;;
-esac
-log "✅ 投稿しました！（紹介 ${id}）"
+warn=$(printf '%s' "$res" | sed -nE 's/^OK id=[0-9]* ?\((.*)\)$/\1/p')
+[ -z "$warn" ] || log "⚠️ ${warn}"
+
+# いいね数をあとで見るために、ノートのIDを記録する
+nid=$(printf '%s' "$res" | sed -nE 's/^OK id=([0-9]+).*/\1/p')
+if [ -z "$nid" ]; then
+  sleep 5
+  nid=$(/usr/bin/python3 "$DIR/variant.py" latest "$DIR" 2>/dev/null || true)
+fi
+printf '%s\t%s\t%s\t%s\n' "$today" "$id" "$variant" "$nid" >> "$DIR/history.tsv"
+[ -n "$nid" ] || log "⚠️ ノートのIDが取れなかったので、今回の文言の成績は数えられません。"
+log "✅ 投稿しました！（紹介 ${id}・文言${variant}）"
 notify "ツール紹介を投稿しました🧰"
