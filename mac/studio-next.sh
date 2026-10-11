@@ -202,7 +202,10 @@ if [ ! -s "$QUEUE" ]; then
 fi
 
 id=$(head -n 1 "$QUEUE")
-log "🧰 今回の紹介: $id（${slot_ja}）"
+# 変数の直後に全角文字が来るときは必ず ${ } で囲む。
+# Mac の古い bash（3.2）は「$id（」の「（」の一部まで変数名として読んでしまい、
+# set -u のせいで「unbound variable」で黙って止まる（2026-10-11 に実際に起きた）
+log "🧰 今回の紹介: ${id}（${slot_ja}）"
 
 # Safari の中で動かす JavaScript。
 # 1) 紹介文と画像を GitHub から読む → 2) 画像を Substack に上げる → 3) 紹介文＋画像＋リンクでノートを投稿
@@ -292,5 +295,5 @@ echo "$id" > "$DIR/last-id"
 case "$res" in
   "OK ("*) log "⚠️ ${res#OK }" ;;
 esac
-log "✅ 投稿しました！（紹介 $id）"
+log "✅ 投稿しました！（紹介 ${id}）"
 notify "ツール紹介を投稿しました🧰"
