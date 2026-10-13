@@ -1,0 +1,25 @@
+# Substack の記事一覧（RSS）を GitHub から取れる入り口があるか調べる、一時的な設定（調べ終わったら消す）
+name: SubstackRSS入口テスト
+on:
+  push:
+    branches: [claude/substack-post-automation-n56qs4]
+    paths: [.github/workflows/probe-feed.yml]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: |
+          F='https://karasui.substack.com/feed'
+          E='https%3A%2F%2Fkarasui.substack.com%2Ffeed'
+          for u in "$F" "https://api.rss2json.com/v1/api.json?rss_url=$E" "https://r.jina.ai/$F" \
+                   "https://feeds.feedburner.com/" "https://rss.app/" \
+                   "https://api.allorigins.win/raw?url=$E" "https://corsproxy.io/?url=$E" \
+                   "https://www.toptal.com/developers/feed2json/convert?url=$E"; do
+            code=$(curl -sS -m 25 -A 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15' -o body -w '%{http_code}' "$u" || echo ERR)
+            items=$(grep -o '<item>\|"title"' body 2>/dev/null | wc -l)
+            cf=$(grep -c 'Just a moment' body 2>/dev/null || true)
+            echo "$code items=$items cloudflare=$cf  $u"
+          done
