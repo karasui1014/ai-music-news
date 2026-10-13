@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:47:06.013Z",
+  "generatedAt": "2026-10-13T19:41:47.891Z",
   "count": 400,
   "newCount": 27,
   "translatedCount": 2,
@@ -7,10 +7,10 @@
     "d4b0ba00b88d989a",
     "913b32e10e0caa29",
     "8d24729150ba743c",
+    "b17ed6c7f7deefe6",
+    "aa27ee8c27ed7c6a",
     "b2735e5e570b8ea0",
     "a12ad0947e25774e",
-    "b17ed6c7f7deefe6",
-    "a7c4c7e1109be9ac",
     "6c5a1aaa5cb87fdd",
     "303803a36fcbfdc8",
     "a66feb3e420ca5b7"
@@ -139,7 +139,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 0,
+      "matched": 2,
       "error": null
     },
     {
@@ -297,6 +297,38 @@
   ],
   "items": [
     {
+      "id": "e84e9a5d1daccaad",
+      "title": "10 Key Issues Driving the Latin Music Industry Today: AI, Distribution, Touring & More at Latin Music Week",
+      "url": "https://www.billboard.com/lists/latin-music-week-2026-key-issues-business-panels/",
+      "summary": "From global touring to the rise of music podcasters, the Billboard event will put the Latin business’s biggest questions front and center.",
+      "published": "2026-10-13T18:09:24.000Z",
+      "source": "Billboard",
+      "sourceId": "billboard",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "今日のラテン音楽業界を推進する10の重要課題：ラテン音楽ウィークでのAI、ディストリビューション、ツーリングなど",
+      "summaryJa": "グローバルツアーから音楽ポッドキャスターの台頭まで、ビルボードイベントはラテンビジネスの最大の疑問を前面に出し、中心に据えます。",
+      "score": 12
+    },
+    {
+      "id": "3f9e768f0d308aa1",
+      "title": "Summer Walker Lawsuit, DistroKid AI Slop Case, Top Dawg Ruling & More Top Music Law News",
+      "url": "https://www.billboard.com/pro/summer-walker-lawsuit-distrokid-ai-slop-case/",
+      "summary": "In this week's Legal Beat newsletter, Summer Walker battles Interscope, DistroKid pulls down songs, Top Dawg wins a \"doxxing\" ruling and much more.",
+      "published": "2026-10-13T17:10:36.000Z",
+      "source": "Billboard",
+      "sourceId": "billboard",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "サマーウォーカー訴訟、DistroKid AIスロップケース、トップドッグ判決などトップミュージック法律ニュース",
+      "summaryJa": "今週のリーガル・ビートのニュースレター「Summer Walker battles Interscope」では、DistroKidが曲を引き下げ、トップ・ドッグが「doxxing」判決を勝ち取ります。",
+      "score": 12
+    },
+    {
       "id": "6954cc44c00e2e17",
       "title": "Deezer lets users hide AI music; Playhead generates signal chains for producers",
       "url": "https://musically.com/2026/10/13/deezer-lets-users-hide-ai-music-playhead-generates-signal-chains-for-producers/",
@@ -395,9 +427,9 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 3,
+      "coverage": 4,
       "titleJa": "ノースカロライナ州の男性、800万$のAI音楽詐欺計画で有罪判決",
-      "score": 28
+      "score": 36
     },
     {
       "id": "2c53df3cda7fc5c3",
@@ -428,7 +460,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIミュージックメーカー、電信詐欺の陰謀で有罪判決",
-      "score": 12
+      "score": 7
     },
     {
       "id": "4586d0ddc18f14ec",
@@ -789,7 +821,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 30
     },
     {
@@ -833,10 +865,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 1,
+      "coverage": 2,
       "titleJa": "イーロン・マスク氏によると、Grok Botは、AnthropicのClaudeとMidjourneyと並んで、SunoのAI音楽モデルを使用するという。",
       "summaryJa": "Sunoは現在、公式の公開APIを提供していません。MBWは7月に、同社が1社の立ち上げを検討していると報告した。",
-      "score": 23
+      "score": 31
     },
     {
       "id": "7174ee307e6e1d44",
@@ -940,7 +972,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 22,
+      "coverage": 23,
       "score": 37
     },
     {
@@ -1098,7 +1130,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 29,
+      "coverage": 30,
       "score": 50
     },
     {
@@ -1398,7 +1430,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 6,
+      "coverage": 7,
       "titleJa": "AI音楽ストリーミング詐欺師、800万$のロイヤリティ詐欺で懲役1.5年の判決",
       "summaryJa": "マイケル・スミス氏は今年初め、ストリーミング詐欺をめぐる初の刑事事件で、ボットを使用して偽の曲を何十億回もストリーミングしたことを認めた。",
       "score": 34
@@ -1432,7 +1464,7 @@
       "coverage": 1,
       "titleJa": "GoogleがGeminiスタートアップフォーラムに「Base for Music」を選ぶ– 170万$の支援を受けているフランス企業が、音楽マーケティングのROIを予測するためにAIを使用していると述べている",
       "summaryJa": "Googleによると、17カ国から100社以上のスタートアップが参加し、2,000件以上の応募から選ばれたという。",
-      "score": 3
+      "score": -6
     },
     {
       "id": "47dc87062eaea84a",
@@ -1719,7 +1751,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 22,
+      "coverage": 23,
       "titleJa": "米国の控訴裁判所は、AIトレーニングをめぐる「フェアユース」の防御を棄却した。レーベルとスノとの戦いにはどういう意味があるのでしょうか？",
       "summaryJa": "米国控訴裁判所は、9月29日にトムソン・ロイターとAI法務調査会社ROSS Intelligenceに対して判決を下しました",
       "score": 27
@@ -1750,7 +1782,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 29,
+      "coverage": 30,
       "score": 41
     },
     {
@@ -1820,7 +1852,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 7,
+      "coverage": 8,
       "score": 21
     },
     {
@@ -1965,7 +1997,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 11,
+      "coverage": 12,
       "titleJa": "Sunoは200万人の加入者と3億$の収益を「はるかに超えている」とMikey Shulmanは言う。彼はAI音楽にはまだ「確固たるルール」がないことは「良い」と主張する",
       "summaryJa": "シュルマン氏はまた、WMGとBMGが彼らの取引から何を得て、誰がAIのルールを設定すべきかを説明しました。",
       "score": 27
@@ -2230,7 +2262,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 20,
+      "coverage": 21,
       "score": 55
     },
     {
@@ -2425,10 +2457,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "AI音楽検出ツールを運用するオーディオAI企業Modulateが2500万$を調達",
       "summaryJa": "ボストンに本社を置くスタートアップは、これまでに6,000万$を調達しています",
-      "score": -6
+      "score": 2
     },
     {
       "id": "b43322c2070839a6",
@@ -2973,7 +3005,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 60,
+      "coverage": 61,
       "score": 32
     },
     {
@@ -3003,7 +3035,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 71,
+      "coverage": 72,
       "titleJa": "ソニーとUMGがSunoを再び訴える",
       "summaryJa": "ソニーとユニバーサルミュージックグループは、Sunoに対してさらに別の訴訟を起こしました。レーベルは、新しいv 6モデルがまだ著作権を侵害していると主張している。なぜなら、それは以前のモデルからのユーザー出力で訓練されているからだ。以前のモデル自体は、YouTubeや他のソースからリッピングされた無許可の音楽で訓練されていたからだ。ソニーとUMGは、署名しなかった注目すべきホールドアウトである",
       "score": 27
@@ -3150,7 +3182,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 60,
+      "coverage": 61,
       "score": 21
     },
     {
@@ -3637,7 +3669,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 74,
+      "coverage": 75,
       "titleJa": "Sunoは、最新のソニーとユニバーサルの訴訟を爆発させるため、V 6モデルがユーザーからの「クリエイション」について訓練されたことを確認します",
       "summaryJa": "同社は、ユニバーサルミュージックグループとソニーミュージックエンタテインメントが提起した2回目の著作権訴訟に対応する声明で、その説明を記載した。",
       "score": 34
@@ -4038,7 +4070,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 11,
+      "coverage": 12,
       "score": 21
     },
     {
@@ -4094,7 +4126,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 152,
+      "coverage": 153,
       "score": 44
     },
     {
@@ -4665,7 +4697,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 81,
+      "coverage": 82,
       "titleJa": "「サブスクリプションをキャンセルします」： SunoユーザーはV 6アップデートを「うぬぼれた、一般的な、魂のないゴミ」と非難しました",
       "summaryJa": "業界に支えられたV 6モデルのリリースに続いて、AI音楽プラットフォームの最も熱心なサポーターの一部が船を放棄している",
       "score": 38
@@ -4799,7 +4831,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 73,
+      "coverage": 74,
       "titleJa": "ユニバーサルとワーナーのプレス裁判所、SunoとUdioの取引をめぐる米国ミュージシャンの訴訟を終結",
       "summaryJa": "この訴訟は、レコード会社との組合の団体交渉協定である録音労働協定の第21条（ a ）に基づいている。",
       "score": 27
@@ -5152,7 +5184,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 203,
+      "coverage": 204,
       "score": 21
     },
     {
@@ -6177,34 +6209,6 @@
       "coverage": 1,
       "titleJa": "Suno、認可されたWMG、BMGトラックでトレーニングされた新しいAIモデルを発表",
       "score": 14
-    },
-    {
-      "id": "faab6bdf090d982d",
-      "title": "Suno、Warner Music、BMG、Believeと共に構築したV6音楽モデルを発表",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeXhHVU9nVXVYZ29hZ0pNUVNCSjQxWk80OHdFMnlic2M0Tk5WNkVZcDBzM25LczMwRHFQR0sxaFFhNU5zN1NTRUM3ZTUtTFRlVFd1ZjAxN1laWnlQVEVGUjdzWFJEWkxQTFFidGxiTkFpd2xSbGxHV2lJbTFsd21tdEVLUXl6M1FyWGI4S1ZyN0Y3WFBDQUhBdTh3?oc=5",
-      "summary": "",
-      "published": "2026-09-09T07:00:00.000Z",
-      "source": "Unite.AI",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 17
-    },
-    {
-      "id": "37568a6d1af99e32",
-      "title": "音楽生成AI「Suno」が楽曲配信代行サービス「TuneCore」と提携 ワーナーやBMGに続き（KAI-YOU）",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVk1SMjBRTHRGbFkwT0JkUmNudDVaSmF3d2x1cThCMC1qRjJzYnUyVEtpY280ekQyOW5WMGU1cUw2VDk3dmRYZjBNYUI2YU9JQWhsaXVPMUZmSEpBVG14bFBHVTUtS3NWakNiVER1S0JIUTdLYkh1Nm5fM29PZW11R2hWcWRiRXlu?oc=5",
-      "summary": "",
-      "published": "2026-09-09T07:00:00.000Z",
-      "source": "Yahoo!ニュース",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 132,
-      "score": 37
     }
   ]
 }
