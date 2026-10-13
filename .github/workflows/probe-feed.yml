@@ -1,0 +1,22 @@
+# feed2json の返す形を調べる一時的な設定（調べ終わったら消す）
+name: feed2json形式テスト
+on:
+  push:
+    branches: [claude/substack-post-automation-n56qs4]
+    paths: [.github/workflows/probe-feed.yml]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: |
+          curl -sS -m 25 -o f.json "https://www.toptal.com/developers/feed2json/convert?url=https%3A%2F%2Fkarasui.substack.com%2Ffeed"
+          node -e '
+            const d = JSON.parse(require("fs").readFileSync("f.json","utf8"));
+            console.log("TOP KEYS:", Object.keys(d));
+            const it = (d.items||[])[0] || {};
+            console.log("ITEM COUNT:", (d.items||[]).length);
+            for (const [k,v] of Object.entries(it)) console.log("ITEM", k, "=", JSON.stringify(v).slice(0,160));
+          '
