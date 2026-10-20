@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-10-20T08:13:16.876Z",
+  "generatedAt": "2026-10-20T14:11:06.893Z",
   "count": 400,
-  "newCount": 26,
-  "translatedCount": 1,
+  "newCount": 9,
+  "translatedCount": 5,
   "ranking": [
-    "a248dbd8ecb4cb58",
     "2bb555fb48f279d5",
+    "a248dbd8ecb4cb58",
     "a8c0d76fdb81343c",
     "c521d6a26371bcfb",
     "6c87f8c31b223ec0",
     "7353ef853ba6ba5c",
+    "64b86f254e499851",
     "90593913e9e9390f",
     "8ccf4e3ce5821341",
-    "d2783fa0012fe2f2",
-    "7ed64b170efdc3c3"
+    "8ca82dbb8cecde79"
   ],
   "sources": [
     {
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 37,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -103,7 +103,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 4,
       "error": null
     },
     {
@@ -297,6 +297,86 @@
   ],
   "items": [
     {
+      "id": "2c972b8d4d063b21",
+      "title": "Spotify inks licensing deal with Believe for AI covers and remixes tool",
+      "url": "https://www.musicbusinessworldwide.com/spotify-inks-licensing-deal-with-believe-for-ai-covers-and-remixes-tool/",
+      "summary": "Deal follows Spotify's agreements for the same tool with Universal Music Group, Merlin, and Kobalt",
+      "published": "2026-10-20T14:00:39.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Spotifyインクライセンス契約Believe for AIカバーとリミックスツール",
+      "summaryJa": "この取引は、ユニバーサルミュージックグループ、Merlin、Kobaltとの同じツールに関するSpotifyの契約に従っています",
+      "score": 12
+    },
+    {
+      "id": "0577887efd8a5049",
+      "title": "Spotify has blocked 50m ‘slop and spam tracks’ from its recommendations this year",
+      "url": "https://musically.com/2026/10/20/spotify-has-blocked-50m-slop-and-spam-tracks-from-its-recommendations-this-year/",
+      "summary": "Earlier this month, a report from the Duke Sanford Tech Policy Program poked at Spotify’s policies around AI-generated music. The post is from Music Ally .",
+      "published": "2026-10-20T12:33:55.000Z",
+      "source": "Music Ally",
+      "sourceId": "musically",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Spotifyは今年、推奨事項から50 mの「スロップトラックとスパムトラック」をブロックしました",
+      "summaryJa": "今月初め、デューク・サンフォード・テック・ポリシー・プログラム（ Duke Sanford Tech Policy Program ）の報告書が、AI生成音楽に関するSpotifyのポリシーを批判した。この投稿はMusic Allyからのものです。",
+      "score": 12
+    },
+    {
+      "id": "622d7d1fd372ede9",
+      "title": "Spotify has pulled more than 50m ‘AI slop and spam’ tracks out of its recommendations this year",
+      "url": "https://www.musicbusinessworldwide.com/spotify-has-pulled-more-than-50m-ai-slop-and-spam-tracks-out-of-its-recommendations-this-year/",
+      "summary": "'AI-generated slop and spam don't belong in your recommendations, and we've made changes to keep them out and protect the listening experience,' Spotify said in a blog post.",
+      "published": "2026-10-20T11:51:25.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Spotifyは今年、推奨されている5000万以上の「AIスロップとスパム」トラックを削除しました",
+      "summaryJa": "Spotifyはブログ投稿で、「AIが生成したスロップとスパムはおすすめに含まれていません。私たちはそれらを排除し、リスニング体験を保護するための変更を行いました」と述べています。",
+      "score": 12
+    },
+    {
+      "id": "8ca82dbb8cecde79",
+      "title": "Just 4 Noise launches ethically-trained AI kick-drum generator",
+      "url": "https://musically.com/2026/10/20/just-4-noise-launches-ethically-trained-ai-kick-drum-generator/",
+      "summary": "Your interest level in Just 4 Kicks will depend on how much use you have for kick-drum samples. But even if that’s not your music-making bag, this launch reflects a wider, positive trend in the area of AI music. The post is from Music Ally .",
+      "published": "2026-10-20T11:43:00.000Z",
+      "source": "Music Ally",
+      "sourceId": "musically",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Just 4 Noiseが倫理的に訓練されたAIキックドラム発電機を発売",
+      "summaryJa": "Just 4 Kicksへの関心度は、キックドラムサンプルの使用量によって異なります。しかし、それがあなたの音楽制作バッグではないとしても、この発売はAI音楽の分野におけるより広範で前向きなトレンドを反映しています。この投稿はMusic Allyからのものです。",
+      "score": 23
+    },
+    {
+      "id": "64b86f254e499851",
+      "title": "Jim Freeman, ex-Amazon Prime Video VP, joins Ticketmaster as CTO to lead ‘AI-first’ push",
+      "url": "https://www.musicbusinessworldwide.com/jim-freeman-ex-amazon-prime-video-vp-joins-ticketmaster-as-cto-to-lead-ai-first-push/",
+      "summary": "The Live Nation-owned company hired Rachel Smith from Block and ex-Disney executive Chuck Mortimore as SVPs.",
+      "published": "2026-10-20T11:04:08.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "元AmazonプライムビデオVPのジム・フリーマンがCTOとしてTicketmasterに加わり、「AIファースト」をリード",
+      "summaryJa": "Live Nationが所有する同社は、ブロックのレイチェル・スミスと元ディズニーの幹部チャック・モーティモアをシニアバイスプレジデントとして採用しました。",
+      "score": 24
+    },
+    {
       "id": "a8c0d76fdb81343c",
       "title": "AIではなく音楽理論に基づきハーモニーを生成？ Malsah Labs「HarmonyKeen」リリース",
       "url": "https://www.snrec.jp/entry/2026/10/20/110000",
@@ -367,7 +447,7 @@
       "coverage": 1,
       "titleJa": "Midicake UNAは、生成シーケンスとハンズオンMIDIコントロールを組み合わせています",
       "summaryJa": "Midicake UNAは、外部シンセサイザー用のコーディネートされたコード、メロディー、ベースパーツを生成するために再生するコードを使用するハードウェアMIDIパフォーマンスシーケンサーです。…続きを読むMidicake UNAは、生成シーケンスとハンズオンMIDIコントロールを組み合わせています",
-      "score": 12
+      "score": 7
     },
     {
       "id": "ffe4728c42dee93c",
@@ -381,7 +461,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 8
+      "score": 3
     },
     {
       "id": "105db7e6ea43ae33",
@@ -397,7 +477,7 @@
       "coverage": 1,
       "titleJa": "新しい研究では、AIの期待、雇用への影響、ジェンダー格差を探ります",
       "summaryJa": "私たちの業界を魅了してきたAI音楽の議論を超えて、AIが私たちの仕事やより広範な社会に影響を与える他の方法について考えることがたくさんあります。最近発表されたいくつかの研究は、それについて新しい視点を提供しています。この投稿はMusic Allyからのものです。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "c521d6a26371bcfb",
@@ -413,7 +493,7 @@
       "coverage": 5,
       "titleJa": "ソニーとユニバーサルは、裁判所に対し、Sunoの投資家であるLightspeedに「トレーニングデータの法的リスク」についての証言を強制するよう要請する",
       "summaryJa": "ラベルは、先週火曜日（ 10月13日）にボストン連邦裁判所に提出された訴訟で、召喚状を取り消すというLightspeedの動議に反対しました。",
-      "score": 37
+      "score": 32
     },
     {
       "id": "eab0ce411f140b12",
@@ -428,7 +508,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "UMGとソニーは、裁判所に対し、DistroKidにSuno事件のAI音楽データの引き渡しを強制するよう要請する",
-      "score": 21
+      "score": 16
     },
     {
       "id": "696a6dd1c37ef9b4",
@@ -443,7 +523,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "ソニーとUniversal Demand DistroKid AI Musicが著作権争奪戦でデータをアップロード",
-      "score": 19
+      "score": 14
     },
     {
       "id": "332f36793b089c16",
@@ -485,7 +565,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 10,
-      "score": 50
+      "score": 46
     },
     {
       "id": "96a4f9451506885c",
@@ -1471,7 +1551,7 @@
       "coverage": 1,
       "titleJa": "Deezerを使用すると、ユーザーはAI音楽を非表示にできます。再生ヘッドは、プロデューサーのためのシグナルチェーンを生成します",
       "summaryJa": "Deezerは、AIが生成した音楽の影響に関する情報を同社のプラットフォームで共有することに特にオープンであり、ユーザーがAIが生成した音楽をリスニングから「完全に除外」できるようにすると発表した。この投稿はMusic Allyからのものです。",
-      "score": 3
+      "score": -6
     },
     {
       "id": "a69125247a264449",
@@ -1487,7 +1567,7 @@
       "coverage": 1,
       "titleJa": "ユーザーがAIが生成した音楽を検索結果からブロックできるようにするDeezer",
       "summaryJa": "Deezerは、ユーザーがAIによって生成された音楽を検索結果から完全に除外できるオン/オフトグルを導入しています",
-      "score": 3
+      "score": -6
     },
     {
       "id": "ff5dfcf60ce3356d",
@@ -1501,7 +1581,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 6
     },
     {
       "id": "7da3a07f825a555f",
@@ -1515,7 +1595,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 6
+      "score": -3
     },
     {
       "id": "a7c4c7e1109be9ac",
@@ -1529,7 +1609,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 6
     },
     {
       "id": "808ab695cf8627a6",
@@ -6112,84 +6192,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": -3
-    },
-    {
-      "id": "de71d5317c8df52f",
-      "title": "AI artists will somehow play ‘live’ at their own awards ceremony in November",
-      "url": "https://www.musicbusinessworldwide.com/ai-artists-will-somehow-play-live-at-their-own-awards-ceremony-in-november/",
-      "summary": "AI-generated 'artists' including Xania Monet will 'perform' live on stage at the first AI Music Awards in Los Angeles in November.",
-      "published": "2026-09-17T18:36:39.000Z",
-      "source": "Music Business Worldwide",
-      "sourceId": "mbw",
-      "via": null,
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "AIアーティストは、11月の独自の授賞式で何らかの形で「ライブ」をプレイする",
-      "summaryJa": "Xania Monetを含むAIが生み出した「アーティスト」は、11月にロサンゼルスで開催される第1回AIミュージックアワードでステージ上でライブ「パフォーマンス」を行います。",
-      "score": -6
-    },
-    {
-      "id": "aa21c85b535a3ec3",
-      "title": "\"I'm cancelling my subscription\": Suno users slam its V6 update as \"muffled, generic, soulless garbage\"",
-      "url": "https://www.musicradar.com/music-tech/im-cancelling-my-subscription-suno-users-slam-its-v6-update-as-muffled-generic-soulless-garbage",
-      "summary": "Following the release of its industry-backed V6 models, some of the AI music platform's most enthusiastic supporters are abandoning ship",
-      "published": "2026-09-17T15:17:54.000Z",
-      "source": "MusicRadar",
-      "sourceId": "musicradar",
-      "via": null,
-      "category": "global",
-      "lang": "en",
-      "coverage": 95,
-      "titleJa": "「サブスクリプションをキャンセルします」： SunoユーザーはV 6アップデートを「うぬぼれた、一般的な、魂のないゴミ」と非難しました",
-      "summaryJa": "業界に支えられたV 6モデルのリリースに続いて、AI音楽プラットフォームの最も熱心なサポーターの一部が船を放棄している",
-      "score": 38
-    },
-    {
-      "id": "205534becbefb463",
-      "title": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plugins",
-      "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst",
-      "summary": "Lunacy, purveyor of fine VST plugins like Cube, a synth that you control by moving a ball around a 3D space, has just launched Nova, a platform where creators can build custom music tools using AI and sell them to others. At first, there will be a handful of instruments available, built either by Lunacy",
-      "published": "2026-09-17T14:00:00.000Z",
-      "source": "The Verge",
-      "sourceId": "theverge",
-      "via": null,
-      "category": "global",
-      "lang": "en",
-      "coverage": 4,
-      "titleJa": "Lunacy Audio Novaは、独自のAI搭載の音楽プラグインを構築して販売する場所です",
-      "summaryJa": "3 D空間でボールを動かして制御するCubeのような優れたVSTプラグインを提供するLunacyは、クリエイターがAIを使用してカスタムミュージックツールを構築し、他の人に販売できるプラットフォームであるNovaを立ち上げました。最初は、Lunacyによって構築された一握りの機器が利用可能になります",
-      "score": 24
-    },
-    {
-      "id": "8a627515f8463812",
-      "title": "SubmitHub bans AI-generated music from its promotion services",
-      "url": "https://musically.com/2026/09/17/submithub-bans-ai-generated-music-from-its-promotion-services/",
-      "summary": "Earlier this year, music-promo platform SubmitHub revealed research suggesting that 23.2% of the tracks being submitted were fully AI-generated. The post is from Music Ally .",
-      "published": "2026-09-17T12:30:00.000Z",
-      "source": "Music Ally",
-      "sourceId": "musically",
-      "via": null,
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "SubmitHubは、AIが生成した音楽をプロモーションサービスから禁止しています",
-      "summaryJa": "今年初め、音楽プロモーションプラットフォームのSubmitHubは、提出されたトラックの23.2 ％が完全にAI生成されたものであることを示唆する調査を明らかにしました。この投稿はMusic Allyからのものです。",
-      "score": -6
-    },
-    {
-      "id": "dee9ee1060504998",
-      "title": "ボーカル・トラックを“AIボイス・モデル”に置き換える、IK Multimedia ReSingの新作拡張パックが発売…… R＆Bやラップ、EDMなど、幅広いジャンルをカバー",
-      "url": "https://icon.jp/archives/27944",
-      "summary": "IK MultimediaがReSing用の新しい拡張パック、「ReSing Voices Vol 2 Producer’s Pack」をリリース。幅広いジャンルに対応する英語圏のシンガーをフィーチャーした新",
-      "published": "2026-09-17T11:00:00.000Z",
-      "source": "ICON",
-      "sourceId": "icon-jp",
-      "via": null,
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 8
     }
   ]
 }
