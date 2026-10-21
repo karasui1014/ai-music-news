@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-21T14:23:25.535Z",
+  "generatedAt": "2026-10-21T17:48:39.321Z",
   "count": 400,
-  "newCount": 37,
-  "translatedCount": 3,
+  "newCount": 27,
+  "translatedCount": 1,
   "ranking": [
     "2bb555fb48f279d5",
     "1d8a0ded4b51361c",
     "a248dbd8ecb4cb58",
     "a8c0d76fdb81343c",
-    "ce6fcb3d25a4e7fa",
     "c521d6a26371bcfb",
+    "ce6fcb3d25a4e7fa",
+    "1ce16fdfd2dd50d2",
     "6c87f8c31b223ec0",
     "0b0700da35770915",
-    "90593913e9e9390f",
-    "8ccf4e3ce5821341"
+    "90593913e9e9390f"
   ],
   "sources": [
     {
@@ -94,7 +94,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 2,
       "error": null
     },
     {
@@ -103,7 +103,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -246,7 +246,7 @@
       "name": "CNET Japan",
       "category": "jp",
       "ok": true,
-      "fetched": 30,
+      "fetched": 0,
       "matched": 0,
       "error": null
     },
@@ -296,6 +296,22 @@
     }
   ],
   "items": [
+    {
+      "id": "41630e4f0c391817",
+      "title": "Why did Apple buy AI music startup Samplab, and how might this impact Logic Pro?",
+      "url": "https://musictech.com/news/industry/why-did-apple-buy-ai-music-startup-samplab-and-how-might-this-impact-logic-pro/",
+      "summary": "Apple acquires Samplab, seemingly with an eye on enhancing Logic Pro’s AI tools.",
+      "published": "2026-10-21T16:40:58.000Z",
+      "source": "MusicTech",
+      "sourceId": "musictech",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "AppleがAI音楽スタートアップのSamplabを買収した理由と、これがLogic Proにどのような影響を与える可能性があるか？",
+      "summaryJa": "Appleは、Logic ProのAIツールを強化することを目指して、Samplabを買収したようだ。",
+      "score": 4
+    },
     {
       "id": "c5de799d412f42c0",
       "title": "“As spammers change tactics, we’ll keep updating our systems”: Spotify remove 75 million spam AI tracks",
@@ -440,7 +456,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 5,
+      "coverage": 7,
       "score": 46
     },
     {
@@ -473,7 +489,7 @@
       "coverage": 1,
       "titleJa": "Spotifyは「AIスパム」に関する最新情報を共有し、5000万曲がおすすめから削除されたと述べています",
       "summaryJa": "同社によると、7500万以上のトラックがサービスから完全に削除されたという。",
-      "score": 23
+      "score": 18
     },
     {
       "id": "8ba65f346f85c26b",
@@ -489,7 +505,7 @@
       "coverage": 1,
       "titleJa": "ICMPは、AI企業が著作権に関してオーストラリアを「強力な武器」にしようとしており、カイリー・ミノーグの曲はすでにAIの訓練に使用されていると述べている（レポート）",
       "summaryJa": "ICMPによると、オーストラリアはAI主導の著作権ロールバックを真剣に検討している唯一の国です。",
-      "score": 19
+      "score": 14
     },
     {
       "id": "ce6fcb3d25a4e7fa",
@@ -502,9 +518,9 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 4,
+      "coverage": 5,
       "titleJa": "Creve Coeurの男性が依存症回復の一環としてAI音楽に目を向ける",
-      "score": 36
+      "score": 31
     },
     {
       "id": "e30b2a24eac83c74",
@@ -520,7 +536,7 @@
       "coverage": 1,
       "titleJa": "Appleは秘密のAI買収を行いました。これは、ジェネレーティブAIがLogic Proに登場することを意味するのでしょうか？",
       "summaryJa": "欧州委員会が公表した詳細によると、AIオーディオ会社Samplabは6月にAppleに買収された。",
-      "score": 15
+      "score": 10
     },
     {
       "id": "ddda3b77ed5de97e",
@@ -775,7 +791,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 9,
+      "coverage": 10,
       "titleJa": "ソニーとユニバーサルは、裁判所に対し、Sunoの投資家であるLightspeedに「トレーニングデータの法的リスク」についての証言を強制するよう要請する",
       "summaryJa": "ラベルは、先週火曜日（ 10月13日）にボストン連邦裁判所に提出された訴訟で、召喚状を取り消すというLightspeedの動議に反対しました。",
       "score": 32
@@ -836,7 +852,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 19
+      "score": 15
     },
     {
       "id": "d2783fa0012fe2f2",
@@ -863,7 +879,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 14,
+      "coverage": 15,
       "score": 46
     },
     {
@@ -905,8 +921,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 22
+      "coverage": 4,
+      "score": 30
     },
     {
       "id": "e3ef5648c3343148",
@@ -977,7 +993,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 18,
+      "coverage": 19,
       "titleJa": "UMGとSony Demand DistroKidがSunoからアップロードしたAI曲の数を教えてくれる：「Staggering Scale」",
       "summaryJa": "音楽大手は、AI曲の「洪水」を可能にしたと非難する新しい法的ファイリングで、巨大なDIYディストリビューターへの圧力を強めています。",
       "score": 36
@@ -1489,7 +1505,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 26,
+      "coverage": 27,
       "score": 30
     },
     {
@@ -1503,7 +1519,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 51,
+      "coverage": 53,
       "score": 48
     },
     {
@@ -1667,7 +1683,7 @@
       "coverage": 1,
       "titleJa": "YouTube Musicは、パートナーの開示と独自の検出ツールを使用して、AI生成の曲のラベル付けを開始します",
       "summaryJa": "「私たちのリスナーは、AIが生成したトラックを聴くときに透明性を求めていると言っています」とYouTubeは述べています",
-      "score": 3
+      "score": -6
     },
     {
       "id": "5bf4c1bd454b7e7e",
@@ -1683,7 +1699,7 @@
       "coverage": 1,
       "titleJa": "マーシャ・ブラックバーン上院議員が、ケンドリック・ラマーがスーパーボウルで「Not Like Us」を演奏した彼女の「Cringe」AIビデオを非難",
       "summaryJa": "共和党はテネシー州知事に立候補しています。",
-      "score": 3
+      "score": -6
     },
     {
       "id": "5c0e3a497a2743ca",
@@ -1699,7 +1715,7 @@
       "coverage": 1,
       "titleJa": "Deezerはまもなく、AIが生成した音楽をフィルタリングできるようになります",
       "summaryJa": "Deezer氏は、新しいトグルは年末までに展開されると述べた。",
-      "score": 3
+      "score": -6
     },
     {
       "id": "7fcdb5a0d624fdbc",
@@ -1714,7 +1730,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "YouTube MusicがAI音楽の新しいレーベルを追加",
-      "score": 3
+      "score": -6
     },
     {
       "id": "4952d0afeecaf0c8",
@@ -2020,7 +2036,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 34,
+      "coverage": 35,
       "titleJa": "ノースカロライナ州の男性、800万$のAI音楽詐欺計画で有罪判決",
       "score": 18
     },
@@ -2515,7 +2531,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 30,
+      "coverage": 31,
       "titleJa": "イーロン・マスク氏によると、Grok Botは、AnthropicのClaudeとMidjourneyと並んで、SunoのAI音楽モデルを使用するという。",
       "summaryJa": "Sunoは現在、公式の公開APIを提供していません。MBWは7月に、同社が1社の立ち上げを検討していると報告した。",
       "score": 38
@@ -2749,7 +2765,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 57,
+      "coverage": 58,
       "score": 41
     },
     {
@@ -2887,7 +2903,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 5,
+      "coverage": 6,
       "titleJa": "イタリアの競争監視機関が「不公平な条件」についてスノを調査",
       "summaryJa": "Sunoの法的頭痛は、しばらく前にヨーロッパとスカンジナビアの収集協会によって提起された訴訟により、米国を超えて拡大しました。現在、イタリアが関与していますが、これは著作権侵害に関するものではありません。まあ、直接ではありません。投稿はMusic Allyからのものです。",
       "score": 34
@@ -3123,7 +3139,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 31,
+      "coverage": 32,
       "titleJa": "AI音楽ストリーミング詐欺師、800万$のロイヤリティ詐欺で懲役1.5年の判決",
       "summaryJa": "マイケル・スミス氏は今年初め、ストリーミング詐欺をめぐる初の刑事事件で、ボットを使用して偽の曲を何十億回もストリーミングしたことを認めた。",
       "score": 25
@@ -3472,7 +3488,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 53,
+      "coverage": 54,
       "titleJa": "米国の控訴裁判所は、AIトレーニングをめぐる「フェアユース」の防御を棄却した。レーベルとスノとの戦いにはどういう意味があるのでしょうか？",
       "summaryJa": "米国控訴裁判所は、9月29日にトムソン・ロイターとAI法務調査会社ROSS Intelligenceに対して判決を下しました",
       "score": 27
@@ -3503,7 +3519,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 60,
+      "coverage": 61,
       "score": 41
     },
     {
@@ -3731,7 +3747,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 41,
+      "coverage": 42,
       "titleJa": "Sunoは200万人の加入者と3億$の収益を「はるかに超えている」とMikey Shulmanは言う。彼はAI音楽にはまだ「確固たるルール」がないことは「良い」と主張する",
       "summaryJa": "シュルマン氏はまた、WMGとBMGが彼らの取引から何を得て、誰がAIのルールを設定すべきかを説明しました。",
       "score": 27
@@ -4236,7 +4252,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 13,
+      "coverage": 14,
       "titleJa": "AI音楽検出ツールを運用するオーディオAI企業Modulateが2500万$を調達",
       "summaryJa": "ボストンに本社を置くスタートアップは、これまでに6,000万$を調達しています",
       "score": 10
@@ -4841,7 +4857,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 102,
+      "coverage": 103,
       "titleJa": "ソニーとUMGがSunoを再び訴える",
       "summaryJa": "ソニーとユニバーサルミュージックグループは、Sunoに対してさらに別の訴訟を起こしました。レーベルは、新しいv 6モデルがまだ著作権を侵害していると主張している。なぜなら、それは以前のモデルからのユーザー出力で訓練されているからだ。以前のモデル自体は、YouTubeや他のソースからリッピングされた無許可の音楽で訓練されていたからだ。ソニーとUMGは、署名しなかった注目すべきホールドアウトである",
       "score": 27
@@ -5503,7 +5519,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 105,
+      "coverage": 106,
       "titleJa": "Sunoは、最新のソニーとユニバーサルの訴訟を爆発させるため、V 6モデルがユーザーからの「クリエイション」について訓練されたことを確認します",
       "summaryJa": "同社は、ユニバーサルミュージックグループとソニーミュージックエンタテインメントが提起した2回目の著作権訴訟に対応する声明で、その説明を記載した。",
       "score": 34
@@ -6179,21 +6195,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": -3
-    },
-    {
-      "id": "b1af8aa6a05fad7d",
-      "title": "Suno’s Latest AI Model Got Some Label Support. But Not All of Them",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVhUUmdjVWhqY3pkV1VfY1VUOFBpRzQ1eUo2TWtscVEzM2lFNjhKd0tYbFpFc2RyOGxITUVsRXFTTTZDQWp3eEFzaDBCVml2LUhBVk1lMG5IdTc0YmY2U05ZSXF6SUxUVjhySEVpTHNueDNzam4teWpWaVRBWkh3ZllCQjEtMkZCeEI1c213WEVpN0pnazR6djNFUQ?oc=5",
-      "summary": "",
-      "published": "2026-09-19T07:00:00.000Z",
-      "source": "Gizmodo",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "Sunoの最新のAIモデルは、いくつかのラベルをサポートしています。しかし、それらのすべてではありません",
-      "score": 3
     }
   ]
 }
