@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-31T17:28:07.545Z",
+  "generatedAt": "2026-10-31T23:50:30.167Z",
   "count": 400,
-  "newCount": 47,
+  "newCount": 5,
   "translatedCount": 0,
   "ranking": [
     "02c705a4dd594ace",
     "09617ce5c88645fc",
     "cd97aa2e45215c08",
-    "d8a02d9df6ed6a31",
     "35fa2ffb8ee5b8cf",
     "8fec367d2e5e5b17",
+    "d8a02d9df6ed6a31",
     "87a337b022e2f174",
     "6741649f84142977",
     "1720ac8b54d4e9f2",
@@ -20,28 +20,28 @@
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 34,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -692,7 +692,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 8,
-      "score": 41
+      "score": 37
     },
     {
       "id": "5be9782192dd4285",
@@ -706,7 +706,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 12,
-      "score": 41
+      "score": 37
     },
     {
       "id": "ed261166b351ab5f",
@@ -721,7 +721,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AI「音楽」の最新情報",
-      "score": 7
+      "score": 3
     },
     {
       "id": "59c4dc8da1a565ba",
@@ -737,7 +737,7 @@
       "coverage": 1,
       "titleJa": "「AIボット」SWAMP RAYEのロンドンショーのサインアップ後、Sam Fenderは「洗練されたボット攻撃」を理由に英国のホームカミングプレセールを遅らせる",
       "summaryJa": "サム・フェンダーは、水曜日（ 10月28日）にニューカッスルのセントジェームズパークで開催された2つのホームカミングショーのプレセールを延期した",
-      "score": 7
+      "score": 3
     },
     {
       "id": "407ad182e1636e3b",
@@ -1424,7 +1424,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 6
     },
     {
       "id": "f43c6dcb5cc39999",
