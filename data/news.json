@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T19:55:08.019Z",
+  "generatedAt": "2026-11-04T00:57:44.017Z",
   "count": 400,
-  "newCount": 45,
-  "translatedCount": 0,
+  "newCount": 43,
+  "translatedCount": 1,
   "ranking": [
     "02c705a4dd594ace",
     "63b2101c6004766f",
@@ -11,9 +11,9 @@
     "8fec367d2e5e5b17",
     "09617ce5c88645fc",
     "d8a02d9df6ed6a31",
+    "9abd446fed6e2f61",
     "35fa2ffb8ee5b8cf",
-    "a434c0f88563f23e",
-    "1720ac8b54d4e9f2"
+    "a434c0f88563f23e"
   ],
   "sources": [
     {
@@ -22,7 +22,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 40,
-      "matched": 38,
+      "matched": 33,
       "error": null
     },
     {
@@ -103,7 +103,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 3,
+      "matched": 1,
       "error": null
     },
     {
@@ -139,7 +139,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 0,
+      "matched": 1,
       "error": null
     },
     {
@@ -297,6 +297,37 @@
   ],
   "items": [
     {
+      "id": "dd77c279756ad937",
+      "title": "Is Suno the Music Industry’s Biggest Nightmare — or Greatest Hope?",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zVTJkLW1QMFB6OWk1TVNKYThVNTVtblpNMlBhVnVweU42VjZ6b1JkczdFR1BYWHVXZVQ3bUtRZkRsWFBHcG84ZTR6RV9yWmVMdXlDMDhxdGtYVGcxMTVoWXluREVNNEc5ald5UnFILXZDdw?oc=5",
+      "summary": "",
+      "published": "2026-11-03T22:35:00.000Z",
+      "source": "Billboard",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Sunoは音楽業界最大の悪夢ですか？それとも最大の希望ですか？",
+      "score": 21
+    },
+    {
+      "id": "9abd446fed6e2f61",
+      "title": "Suno Says Jason Isbell Lawsuit Over Artist ‘Identities’ Must Be Dismissed: ‘Nothing Unlawful About That’",
+      "url": "https://www.billboard.com/pro/suno-responds-jason-isbell-ai-music-lawsuit/",
+      "summary": "The AI music company has filed its first major response to the novel lawsuit, which accuses it of violating musicians' likeness rights.",
+      "published": "2026-11-03T22:25:48.000Z",
+      "source": "Billboard",
+      "sourceId": "billboard",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 2,
+      "titleJa": "スノは、アーティストの「アイデンティティ」をめぐるジェイソン・イズベル訴訟は却下されなければならないと語る：「それについて違法なことは何もない」",
+      "summaryJa": "AI音楽会社は、ミュージシャンの肖像権を侵害していると非難する新しい訴訟に対して、最初の主要な対応を提出しました。",
+      "score": 36
+    },
+    {
       "id": "9261033e92f156aa",
       "title": "Supercharged’ AI Bots Are Disrupting the Ticketing Market. The Industry Is Desperate for a Solution",
       "url": "https://www.billboard.com/pro/uk-ticketing-live-concerts-ai-bots/",
@@ -357,21 +388,6 @@
       "score": 24
     },
     {
-      "id": "dd77c279756ad937",
-      "title": "Is Suno the Music Industry’s Biggest Nightmare — or Greatest Hope?",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zVTJkLW1QMFB6OWk1TVNKYThVNTVtblpNMlBhVnVweU42VjZ6b1JkczdFR1BYWHVXZVQ3bUtRZkRsWFBHcG84ZTR6RV9yWmVMdXlDMDhxdGtYVGcxMTVoWXluREVNNEc5ald5UnFILXZDdw?oc=5",
-      "summary": "",
-      "published": "2026-11-03T02:15:57.000Z",
-      "source": "Billboard",
-      "sourceId": "gnews-en-aimusic",
-      "via": "Googleニュース",
-      "category": "global",
-      "lang": "en",
-      "coverage": 1,
-      "titleJa": "Sunoは音楽業界最大の悪夢ですか？それとも最大の希望ですか？",
-      "score": 21
-    },
-    {
       "id": "45db757b89dcaf58",
       "title": "音楽を聴きながらAIと曲の話ができる音楽おしゃべりAIフレンド「Shubiduba」",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzZm1DMmlKRzJVc2Y5RFhjTDJacFV6emh3VWp1NnltZnNGeXhEMUtHUDBUQy1kLVg4ZEtTcXR2RkdVN2Z0Tmp4bWJ6NndCRGl0UEZJbnFkVnlvMFlXdXh0cEcyNA?oc=5",
@@ -397,7 +413,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 24
+      "score": 19
     },
     {
       "id": "20ad43bc5c58d287",
@@ -411,7 +427,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 24
+      "score": 19
     },
     {
       "id": "d27d4cec4523a08a",
@@ -427,7 +443,7 @@
       "coverage": 1,
       "titleJa": "Cardi Bは、AIを使用せずに試験に合格するよう学生に指示します：「答えをChatGPTに尋ねないでください」",
       "summaryJa": "カーディは、週末にジョンズホプキンス大学のホプトバーフェストに出席した学生にメッセージを送りました。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "7c67b270d4dfbab3",
@@ -502,7 +518,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 6,
+      "coverage": 7,
       "titleJa": "UMG、ソニー、DistroKidは、Suno事件のAI音楽データをめぐる紛争で「解決に取り組んでいる」と裁判所に語る",
       "summaryJa": "2つのメジャーは、ストリーミングサービスに配信するトラックのうち、AI生成トラックとしてフラグが立てられているトラックの数について、DistroKidにデータを求めている。",
       "score": 40
@@ -735,7 +751,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 10
+      "score": 6
     },
     {
       "id": "13526babe03c825e",
@@ -898,7 +914,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 16,
+      "coverage": 17,
       "titleJa": "Sunoは、Apple MusicがUMGとソニーなしで生き残ることができるかどうかについてAppleに証言させるために戦い、メジャーが反AIの譲歩を勝ち取るために彼らのカタログを「棍棒として」使用していると主張している",
       "summaryJa": "Sunoはまた、Apple Musicの両方のメジャーとのAppleの現在のライセンス交渉とストリーミング詐欺についてAppleの目撃者が証言することを望んでいる。",
       "score": 36
@@ -914,7 +930,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 6,
+      "coverage": 7,
       "titleJa": "Sunoの新しいMCPツールを使用すると、ユーザーはChatGPT、Claude、Gemini内で曲を作ることができます。開発者APIはサインインポータルを取得しますが、ベータ版のままです",
       "summaryJa": "Sunoは、ユーザーがChatGPT、Claude、GeminiなどのAIアシスタントから曲を作成できるツールを発表しました。このツール、Suno MCPはベータ版であり、水曜日（ 10月28日）のSunoのリリースノートで発表されました。これとは別に、MBWはSunoの開発者APIのサインインポータルを発見した。同社によると、このポータルはベータ版のままだという。…続きを読む",
       "score": 47
@@ -974,7 +990,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 17,
+      "coverage": 18,
       "score": 39
     },
     {
@@ -1189,7 +1205,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 13,
+      "coverage": 14,
       "score": 37
     },
     {
@@ -1203,7 +1219,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 20,
+      "coverage": 21,
       "score": 37
     },
     {
@@ -1337,7 +1353,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 26,
+      "coverage": 27,
       "score": 60
     },
     {
@@ -1365,7 +1381,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 54,
+      "coverage": 57,
       "score": 39
     },
     {
@@ -1381,7 +1397,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "Anthropic、Sunoは、Madonna、Johnny Cash、Joni Mitchellの曲を違法に使用したことで訴えられました",
-      "score": 12
+      "score": 3
     },
     {
       "id": "c36f71d8483dcd52",
@@ -1682,7 +1698,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 29,
+      "coverage": 30,
       "titleJa": "ユニバーサルとソニーは、削除された投稿で元Menlo Venturesの幹部を解任することを承認しました：「私は個人的にSunoを聴くことのほとんどを変えました」",
       "summaryJa": "3月、MBWはSunoのCEO Mikey Shulmanへの公開書簡で、Gong氏の投稿の潜在的な法的意義を指摘した。",
       "score": 27
@@ -1951,7 +1967,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 33,
+      "coverage": 34,
       "score": 21
     },
     {
@@ -2022,7 +2038,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 41,
+      "coverage": 43,
       "score": 21
     },
     {
@@ -2050,7 +2066,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 85,
+      "coverage": 87,
       "score": 21
     },
     {
@@ -2250,7 +2266,7 @@
       "summary": "",
       "published": "2026-10-23T07:00:00.000Z",
       "source": "YouTube",
-      "sourceId": "gnews-ja-suno",
+      "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
@@ -2272,6 +2288,20 @@
       "score": 4
     },
     {
+      "id": "89a4944f1b689534",
+      "title": "YouTube Music、AI生成楽曲を識別するラベル表示を開始。AIモデルを使った作曲やボーカル、楽器演奏が対象",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdXpxSFA1UG9wOXNsYmhDYTFWaU9vUFJ1Y2U2d3dCMUN2NUtwbW1GUTJOT01jdmEwekg4WFNLcXBLTExMZUM2MGhVWkV3V2dOU2pIRktfU2pmb09Oa2hvcjF3VnVVd3h0OE1mYUFYSHhQdDBnckRsSzY5QXM3ZnpMQ0tTYlpxMHdNcm1FdHRXRmhjU2pNemZuZkRyZTRXcW9qRG9aeWRwTjFIN05DLXRRVVRHUFBfQQ?oc=5",
+      "summary": "",
+      "published": "2026-10-23T07:00:00.000Z",
+      "source": "Music Ally Japan",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
+    },
+    {
       "id": "815b9fc5902ab34c",
       "title": "Apple、スイスのAI音楽スタートアップ「Samplab」を買収。人材と資産を獲得",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa0dsNWRSaV9ZVDhxRG9zeWptcjVOdkxwN0theGRjUkxwWnVNOW5UeHJrM3ZhbGdtMVhqY29mLVN0ejVuN2k1X3RtcS1LdDkzTk5VMEt6akN0MXFuanByRmx6dDBjUnJOenlXOF9NTS0wQjlCeE8zLVo4TTUyMDZDQ2d5TTdkQ0pGSzhmUXhfTnd2WnR3S19zZUZUc3NITjYwTWc?oc=5",
@@ -2284,20 +2314,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": -11
-    },
-    {
-      "id": "89a4944f1b689534",
-      "title": "YouTube Music、AI生成楽曲を識別するラベル表示を開始。AIモデルを使った作曲やボーカル、楽器演奏が対象",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdXpxSFA1UG9wOXNsYmhDYTFWaU9vUFJ1Y2U2d3dCMUN2NUtwbW1GUTJOT01jdmEwekg4WFNLcXBLTExMZUM2MGhVWkV3V2dOU2pIRktfU2pmb09Oa2hvcjF3VnVVd3h0OE1mYUFYSHhQdDBnckRsSzY5QXM3ZnpMQ0tTYlpxMHdNcm1FdHRXRmhjU2pNemZuZkRyZTRXcW9qRG9aeWRwTjFIN05DLXRRVVRHUFBfQQ?oc=5",
-      "summary": "",
-      "published": "2026-10-23T04:22:11.000Z",
-      "source": "Music Ally Japan",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
     },
     {
       "id": "5f423168a512837d",
@@ -2427,7 +2443,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 48,
+      "coverage": 49,
       "titleJa": "Sunoは、UMGとソニーの「洗濯」訴訟に応じて、AIのトレーニングに使用されたすべての録音を削除していないことを認めている",
       "summaryJa": "44ページの回答は、火曜日（ 10月20日）にマサチューセッツ州地方裁判所に提出され、MBWによって審査されました。",
       "score": 27
@@ -2507,7 +2523,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 49,
+      "coverage": 50,
       "titleJa": "リザーバは、ジョニ・ミッチェル、ジョニー・キャッシュ、マドンナなどの曲を著作権侵害したとして、スノーとアントロピックを訴える",
       "summaryJa": "Reservoirはまた、同じ日にAnthropicに対して別の訴訟を提起しました。",
       "score": 34
@@ -2523,7 +2539,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 50,
+      "coverage": 51,
       "score": 27,
       "titleJa": "Reservoir、AI音楽をめぐる最新訴訟でSunoとAnthropicを訴える：「アーティストの代わりを意図した」",
       "summaryJa": "インディーパブリッシャーは、AIラボがマドンナとジョニー・キャッシュの曲を盗んで、新しいモデルを吐き出すようにモデルを訓練したと述べている。"
@@ -2892,20 +2908,6 @@
       "score": -3
     },
     {
-      "id": "df329f2fdf1eeeef",
-      "title": "#猫になれたらいいにゃ 🐾 sunoさんで作りました曲さん 🐣🎶",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yT012dXo1TnBPd0RTdzF4aXdxWWJTeVNKY3lQVjdXQzVxRDI3VEZHZkhUMFJNUnZXQWV6YmdxS1oza0NldFlubFNIUlc5RzR2SWhLVG5WU0huV3c4?oc=5",
-      "summary": "",
-      "published": "2026-10-21T01:04:59.000Z",
-      "source": "YouTube",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 6
-    },
-    {
       "id": "8a2381dbad2cc021",
       "title": "Romain Gavras Is Bummed About Those AI Versions of “Storm”",
       "url": "https://pitchfork.com/story/romain-gavras-is-bummed-about-those-ai-versions-of-storm/",
@@ -3095,6 +3097,20 @@
       "score": 6
     },
     {
+      "id": "df329f2fdf1eeeef",
+      "title": "#猫になれたらいいにゃ 🐾 sunoさんで作りました曲さん 🐣🎶",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yT012dXo1TnBPd0RTdzF4aXdxWWJTeVNKY3lQVjdXQzVxRDI3VEZHZkhUMFJNUnZXQWV6YmdxS1oza0NldFlubFNIUlc5RzR2SWhLVG5WU0huV3c4?oc=5",
+      "summary": "",
+      "published": "2026-10-20T07:00:00.000Z",
+      "source": "YouTube",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 6
+    },
+    {
       "id": "329f22ec1ada29cf",
       "title": "Spotify Blocks 50 Million Songs From Recommendations in Crackdown on AI Music Spam",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOakVSbWlqMTRaUU9IZXRUSDdQcFJRd2Z6S29JaUF0NHRMWW1ZRkIyVkg4bVliaE9IdUdSVGp4M1R1VWxCUHJyWnQxWHFSQ3RPdGVGVzZsUVRJQXVJS3ZaLUFxYVZ1VE5CZlVuZHJ3R1lUdGpWRmIxRFNqaWdtemt3OW1OaC0?oc=5",
@@ -3265,7 +3281,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 61,
+      "coverage": 62,
       "titleJa": "ソニーとユニバーサルは、裁判所に対し、Sunoの投資家であるLightspeedに「トレーニングデータの法的リスク」についての証言を強制するよう要請する",
       "summaryJa": "ラベルは、先週火曜日（ 10月13日）にボストン連邦裁判所に提出された訴訟で、召喚状を取り消すというLightspeedの動議に反対しました。",
       "score": 19
@@ -3622,7 +3638,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 68,
+      "coverage": 69,
       "titleJa": "UMGとSony Demand DistroKidがSunoからアップロードしたAI曲の数を教えてくれる：「Staggering Scale」",
       "summaryJa": "音楽大手は、AI曲の「洪水」を可能にしたと非難する新しい法的ファイリングで、巨大なDIYディストリビューターへの圧力を強めています。",
       "score": 27
@@ -4597,7 +4613,7 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PbHpyRUp2ZWhpMVJHQmt0V2FaenBJWUdOd0drX3dNRHcxcDNFUVhUblFaVkQ2R0RtR183bk9salktQzN3YU1kUk05MmVFaFZsQ0JhLThXbXNCdlpMZzdtS0VuWFdnYkU5TjAtZzF3?oc=5",
       "summary": "",
       "published": "2026-10-14T07:00:00.000Z",
-      "source": "YouTube Official Blog",
+      "source": "blog.youtube",
       "sourceId": "gnews-en-aimusic",
       "via": "Googleニュース",
       "category": "global",
@@ -4866,7 +4882,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 71,
+      "coverage": 72,
       "titleJa": "ノースカロライナ州の男性、800万$のAI音楽詐欺計画で有罪判決",
       "score": 18
     },
@@ -5184,7 +5200,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 20,
+      "coverage": 21,
       "titleJa": "ソニーミュージックの26万件のディープフェイク・テイクダウンから、Sunoのライブミュージックの拡張まで… MBWのウィークリー・ラウンドアップ",
       "summaryJa": "ここ数日の最大の見出し...",
       "score": 27
@@ -5388,7 +5404,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 17,
+      "coverage": 18,
       "titleJa": "Sunoは、Songkickを含むライブミュージックチームを率いるTicketmasterのMichael Chuaを雇います",
       "summaryJa": "Chuaは、コンサート発見プラットフォームSongkickを含むAIミュージック会社のライブミュージック事業を率います。",
       "score": 27
@@ -5404,7 +5420,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 82,
+      "coverage": 83,
       "titleJa": "イーロン・マスク氏によると、Grok Botは、AnthropicのClaudeとMidjourneyと並んで、SunoのAI音楽モデルを使用するという。",
       "summaryJa": "Sunoは現在、公式の公開APIを提供していません。MBWは7月に、同社が1社の立ち上げを検討していると報告した。",
       "score": 38
@@ -5638,7 +5654,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 109,
+      "coverage": 110,
       "score": 41
     },
     {
@@ -5774,7 +5790,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 38,
+      "coverage": 39,
       "titleJa": "新しいCFO、3件のライセンス契約、7億7,500万ドル以上の資金調達により、54億ドル相当のSunoがIPOを阻止しているのはなぜですか？",
       "summaryJa": "同社の潜在的な株式市場の野心と、そこに到達する際に直面する障壁を示すシグナル。",
       "score": 19
@@ -6041,7 +6057,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 83,
+      "coverage": 84,
       "titleJa": "AI音楽ストリーミング詐欺師、800万$のロイヤリティ詐欺で懲役1.5年の判決",
       "summaryJa": "マイケル・スミス氏は今年初め、ストリーミング詐欺をめぐる初の刑事事件で、ボットを使用して偽の曲を何十億回もストリーミングしたことを認めた。",
       "score": 25
@@ -6121,7 +6137,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 19,
+      "coverage": 20,
       "titleJa": "サービス利用規約をめぐるイタリアでの調査に直面するSuno",
       "summaryJa": "ウォッチドッグの懸念には、価格の変更、アカウントの終了、米国を拠点とする仲裁、およびユーザーが人格権を放棄する必要があると述べたコンテンツライセンスが含まれます",
       "score": 34
@@ -6168,20 +6184,6 @@
       "coverage": 1,
       "titleJa": "イタリア、AI音楽会社Sunoの条件をめぐる調査を開始",
       "score": 3
-    },
-    {
-      "id": "22ad0e4adff2d8b9",
-      "title": "イタリア独禁当局、AI音楽生成サービス「Suno」の契約条件を調査開始 執筆",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PY0ExOGVMQ0tqbE5KUlFTOWVIS25MRVRUTFdjY215MVVWeUo2NUtFSkJqSng0RmVlMDRHTFpCY0JtRjRfVy0wWEpyMDdyck8xc2JxcE1NXzNYLTN6ckhjYWgzWTJ4Q1o2MVlIYnUwVkJMQjM0TF9j?oc=5",
-      "summary": "",
-      "published": "2026-10-06T07:00:00.000Z",
-      "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 6
     }
   ]
 }
