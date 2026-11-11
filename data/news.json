@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T20:08:57.444Z",
+  "generatedAt": "2026-11-11T00:56:40.555Z",
   "count": 400,
-  "newCount": 43,
+  "newCount": 46,
   "translatedCount": 1,
   "ranking": [
     "17c7793b3fd5f6aa",
@@ -139,7 +139,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -148,7 +148,7 @@
       "category": "global",
       "ok": true,
       "fetched": 20,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -416,7 +416,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 4,
+      "coverage": 5,
       "titleJa": "エルビス・プレスリーの著作権所有者がAIミュージックジェネレーターをライセンス、著作権侵害で訴える",
       "score": 43
     },
@@ -433,7 +433,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "エルビス・プレスリー、エミネムの著作権所有者がAI音楽ジェネレーターSunoを訴える",
-      "score": 28
+      "score": 23
     },
     {
       "id": "7f75c33ac5975cd8",
@@ -447,7 +447,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 19
+      "score": 14
     },
     {
       "id": "bc7b22ceabf5dcf7",
@@ -461,7 +461,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "eb36f7c3268631f7",
@@ -476,7 +476,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "エルビスの権利者とエミネムの出版社は、エルビス法をテストしてSunoを訴えます",
-      "score": 28
+      "score": 23
     },
     {
       "id": "952d7293a31fb7f6",
@@ -592,7 +592,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 43
     },
     {
@@ -650,7 +650,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 10,
+      "coverage": 11,
       "titleJa": "エルビスとエミネムの権利所有者がスノを訴えている",
       "summaryJa": "Sunoはさらに別の訴訟に直面しています。エルヴィス・プレスリーの音楽の著作権者のグループとエミネムの最大のレコードのいくつかの出版社は、AI音楽会社がそれらのアーティストを模倣した音楽と歌詞を違法に生成していると主張して訴えている。Presley訴訟の弁護士は、Sunoがテネシー州の",
       "score": 47
@@ -712,7 +712,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "エルヴィス・プレスリー・エンタープライズ、AI音楽ジェネレーターのSunoを著作権侵害で訴える",
-      "score": 23
+      "score": 19
     },
     {
       "id": "b2b2f8bcb4d03a65",
@@ -727,7 +727,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "ファーンデールのエイトマイルスタイルは、エミネムAIトレーニングクレームのためにスノを$ 41 Mで訴えます",
-      "score": 16
+      "score": 12
     },
     {
       "id": "70aa57db13670213",
@@ -742,7 +742,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "エルヴィス・プレスリー・エンタープライズ、AIミュージックジェネレーター企業を著作権侵害で訴える",
-      "score": 14
+      "score": 10
     },
     {
       "id": "03e47406e025496d",
@@ -757,7 +757,21 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "AIプラットフォームは、許可なくミシガン州の音楽出版社の著作物を複製したと訴訟は述べている",
-      "score": 7
+      "score": 3
+    },
+    {
+      "id": "3d19a004ef396011",
+      "title": "Soundverse AI – AI音楽スタジオ、対話による制作、マルチトラック編集",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdGZTdVNJQW9oeDZQWll4S1RKcUpqdWVpUzk1cG04UFVGSlFEQXVSQ216OEY4UXBfUVVCOVBLT0RPVG1ZaGc3dUFqTElUYkFGUmNZaE5IbjNxMjUxMndkNzE4SXZxV2NNWWFZUVdYUC1tUlNIdFpwS0hMRVZvTHh5WUhxako2VzFGWWRpb2VSTDRhNjRrU1VzbDh6QW5JT0lNalR5WQ?oc=5",
+      "summary": "",
+      "published": "2026-11-07T21:06:49.000Z",
+      "source": "quasa.io",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 6
     },
     {
       "id": "a9a509ce89855f3e",
@@ -770,7 +784,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 8,
+      "coverage": 9,
       "titleJa": "エルビス・プレスリーの音楽所有者がAIミュージックジェネレーターに対して新たな訴訟を起こす",
       "score": 27
     },
@@ -1292,7 +1306,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 23,
+      "coverage": 24,
       "titleJa": "ElevenLabsからSoundCloudにAI音楽を直接投稿できます",
       "summaryJa": "今年初めにMoisesと提携した後、SoundCloudは現在、別のAI音楽プラットフォームであるElevenLabsとの統合を追加しています。これで、ElevenLabsから出力をエクスポートしてダウンロードし、SoundCloudにアップロードする必要がなくなり、直接公開することができます。パートナーシップの一環として、SoundCloud Artist Proのサブスクライバーも3か月間",
       "score": 36
@@ -1498,7 +1512,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 27,
+      "coverage": 28,
       "score": 60
     },
     {
@@ -1575,6 +1589,21 @@
       "score": 12
     },
     {
+      "id": "f166a7569a1ec478",
+      "title": "Suno Pushes to Dismiss Jason Isbell Lawsuit in First Response",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRTJhZHE2Z01zUXVZa09RUElnY3hzU2FpZGlaak54dklwNHZHZ0dCS1QzT2VVbGxNMUUxUXFtV2NZNFVyOEM1VXlwRk5DeVNiWDdxamJORWZaQWFaUzQySUt1QUtJcmlMTnVYVjBpNUNETlg3ZlZ2Wmt4dW1LNDhpdmJRamcxU2pEdXhSdzJrV0VPSEp6eWx4VExFWUZuS2M?oc=5",
+      "summary": "",
+      "published": "2026-11-04T17:44:00.000Z",
+      "source": "Variety",
+      "sourceId": "gnews-en-aimusic",
+      "via": "Googleニュース",
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "Suno、最初の対応でJason Isbellの訴訟を却下",
+      "score": 12
+    },
+    {
       "id": "ccce7c1abb81bab6",
       "title": "Suno asks court to dismiss Jason Isbell’s right-of-publicity class action. It claims artist names are ‘shorthand’ for musical genres.",
       "url": "https://www.musicbusinessworldwide.com/suno-asks-court-to-dismiss-jason-isbells-right-of-publicity-class-action-it-claims-artist-names-are-shorthand-for-musical-genres/",
@@ -1585,7 +1614,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 21,
+      "coverage": 22,
       "titleJa": "Sunoは、裁判所にJason Isbellの広報権の集団訴訟を却下するよう依頼します。アーティストの名前は音楽ジャンルの「速記」であると主張しています。",
       "summaryJa": "AI音楽会社は、火曜日（ 11月3日）に動議を提出しました",
       "score": 36
@@ -1749,7 +1778,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "Sunoは音楽業界最大の悪夢ですか？それとも最大の希望ですか？",
-      "score": 12
+      "score": 3
     },
     {
       "id": "9abd446fed6e2f61",
@@ -1762,10 +1791,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 29,
+      "coverage": 30,
       "titleJa": "スノは、アーティストの「アイデンティティ」をめぐるジェイソン・イズベル訴訟は却下されなければならないと語る：「それについて違法なことは何もない」",
       "summaryJa": "AI音楽会社は、ミュージシャンの肖像権を侵害していると非難する新しい訴訟に対して、最初の主要な対応を提出しました。",
-      "score": 43
+      "score": 34
     },
     {
       "id": "9261033e92f156aa",
@@ -1986,7 +2015,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 34,
+      "coverage": 35,
       "titleJa": "UMG、ソニー、DistroKidは、Suno事件のAI音楽データをめぐる紛争で「解決に取り組んでいる」と裁判所に語る",
       "summaryJa": "2つのメジャーは、ストリーミングサービスに配信するトラックのうち、AI生成トラックとしてフラグが立てられているトラックの数について、DistroKidにデータを求めている。",
       "score": 27
@@ -2514,7 +2543,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 45,
+      "coverage": 46,
       "score": 30
     },
     {
@@ -2862,7 +2891,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 54,
+      "coverage": 55,
       "score": 51
     },
     {
@@ -2890,7 +2919,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 93,
+      "coverage": 94,
       "score": 30
     },
     {
@@ -3330,7 +3359,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 41,
+      "coverage": 42,
       "score": 21
     },
     {
@@ -3589,7 +3618,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 114,
+      "coverage": 115,
       "score": 21
     },
     {
@@ -3645,7 +3674,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 37,
+      "coverage": 38,
       "titleJa": "Spotifyの巨額の利益からSunoのためのもう1つの法的戦いまで... MBWのウィークリーラウンドアップです",
       "summaryJa": "ここ数日の最大の見出し...",
       "score": 27
@@ -3994,7 +4023,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 76,
+      "coverage": 77,
       "titleJa": "Sunoは、UMGとソニーの「洗濯」訴訟に応じて、AIのトレーニングに使用されたすべての録音を削除していないことを認めている",
       "summaryJa": "44ページの回答は、火曜日（ 10月20日）にマサチューセッツ州地方裁判所に提出され、MBWによって審査されました。",
       "score": 27
@@ -4074,7 +4103,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 77,
+      "coverage": 78,
       "titleJa": "リザーバは、ジョニ・ミッチェル、ジョニー・キャッシュ、マドンナなどの曲を著作権侵害したとして、スノーとアントロピックを訴える",
       "summaryJa": "Reservoirはまた、同じ日にAnthropicに対して別の訴訟を提起しました。",
       "score": 34
@@ -4090,7 +4119,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 78,
+      "coverage": 79,
       "score": 27,
       "titleJa": "Reservoir、AI音楽をめぐる最新訴訟でSunoとAnthropicを訴える：「アーティストの代わりを意図した」",
       "summaryJa": "インディーパブリッシャーは、AIラボがマドンナとジョニー・キャッシュの曲を盗んで、新しいモデルを吐き出すようにモデルを訓練したと述べている。"
@@ -4399,7 +4428,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 71,
+      "coverage": 72,
       "score": 21
     },
     {
@@ -4427,7 +4456,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 134,
+      "coverage": 136,
       "score": 28
     },
     {
@@ -4573,7 +4602,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 61,
+      "coverage": 62,
       "titleJa": "Creve Coeurの男性が依存症回復の一環としてAI音楽に目を向ける",
       "score": 18
     },
@@ -4786,7 +4815,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 46,
+      "coverage": 47,
       "score": 21
     },
     {
@@ -4888,7 +4917,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 89,
+      "coverage": 90,
       "titleJa": "ソニーとユニバーサルは、裁判所に対し、Sunoの投資家であるLightspeedに「トレーニングデータの法的リスク」についての証言を強制するよう要請する",
       "summaryJa": "ラベルは、先週火曜日（ 10月13日）にボストン連邦裁判所に提出された訴訟で、召喚状を取り消すというLightspeedの動議に反対しました。",
       "score": 19
@@ -5175,7 +5204,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 79,
+      "coverage": 80,
       "score": 37
     },
     {
@@ -5245,7 +5274,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 96,
+      "coverage": 97,
       "titleJa": "UMGとSony Demand DistroKidがSunoからアップロードしたAI曲の数を教えてくれる：「Staggering Scale」",
       "summaryJa": "音楽大手は、AI曲の「洪水」を可能にしたと非難する新しい法的ファイリングで、巨大なDIYディストリビューターへの圧力を強めています。",
       "score": 27
@@ -5864,6 +5893,20 @@
       "score": -3
     },
     {
+      "id": "63f0f8e8ed78dcbe",
+      "title": "Sunoの画像1枚でレゲエトーン風オリジナル曲生成が人気",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpUWtSTDNpdldIOHFCVFNoTlRWX3N0aWwwTzdfQmdYTkF3NXR3eEZoSlRWSy1pcUpZWDBJWUlldkVWcWFsMXZQMWxfdVpoM2lsQWVLcTU0a0JZeDREU2c?oc=5",
+      "summary": "",
+      "published": "2026-10-15T07:00:00.000Z",
+      "source": "X",
+      "sourceId": "gnews-ja-suno",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": 6
+    },
+    {
       "id": "00c94cdec71e5ba0",
       "title": "Deezerが「AI楽曲排除スイッチ」を導入へ。人間のクリエイターと作品だけに集中可能に",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sMUJNYnlDc19wVnU4cHZMQ19mWFdvQTU3STdJR3Q3d01mOFlOS1pXZFVxS0lrdWtaR0FjVzY5dDFDYm1nc2VfandxeDlyTm95d3c?oc=5",
@@ -5930,7 +5973,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 148,
+      "coverage": 150,
       "score": 39
     },
     {
@@ -6136,48 +6179,6 @@
       "summary": "",
       "published": "2026-10-14T09:00:00.000Z",
       "source": "OTOTOY",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "cc1d3e3ec9ef1609",
-      "title": "【無料・ローカル】音楽生成AIを比較してみた！ACE-Step 1.5・YuE2・MiniMax Music3【Lofi聴き比べ】",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01VF83WVAzcXFWQXZoTWJnSkZ2V2lTbTZHUExqWlJScm5UWVYwR1pnSENfRHRKZGFPdWNHNVZXMjVZRDZjaG5heGc0bXRkUjBBSVNwOGJ5U1JhM1lU?oc=5",
-      "summary": "",
-      "published": "2026-10-14T07:00:00.000Z",
-      "source": "YouTube",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": 15
-    },
-    {
-      "id": "1d46f25f334cea04",
-      "title": "【YouTube Music】生成AIで作成された楽曲にラベル表示を開始",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51ZldVejFNVFBDRWtleGlvNm5yUmJqeHd3dTJ3OW9ycV9qQWwwR2lycWNMRTJIeno2MFAwZGNrNVI4SGxSNWt5SlNTZXVkbXUzMHJvWjhzMUdZdE1JWXFBSzgtZ0dBMk9kVnhVd2pOLS1LbzRL?oc=5",
-      "summary": "",
-      "published": "2026-10-14T07:00:00.000Z",
-      "source": "BigGo ファイナンス",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "4952d0afeecaf0c8",
-      "title": "Deezer、AI生成音楽を除外するフィルターを計画",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSTlLRGJPUGxzekhrQ0V6QmN6VFI1SS1MdUNIQzhJbXhJMjNKaEdENzlKdk1wZTFocEYzSHJqX1JKTTRaeTJNQ2pnZ2c3MklwUUZ2WENaY2QtUVJZSnFMMW0taHNfUWgzdWx5NGtTR25sLUQ4ZVdGd3ByZ2NQalNnTWZGSElCcmViWGZWRERpOA?oc=5",
-      "summary": "",
-      "published": "2026-10-14T07:00:00.000Z",
-      "source": "Mezha.net",
       "sourceId": "gnews-ja-aimusic",
       "via": "Googleニュース",
       "category": "jp",
