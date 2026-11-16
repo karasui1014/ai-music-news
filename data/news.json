@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-15T19:12:11.259Z",
+  "generatedAt": "2026-11-16T00:31:07.313Z",
   "count": 400,
-  "newCount": 30,
+  "newCount": 33,
   "translatedCount": 0,
   "ranking": [
     "44b097d696703752",
-    "6149b38d9e5cadbd",
     "eb36f7c3268631f7",
     "83d3df05d05644eb",
-    "f545a3bee9195e99",
+    "6149b38d9e5cadbd",
     "ee783a2184b6f9ea",
     "a9460496fd913c56",
+    "f545a3bee9195e99",
     "eca0c49bb868e0f2",
     "43cda6d2935fd4e7",
     "ecb92894df48ecc4"
@@ -323,7 +323,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "第1回AIミュージックアワードの舞台裏。テクノロジーの力を借りた楽曲を当たり前にしようとする混沌とした夜",
-      "score": 12
+      "score": 7
     },
     {
       "id": "a73920b07de35aa9",
@@ -339,7 +339,7 @@
       "coverage": 1,
       "titleJa": "ヤマハがVOCALOIDをアップデート。より表現力豊かなAI歌唱と5つの新しいボイスバンクを追加",
       "summaryJa": "ヤマハは、歌声合成ソフトウェアの最新バージョンであるVOCALOID7をリリースしました。このバージョンには、第2世代のAIエンジン、新しい歌唱表現コントロール、強化されたCubaseとの統合、そして5つの新しいボイスバンクが搭載されています。…続きを読むヤマハがVOCALOIDをアップデート。より表現力豊かなAI歌唱と5つの新しいボイスバンクを追加",
-      "score": 23
+      "score": 18
     },
     {
       "id": "0cb0dcc22fac908c",
@@ -380,7 +380,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 7,
+      "coverage": 8,
       "titleJa": "AI音楽とそのクリエイターを称える新しいアワードショー",
       "score": 31
     },
@@ -395,7 +395,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 8,
+      "coverage": 9,
       "score": 55
     },
     {
@@ -655,7 +655,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 10
+      "score": 6
     },
     {
       "id": "6149b38d9e5cadbd",
@@ -669,7 +669,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 37
+      "score": 33
     },
     {
       "id": "5994aa1b7e296a76",
@@ -685,7 +685,7 @@
       "coverage": 1,
       "titleJa": "beatBreadが、MetaやSunoの幹部を含む諮問委員会を設立",
       "summaryJa": "この発表は、9月にアンドレア・グリーソン氏がbeatBreadのCEOに就任したことに続くものです。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "f545a3bee9195e99",
@@ -701,7 +701,7 @@
       "coverage": 1,
       "titleJa": "AIを活用したレーベルPaRa Musicが、インドの次なる主要な地域音楽サブジャンルを特定したと発表",
       "summaryJa": "6月、私たちは「AIを活用した」インドのレーベルPaRa Musicの立ち上げについて記事を書きました。このレーベルは、自社のAIプラットフォームPaRaMeterを使用して「オーディエンスの行動と需要パターン」を分析し、「投資を導く […]」という内容でした。この投稿はMusic Allyからのものです。",
-      "score": 32
+      "score": 28
     },
     {
       "id": "ba8a35aa6fd348cc",
@@ -717,7 +717,7 @@
       "coverage": 1,
       "titleJa": "NVIDIAのベンチャー部門が、Sunoの訴訟においてUMGとSonyが求める証言を差し止めるよう裁判所に要請。自らを「消極的な少数株主」と称する。",
       "summaryJa": "NVenturesは、すでに28,194ページに及ぶ6,324件の文書をレコード会社に提出したと述べています。",
-      "score": 16
+      "score": 12
     },
     {
       "id": "1ecb1cdf4740cef0",
@@ -1274,7 +1274,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 24,
+      "coverage": 25,
       "titleJa": "エルビス・プレスリーの著作権所有者がAIミュージックジェネレーターをライセンス、著作権侵害で訴える",
       "score": 34
     },
@@ -1332,9 +1332,9 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 3,
+      "coverage": 4,
       "titleJa": "エルビスの権利者とエミネムの出版社は、エルビス法をテストしてSunoを訴えます",
-      "score": 35
+      "score": 43
     },
     {
       "id": "952d7293a31fb7f6",
@@ -1464,8 +1464,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 28,
-      "score": 39
+      "coverage": 29,
+      "score": 30
     },
     {
       "id": "3d702c20e2cadb45",
@@ -1479,7 +1479,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 22
+      "score": 13
     },
     {
       "id": "abff94987ad4e29b",
@@ -1494,7 +1494,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "Suno AIミュージックジェネレーターが再び著作権侵害で訴えられる",
-      "score": 19
+      "score": 10
     },
     {
       "id": "371504883823ef44",
@@ -1509,7 +1509,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "Suno、Jason IsbellのAI音楽訴訟を却下、言論の自由を引用",
-      "score": 24
+      "score": 15
     },
     {
       "id": "0d3e11b06e8682cc",
@@ -1522,7 +1522,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 30,
+      "coverage": 31,
       "titleJa": "エルビスとエミネムの権利所有者がスノを訴えている",
       "summaryJa": "Sunoはさらに別の訴訟に直面しています。エルヴィス・プレスリーの音楽の著作権者のグループとエミネムの最大のレコードのいくつかの出版社は、AI音楽会社がそれらのアーティストを模倣した音楽と歌詞を違法に生成していると主張して訴えている。Presley訴訟の弁護士は、Sunoがテネシー州の",
       "score": 34
@@ -2071,7 +2071,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 10,
+      "coverage": 11,
       "score": 28
     },
     {
@@ -2206,7 +2206,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 43,
+      "coverage": 44,
       "titleJa": "ElevenLabsからSoundCloudにAI音楽を直接投稿できます",
       "summaryJa": "今年初めにMoisesと提携した後、SoundCloudは現在、別のAI音楽プラットフォームであるElevenLabsとの統合を追加しています。これで、ElevenLabsから出力をエクスポートしてダウンロードし、SoundCloudにアップロードする必要がなくなり、直接公開することができます。パートナーシップの一環として、SoundCloud Artist Proのサブスクライバーも3か月間",
       "score": 27
@@ -2384,6 +2384,20 @@
       "lang": "ja",
       "coverage": 28,
       "score": 51
+    },
+    {
+      "id": "f0d2f638bf427e9b",
+      "title": "Vault レビュー：AIでフル楽曲とステムを生成",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ha2dSWTQ0Qzc0TXloWXlqYU1hMGJjQUtBQ250d3VwWGFxbFAwS3VaaTJlVExYcXBac3JfaU9qRnZBZlBHVjBBczBTYkgzYjFYUEcxMWlhaDYxZ2R0cTlRUElzcE41WUVSQTBua1ZWOUszRXdJZTdVelN0Mnpqd00?oc=5",
+      "summary": "",
+      "published": "2026-11-05T08:00:00.000Z",
+      "source": "quasa.io",
+      "sourceId": "gnews-ja-aimusic",
+      "via": "Googleニュース",
+      "category": "jp",
+      "lang": "ja",
+      "coverage": 1,
+      "score": -3
     },
     {
       "id": "4325316d9147dfaf",
@@ -2691,7 +2705,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 49,
+      "coverage": 50,
       "titleJa": "スノは、アーティストの「アイデンティティ」をめぐるジェイソン・イズベル訴訟は却下されなければならないと語る：「それについて違法なことは何もない」",
       "summaryJa": "AI音楽会社は、ミュージシャンの肖像権を侵害していると非難する新しい訴訟に対して、最初の主要な対応を提出しました。",
       "score": 34
@@ -2915,7 +2929,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 54,
+      "coverage": 55,
       "titleJa": "UMG、ソニー、DistroKidは、Suno事件のAI音楽データをめぐる紛争で「解決に取り組んでいる」と裁判所に語る",
       "summaryJa": "2つのメジャーは、ストリーミングサービスに配信するトラックのうち、AI生成トラックとしてフラグが立てられているトラックの数について、DistroKidにデータを求めている。",
       "score": 27
@@ -3133,7 +3147,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 39,
+      "coverage": 40,
       "score": 21
     },
     {
@@ -3339,7 +3353,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 50,
+      "coverage": 51,
       "titleJa": "Sunoは、Apple MusicがUMGとソニーなしで生き残ることができるかどうかについてAppleに証言させるために戦い、メジャーが反AIの譲歩を勝ち取るために彼らのカタログを「棍棒として」使用していると主張している",
       "summaryJa": "Sunoはまた、Apple Musicの両方のメジャーとのAppleの現在のライセンス交渉とストリーミング詐欺についてAppleの目撃者が証言することを望んでいる。",
       "score": 27
@@ -3355,7 +3369,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 28,
+      "coverage": 29,
       "titleJa": "Sunoの新しいMCPツールを使用すると、ユーザーはChatGPT、Claude、Gemini内で曲を作ることができます。開発者APIはサインインポータルを取得しますが、ベータ版のままです",
       "summaryJa": "Sunoは、ユーザーがChatGPT、Claude、GeminiなどのAIアシスタントから曲を作成できるツールを発表しました。このツール、Suno MCPはベータ版であり、水曜日（ 10月28日）のSunoのリリースノートで発表されました。これとは別に、MBWはSunoの開発者APIのサインインポータルを発見した。同社によると、このポータルはベータ版のままだという。…続きを読む",
       "score": 38
@@ -3401,7 +3415,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 28
     },
     {
@@ -3471,7 +3485,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 65,
+      "coverage": 66,
       "score": 30
     },
     {
@@ -3630,7 +3644,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 29,
+      "coverage": 30,
       "score": 28
     },
     {
@@ -3819,7 +3833,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 69,
+      "coverage": 70,
       "score": 51
     },
     {
@@ -3833,7 +3847,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 113,
+      "coverage": 115,
       "score": 30
     },
     {
@@ -4273,7 +4287,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 61,
+      "coverage": 62,
       "score": 21
     },
     {
@@ -4475,7 +4489,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 56,
+      "coverage": 57,
       "score": 21
     },
     {
@@ -4546,7 +4560,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 134,
+      "coverage": 135,
       "score": 21
     },
     {
@@ -4951,7 +4965,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 96,
+      "coverage": 97,
       "titleJa": "Sunoは、UMGとソニーの「洗濯」訴訟に応じて、AIのトレーニングに使用されたすべての録音を削除していないことを認めている",
       "summaryJa": "44ページの回答は、火曜日（ 10月20日）にマサチューセッツ州地方裁判所に提出され、MBWによって審査されました。",
       "score": 27
@@ -5031,7 +5045,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 97,
+      "coverage": 98,
       "titleJa": "リザーバは、ジョニ・ミッチェル、ジョニー・キャッシュ、マドンナなどの曲を著作権侵害したとして、スノーとアントロピックを訴える",
       "summaryJa": "Reservoirはまた、同じ日にAnthropicに対して別の訴訟を提起しました。",
       "score": 34
@@ -5047,7 +5061,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 98,
+      "coverage": 99,
       "score": 27,
       "titleJa": "Reservoir、AI音楽をめぐる最新訴訟でSunoとAnthropicを訴える：「アーティストの代わりを意図した」",
       "summaryJa": "インディーパブリッシャーは、AIラボがマドンナとジョニー・キャッシュの曲を盗んで、新しいモデルを吐き出すようにモデルを訓練したと述べている。"
@@ -5744,7 +5758,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 66,
+      "coverage": 67,
       "score": 21
     },
     {
@@ -5846,7 +5860,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 109,
+      "coverage": 110,
       "titleJa": "ソニーとユニバーサルは、裁判所に対し、Sunoの投資家であるLightspeedに「トレーニングデータの法的リスク」についての証言を強制するよう要請する",
       "summaryJa": "ラベルは、先週火曜日（ 10月13日）にボストン連邦裁判所に提出された訴訟で、召喚状を取り消すというLightspeedの動議に反対しました。",
       "score": 19
@@ -6133,7 +6147,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 99,
+      "coverage": 100,
       "score": 37
     },
     {
@@ -6163,20 +6177,6 @@
       "lang": "ja",
       "coverage": 29,
       "score": 21
-    },
-    {
-      "id": "e3ef5648c3343148",
-      "title": "AI作曲:『月姫ルナ ― MOON🌙LIGHT DESTROYER ―』",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByVFk2bVlwTkU5eTZsUFVQMjZpUlMxV3UxVG1RZnFOZUVrMkV0bGhvdFFaY1FjX3J4OW9VMlZ2RGJTSzlEelJPQ3hfWHZBOU0tWjhQXy1jSVBTaUsx?oc=5",
-      "summary": "",
-      "published": "2026-10-17T02:01:40.000Z",
-      "source": "YouTube",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
     }
   ]
 }
