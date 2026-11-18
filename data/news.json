@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-18T17:52:22.267Z",
+  "generatedAt": "2026-11-18T21:02:12.879Z",
   "count": 400,
-  "newCount": 43,
-  "translatedCount": 6,
+  "newCount": 5,
+  "translatedCount": 2,
   "ranking": [
     "5df41cd813b6c265",
     "005a5395dbe5fc2d",
@@ -12,36 +12,36 @@
     "d98b2caca2855b47",
     "ebddddf9b7fc706f",
     "495de6fc3def40c8",
-    "45d62703254a4ff8",
-    "85c569e5463f5151"
+    "85c569e5463f5151",
+    "6149b38d9e5cadbd"
   ],
   "sources": [
     {
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -76,7 +76,7 @@
       "category": "global",
       "ok": true,
       "fetched": 15,
-      "matched": 1,
+      "matched": 0,
       "error": null
     },
     {
@@ -297,6 +297,38 @@
   ],
   "items": [
     {
+      "id": "272938262d0d7c34",
+      "title": "UMG and Sony withdraw DistroKid subpoena motion in Suno case after distributor produces AI-detection documents",
+      "url": "https://www.musicbusinessworldwide.com/umg-and-sony-withdraw-distrokid-subpoena-motion-in-suno-case-after-distributor-produces-ai-detection-documents/",
+      "summary": "The labels sought data on how many DistroKid tracks were flagged as AI-generated, how many were attributed to Suno, and what they earned.",
+      "published": "2026-11-18T19:26:50.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "UMGとソニーが、Sunoの訴訟でディストリビューターがAI検出文書を提出した後、DistroKidに対する召喚状請求を撤回",
+      "summaryJa": "レーベルは、AI生成とフラグ付けされたDistroKidの楽曲の数、Sunoに帰属された楽曲の数、およびそれらの楽曲がどれだけの収益を上げたかに関するデータを求めていました。",
+      "score": 21
+    },
+    {
+      "id": "c93e28ce1d67c6cb",
+      "title": "Michael Rapino talks Live Nation’s AI strategy, subscription ambitions for 14m-member All Access program – plus 3 other things to know from the firm’s 2026 Investor Presentation",
+      "url": "https://www.musicbusinessworldwide.com/michael-rapino-talks-live-nations-ai-strategy-subscription-ambitions-for-14m-member-all-access-program-plus-3-other-things-to-know-from-the-firms-2026-investor-presentatio/",
+      "summary": "The presentation came five days after Live Nation reported Q3 revenues of $10.1 billion, up 19% YoY",
+      "published": "2026-11-18T18:01:54.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "マイケル・ラピノ氏が語るLive NationのAI戦略、1,400万人のメンバーを抱えるAll Accessプログラムのサブスクリプションに関する目標、および同社の2026年投資家向けプレゼンテーションから知っておくべきその他の3つのこと",
+      "summaryJa": "このプレゼンテーションは、Live Nationが第3四半期の収益を101億ドル（前年同期比19%増）と報告してから5日後に実施されました。",
+      "score": 4
+    },
+    {
       "id": "ec14adcefec3c8d5",
       "title": "$11M-backed AI startup Sonilo, founded by TikTok veterans, inks licensing deal with Symphonic to train its model on opted-in indie recordings",
       "url": "https://www.musicbusinessworldwide.com/11m-backed-ai-startup-sonilo-founded-by-tiktok-veterans-inks-licensing-deal-with-symphonic-to-train-its-model-on-opted-in-indie-recordings/",
@@ -502,7 +534,7 @@
       "coverage": 3,
       "titleJa": "Sunoが、MiniMaxのモデルをベースにしたAIミュージックビデオツールをリリース。MiniMaxは、ディズニーやその他のハリウッドスタジオから訴えられている中国のAI企業",
       "summaryJa": "「ビジュアル」は、Sunoのプラットフォームで作成された楽曲に添える動画や画像を生成します",
-      "score": 48
+      "score": 43
     },
     {
       "id": "cca6144e6cde4ecf",
@@ -518,7 +550,7 @@
       "coverage": 1,
       "titleJa": "テンセント・ミュージック、AIコンテンツのストリーミングは「ごくわずか」と主張。AIによる著作権侵害に対して法的措置を講じる",
       "summaryJa": "TMEによると、リスニングにおけるAI生成コンテンツのストリーミングの割合は減少しているとのことです。",
-      "score": 19
+      "score": 14
     },
     {
       "id": "2627170b333d9f78",
@@ -534,7 +566,7 @@
       "coverage": 1,
       "titleJa": "AIは私たちが創造性に置く価値を脅かしている",
       "summaryJa": "以下のMBWの論説は、エミー賞受賞作曲家のジョエル・グッドマン氏によるものです。",
-      "score": 12
+      "score": 7
     },
     {
       "id": "b7b12b56dea39bed",
@@ -550,7 +582,7 @@
       "coverage": 1,
       "titleJa": "ベルリン最大の電子音楽会場が、軍事AIのデビューの舞台に",
       "summaryJa": "ベルリン・ミッテにあるかつての発電所であり、TresorやAtonal Festivalと関連するベルリン・クラフトヴェルクは、先週、Helsingが新しいエージェンティックテクノロジー「Clarity」を発表した会場となりました。このプラットフォームは、誤った諜報情報の使用を加速し、パレスチナ、レバノン、イランで民間人を殺害したとされる、同じく物議を醸すAI主導のアプローチを採用しています。Kraftwerkのセールス責任者が単独で…",
-      "score": 23
+      "score": 18
     },
     {
       "id": "45d62703254a4ff8",
@@ -566,7 +598,7 @@
       "coverage": 5,
       "titleJa": "各音楽聴取プラットフォームがAI音楽をどのように扱っているか（更新中）",
       "summaryJa": "BandcampのAI音楽の全面禁止からSpotifyの「AIペルソナ」アプローチまで、すべての音楽プラットフォームがAI生成コンテンツの氾濫にどのように対処しているかをご紹介します。",
-      "score": 36
+      "score": 31
     },
     {
       "id": "92d9a9cbdf18f300",
@@ -582,7 +614,7 @@
       "coverage": 1,
       "titleJa": "ユニバーサルとソニーが、Sunoによる2件目の訴訟を凍結する動きに異議を唱え、Sunoの最新のAIモデルが少なくとも2028年までは審査を免れる可能性があると警告",
       "summaryJa": "レーベル各社は、6万件を超える録音物の所有権の証明を延期することを申し出ましたが、v6がどのようにトレーニングされたかについての証拠開示を今すぐ開始することを望んでいます。",
-      "score": 21
+      "score": 16
     },
     {
       "id": "d2991aeafbe64513",
@@ -6168,34 +6200,6 @@
       "lang": "ja",
       "coverage": 1,
       "score": 6
-    },
-    {
-      "id": "47db4eab2adde55f",
-      "title": "Spotifyは、AIが生成した質の低い音楽に対して厳しい姿勢を取り、本物のアーティストを優先している。",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTnBNOThyc0t1OW84aVpaRnBzWV9nNklmSTR2Z2I2RVdlQk15UG5ocng2S2lYWUhOZjI1eHczOHdLM3pVb0lKUXdaQ0NVbW1pSUhfdEFFcy1FWmFnOV93UXo2ZjBKd0RyR3ZreEpKSkVzWTZWdE85eUNpX0w0cXhiQTZMcTU0QQ?oc=5",
-      "summary": "",
-      "published": "2026-10-21T07:00:00.000Z",
-      "source": "Vietnam.vn",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
-    },
-    {
-      "id": "5c63ad5f58fd9732",
-      "title": "Spotify、低品質なAI楽曲など5000万曲超を“おすすめ“から排除 生成AIを悪用したスパムなどに対応（KAI-YOU）",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qVEpQX1VrekxDWjRtVnUxU29Qb2VZMGotSTlaaXZDQWIwZnozb09GX3F2eDY4ZDlNTklpTm50b1VjWGZzOW5ldXpWUDdhM1NraXZqbUYyMUh0UVd2UUhjcWRrdjREcjZfX0dhbDk0VHV0Ulh4UW5vS0lsSkhKS1U?oc=5",
-      "summary": "",
-      "published": "2026-10-21T07:00:00.000Z",
-      "source": "Yahoo!ニュース",
-      "sourceId": "gnews-ja-aimusic",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 74,
-      "score": 21
     }
   ]
 }
