@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-26T18:52:58.490Z",
+  "generatedAt": "2026-11-26T22:03:14.008Z",
   "count": 400,
-  "newCount": 39,
-  "translatedCount": 3,
+  "newCount": 37,
+  "translatedCount": 0,
   "ranking": [
     "a006273821c4bf5b",
-    "06beed1b03791144",
     "15c3e775946ea485",
+    "06beed1b03791144",
     "942383c947c69e66",
     "03999c6aca691f00",
     "7ebd58d621053e02",
-    "d63a8b69a09f95c9",
-    "a9ea2ac71b6f62e3",
     "0e9c5cd45da2c255",
-    "2f0e43168978d564"
+    "d63a8b69a09f95c9",
+    "e99f1c9dc7cf8476",
+    "a9ea2ac71b6f62e3"
   ],
   "sources": [
     {
@@ -427,8 +427,8 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 3,
-      "score": 40
+      "coverage": 4,
+      "score": 48
     },
     {
       "id": "20816436fc85572a",
@@ -455,8 +455,8 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 2,
-      "score": 41
+      "coverage": 3,
+      "score": 49
     },
     {
       "id": "b6e526fdf6951029",
@@ -498,7 +498,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "0e9c5cd45da2c255",
@@ -511,10 +511,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 2,
+      "coverage": 3,
       "titleJa": "The Chicksが、Sunoに対するジェイソン・イズベルの集団訴訟に参加。修正された訴状には16人の原告が追加され、v6を対象としている。",
       "summaryJa": "イズベルは8月31日に、デビッド・ロウリー、ガイ・フォーサイス、エドゥアルド・カレーとともに最初の訴訟を起こしました。",
-      "score": 24
+      "score": 32
     },
     {
       "id": "7ce74e567a3cf040",
@@ -697,7 +697,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 12,
+      "coverage": 14,
       "score": 52
     },
     {
@@ -726,7 +726,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 6,
+      "coverage": 7,
       "score": 34
     },
     {
@@ -740,7 +740,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 8,
+      "coverage": 9,
       "score": 52
     },
     {
@@ -754,7 +754,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 12,
+      "coverage": 13,
       "score": 52
     },
     {
@@ -768,7 +768,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 8,
+      "coverage": 9,
       "score": 41
     },
     {
@@ -797,7 +797,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 8,
+      "coverage": 9,
       "score": 34
     },
     {
@@ -1102,7 +1102,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 14,
+      "coverage": 15,
       "score": 45
     },
     {
@@ -1176,7 +1176,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 10
+      "score": 6
     },
     {
       "id": "dbba22534e52778f",
@@ -1205,10 +1205,10 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 1,
+      "coverage": 2,
       "titleJa": "エミネムの共同パブリッシャーであるEight Mile Styleが、Sunoに対する4,770万ドル（約75億円）の訴訟に、著作権を侵害しているとされるAI楽曲108曲を追加。Sunoの否認を「虚偽」と主張",
       "summaryJa": "修正された訴状では、Sunoがエミネム氏の声と肖像を盗んだと非難していますが、それらに関する請求は追加されておらず、Sunoが求める損害賠償額に変更はありません。",
-      "score": 19
+      "score": 27
     },
     {
       "id": "942383c947c69e66",
@@ -1221,7 +1221,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 4,
+      "coverage": 5,
       "titleJa": "SunoのAIビデオへの参入、DistroKidの文書、v6を巡る争いについて知っておくべき5つのこと",
       "summaryJa": "Sunoは今週ビデオ分野に進出し、DistroKidはAI検出に関する文書を提出し、UMGとソニーは2回目の訴訟を継続するために闘っています。",
       "score": 36
@@ -1610,7 +1610,7 @@
       "coverage": 1,
       "titleJa": "音楽マーケティングにおけるエージェント型AI：「超人」、安全対策、そして朝7時のインボックスブリーフィング",
       "summaryJa": "職場でのAIの活用が主にチャットボットに質問することであった時代から、私たちは急速に移行しています。エージェント型AIが次のトレンドです。この記事はMusic Allyからのものです。",
-      "score": 3
+      "score": -6
     },
     {
       "id": "ed261166b351ab5f",
@@ -1770,7 +1770,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 36,
+      "coverage": 38,
       "score": 41
     },
     {
@@ -1784,7 +1784,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 29,
+      "coverage": 30,
       "titleJa": "UMGとソニーが、Sunoの訴訟でディストリビューターがAI検出文書を提出した後、DistroKidに対する召喚状請求を撤回",
       "summaryJa": "レーベルは、AI生成とフラグ付けされたDistroKidの楽曲の数、Sunoに帰属された楽曲の数、およびそれらの楽曲がどれだけの収益を上げたかに関するデータを求めていました。",
       "score": 27
@@ -1951,7 +1951,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 65,
+      "coverage": 67,
       "score": 41
     },
     {
@@ -2023,7 +2023,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 32,
+      "coverage": 33,
       "titleJa": "Sunoが、MiniMaxのモデルをベースにしたAIミュージックビデオツールをリリース。MiniMaxは、ディズニーやその他のハリウッドスタジオから訴えられている中国のAI企業",
       "summaryJa": "「ビジュアル」は、Sunoのプラットフォームで作成された楽曲に添える動画や画像を生成します",
       "score": 38
@@ -2087,7 +2087,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 35,
+      "coverage": 36,
       "titleJa": "各音楽聴取プラットフォームがAI音楽をどのように扱っているか（更新中）",
       "summaryJa": "BandcampのAI音楽の全面禁止からSpotifyの「AIペルソナ」アプローチまで、すべての音楽プラットフォームがAI生成コンテンツの氾濫にどのように対処しているかをご紹介します。",
       "score": 18
@@ -2317,7 +2317,7 @@
       "via": null,
       "category": "jp",
       "lang": "ja",
-      "coverage": 37,
+      "coverage": 38,
       "score": 28
     },
     {
@@ -2466,7 +2466,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 37,
+      "coverage": 38,
       "titleJa": "Sunoが、AIステムをAbleton Liveにドロップするアプリ「Bridge」をリリース",
       "summaryJa": "リリース時点では、Mac上のAbleton Live 12でのみ動作し、Suno Premierのサブスクリプションが必要です。",
       "score": 38
@@ -2614,7 +2614,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 85,
+      "coverage": 88,
       "score": 38
     },
     {
@@ -2714,7 +2714,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 48,
+      "coverage": 49,
       "titleJa": "AI音楽とそのクリエイターを称える新しいアワードショー",
       "score": 18
     },
@@ -3736,7 +3736,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 65,
+      "coverage": 66,
       "titleJa": "エルビス・プレスリーの著作権所有者がAIミュージックジェネレーターをライセンス、著作権侵害で訴える",
       "score": 25
     },
@@ -3955,7 +3955,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 71,
+      "coverage": 72,
       "titleJa": "エルビスとエミネムの権利所有者がスノを訴えている",
       "summaryJa": "Sunoはさらに別の訴訟に直面しています。エルヴィス・プレスリーの音楽の著作権者のグループとエミネムの最大のレコードのいくつかの出版社は、AI音楽会社がそれらのアーティストを模倣した音楽と歌詞を違法に生成していると主張して訴えている。Presley訴訟の弁護士は、Sunoがテネシー州の",
       "score": 34
@@ -4282,7 +4282,7 @@
       "via": "Googleニュース",
       "category": "global",
       "lang": "en",
-      "coverage": 23,
+      "coverage": 24,
       "titleJa": "エルビス・プレスリーの音楽所有者がAIミュージックジェネレーターに対して新たな訴訟を起こす",
       "score": 18
     },
@@ -5181,7 +5181,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 88,
+      "coverage": 89,
       "titleJa": "スノは、アーティストの「アイデンティティ」をめぐるジェイソン・イズベル訴訟は却下されなければならないと語る：「それについて違法なことは何もない」",
       "summaryJa": "AI音楽会社は、ミュージシャンの肖像権を侵害していると非難する新しい訴訟に対して、最初の主要な対応を提出しました。",
       "score": 34
@@ -5829,7 +5829,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 91,
+      "coverage": 92,
       "titleJa": "Sunoは、Apple MusicがUMGとソニーなしで生き残ることができるかどうかについてAppleに証言させるために戦い、メジャーが反AIの譲歩を勝ち取るために彼らのカタログを「棍棒として」使用していると主張している",
       "summaryJa": "Sunoはまた、Apple Musicの両方のメジャーとのAppleの現在のライセンス交渉とストリーミング詐欺についてAppleの目撃者が証言することを望んでいる。",
       "score": 27
@@ -5845,7 +5845,7 @@
       "via": null,
       "category": "global",
       "lang": "en",
-      "coverage": 69,
+      "coverage": 70,
       "titleJa": "Sunoの新しいMCPツールを使用すると、ユーザーはChatGPT、Claude、Gemini内で曲を作ることができます。開発者APIはサインインポータルを取得しますが、ベータ版のままです",
       "summaryJa": "Sunoは、ユーザーがChatGPT、Claude、GeminiなどのAIアシスタントから曲を作成できるツールを発表しました。このツール、Suno MCPはベータ版であり、水曜日（ 10月28日）のSunoのリリースノートで発表されました。これとは別に、MBWはSunoの開発者APIのサインインポータルを発見した。同社によると、このポータルはベータ版のままだという。…続きを読む",
       "score": 38
@@ -5919,7 +5919,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 39,
+      "coverage": 40,
       "score": 28
     },
     {
@@ -5989,7 +5989,7 @@
       "via": "Googleニュース",
       "category": "jp",
       "lang": "ja",
-      "coverage": 106,
+      "coverage": 107,
       "score": 30
     },
     {
