@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-28T02:59:26.433Z",
+  "generatedAt": "2026-11-28T11:24:12.102Z",
   "count": 400,
-  "newCount": 39,
+  "newCount": 1,
   "translatedCount": 1,
   "ranking": [
     "a006273821c4bf5b",
@@ -11,37 +11,37 @@
     "942383c947c69e66",
     "03999c6aca691f00",
     "7ebd58d621053e02",
-    "c4f5d1d41847f715",
     "e99f1c9dc7cf8476",
-    "a9ea2ac71b6f62e3"
+    "a9ea2ac71b6f62e3",
+    "c4f5d1d41847f715"
   ],
   "sources": [
     {
       "id": "gnews-ja-aimusic",
       "name": "Googleニュース（AI音楽）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 37,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-ja-suno",
       "name": "Googleニュース（Suno/生成AI作曲）",
       "category": "jp",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "gnews-en-aimusic",
       "name": "Google News (AI music)",
       "category": "global",
-      "ok": true,
-      "fetched": 40,
-      "matched": 40,
-      "error": null
+      "ok": false,
+      "fetched": 0,
+      "matched": 0,
+      "error": "HTTP 503"
     },
     {
       "id": "google-deepmind",
@@ -103,7 +103,7 @@
       "category": "global",
       "ok": true,
       "fetched": 10,
-      "matched": 3,
+      "matched": 4,
       "error": null
     },
     {
@@ -193,7 +193,7 @@
       "category": "jp",
       "ok": true,
       "fetched": 40,
-      "matched": 3,
+      "matched": 2,
       "error": null
     },
     {
@@ -312,6 +312,22 @@
       "score": 12
     },
     {
+      "id": "ee0806eda3d97821",
+      "title": "Warner Music’s $1B YouTube windfall, Tidal banning AI music… it’s MBW’s Weekly Round-Up",
+      "url": "https://www.musicbusinessworldwide.com/from-warner-musics-billion-dollar-youtube-windfall-to-coachellas-walmart-lawsuit-its-mbws-weekly-round-up/",
+      "summary": "The biggest headlines from the past few days...",
+      "published": "2026-11-27T13:07:56.000Z",
+      "source": "Music Business Worldwide",
+      "sourceId": "mbw",
+      "via": null,
+      "category": "global",
+      "lang": "en",
+      "coverage": 1,
+      "titleJa": "ワーナーミュージックのYouTubeからの10億ドル（約1,500億円）の windfall、TidalがAI音楽を禁止…MBWのウィークリーラウンドアップ",
+      "summaryJa": "ここ数日の主な見出し...",
+      "score": 12
+    },
+    {
       "id": "2a663b38a3496191",
       "title": "“Why do they want me? I'm just a human being”: Guitarist George Lynch on his “very strange” AI session",
       "url": "https://www.musicradar.com/artists/guitarists/guitarist-george-lynch-on-his-very-strange-session-for-an-ai-track-i-was-like-why-do-they-want-me-i-mean-im-just-a-human-being-machines-do-it-way-better",
@@ -339,7 +355,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "c4f5d1d41847f715",
@@ -353,7 +369,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 29
+      "score": 24
     },
     {
       "id": "55dff5059de7a8c0",
@@ -367,7 +383,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 15
+      "score": 10
     },
     {
       "id": "2f0e43168978d564",
@@ -741,7 +757,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 1,
-      "score": 17
+      "score": 13
     },
     {
       "id": "cf383ea0142d382c",
@@ -757,7 +773,7 @@
       "coverage": 1,
       "titleJa": "Tidalが「完全に」AI生成の楽曲をすべて禁止 - その数は2,700万曲で、さらに増え続けています",
       "summaryJa": "この動きは、SpotifyやApple Musicよりも一歩先を行っています。",
-      "score": 7
+      "score": 3
     },
     {
       "id": "a006273821c4bf5b",
@@ -771,7 +787,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 24,
-      "score": 52
+      "score": 48
     },
     {
       "id": "4e386fa591cd75d9",
@@ -786,7 +802,7 @@
       "lang": "en",
       "coverage": 1,
       "titleJa": "TidalがAI音楽を禁止する初の主要ストリーミングサービスに",
-      "score": 7
+      "score": 3
     },
     {
       "id": "7ebd58d621053e02",
@@ -800,7 +816,7 @@
       "category": "jp",
       "lang": "ja",
       "coverage": 12,
-      "score": 34
+      "score": 30
     },
     {
       "id": "1ddc0c8549247eac",
@@ -6192,20 +6208,6 @@
       "coverage": 1,
       "titleJa": "Spotifyは来年初めにAI音楽リミックスサービスを開始することを目指しています",
       "score": 5
-    },
-    {
-      "id": "70de1a9629f52872",
-      "title": "【AI音楽】GRAY PULSE｜FRAGMENT / IDLE / REDLINE【3曲メドレー】",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wQWxGbjkyMGdoano4clYwcXpzbDFfX3FocnFSaEMxN1NPTUV5UzhMSFhMcEFjVkVIYlZFVXBDWEdnYlBHbDFMbThIYmZJWUxtQUYtaWIydnI5Q2RG?oc=5",
-      "summary": "",
-      "published": "2026-10-30T02:02:56.000Z",
-      "source": "YouTube",
-      "sourceId": "gnews-ja-suno",
-      "via": "Googleニュース",
-      "category": "jp",
-      "lang": "ja",
-      "coverage": 1,
-      "score": -3
     }
   ]
 }
